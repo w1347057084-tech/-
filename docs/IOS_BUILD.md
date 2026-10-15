@@ -79,12 +79,18 @@ build/ios/ipa_unsigned/periodic_table_study-release.ipa
    第一次推送会弹出 Git Credential Manager 窗口，登录并授权 GitHub 一次即可。
 
 3. 推送 `main` 会自动触发流程：先跑 `flutter analyze` 与 `flutter test` 作为门禁，
-   通过后由 `macos-latest` runner 构建并上传 Artifact
-   `periodic-table-study-unsigned-ipa`，下载解压即为未签名 IPA。
+   通过后由 macOS runner 构建并上传 Artifact
+   `periodic-table-study-unsigned-ipa-<runner>`，下载解压即为未签名 IPA。
    也可以在 Actions 页面手动 `Run workflow`，或推送 `v*` tag。
 
-该流程使用 `macos-latest` runner 和 Flutter 3.47.7，不需要本地 Mac，
+该流程使用 GitHub 托管的 macOS runner 和 Flutter 3.47.7，不需要本地 Mac，
 也不需要任何 Apple 开发者证书。
+
+注意：GitHub 免费池的 macOS arm64 runner 经常容量不足，任务会长时间排队，
+超过 15 分钟仍未分配到机器就会以 "not acquired by Runner of type hosted" 失败。
+因此构建任务用矩阵同时申请 `macos-15-intel` 与 `macos-15` 两个镜像，
+先拿到机器的那个产出 IPA，Artifact 名称里带 runner 标签以便区分，
+另一个任务可以忽略或取消。
 
 注意：公开仓库的 Actions 不计量；私有仓库的 macOS runner 按 10 倍消耗额度
 （构建一次约 100 分钟额度）。若不想每次 push 都触发，可把 workflow 里

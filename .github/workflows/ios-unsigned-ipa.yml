@@ -36,9 +36,18 @@ jobs:
         run: flutter test
 
   build-unsigned-ipa:
-    name: 构建未签名 IPA
+    name: 构建未签名 IPA (${{ matrix.runner }})
     needs: verify
-    runs-on: macos-latest
+    # GitHub 免费池的 macOS arm64 runner 经常容量不足（排队十几分钟后
+    # 直接报 "not acquired by Runner of type hosted"），所以同时申请
+    # Intel 与 arm64 两种镜像，先拿到机器的那个任务产出 IPA。
+    strategy:
+      fail-fast: false
+      matrix:
+        runner:
+          - macos-15-intel
+          - macos-15
+    runs-on: ${{ matrix.runner }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -61,7 +70,7 @@ jobs:
       - name: Upload IPA
         uses: actions/upload-artifact@v4
         with:
-          name: periodic-table-study-unsigned-ipa
+          name: periodic-table-study-unsigned-ipa-${{ matrix.runner }}
           path: build/ios/ipa_unsigned/*.ipa
           if-no-files-found: error
           retention-days: 14
