@@ -44,13 +44,51 @@ if (-not $gitExe) {
     throw "未找到 git。请先安装 Git for Windows（https://git-scm.com/download/win），再重新运行本脚本。"
 }
 
+function Get-SystemProxyUrl {
+    # 国内直连 github.com 经常超时；Windows 上开着代理时，git 默认不走它，这里补上。
+    $settings = Get-ItemProperty 'HKCU:\Software\Microsoft\Windows\CurrentVersion\Internet Settings' -ErrorAction SilentlyContinue
+    if (-not $settings -or $settings.ProxyEnable -ne 1 -or -not $settings.ProxyServer) {
+        return $null
+    }
+
+    $server = "$($settings.ProxyServer)".Trim()
+    if ($server -match '=') {
+        # 形如 "http=host:port;https=host:port" 的多协议写法
+        $parts = @{}
+        foreach ($piece in ($server -split ';')) {
+            $pair = $piece -split '=', 2
+            if ($pair.Count -eq 2) {
+                $parts[$pair[0].Trim().ToLower()] = $pair[1].Trim()
+            }
+        }
+        if ($parts.ContainsKey('https')) { $server = $parts['https'] }
+        elseif ($parts.ContainsKey('http')) { $server = $parts['http'] }
+        else { return $null }
+    }
+
+    if ($server -notmatch '^[a-zA-Z][a-zA-Z0-9+.-]*://') {
+        $server = "http://$server"
+    }
+    return $server
+}
+
+$script:GitProxyArgs = @()
+$systemProxy = Get-SystemProxyUrl
+if ($systemProxy) {
+    Write-Host "检测到系统代理 $systemProxy，git 将通过它访问 GitHub。"
+    $script:GitProxyArgs = @('-c', "http.proxy=$systemProxy", '-c', "https.proxy=$systemProxy")
+}
+else {
+    Write-Host "未检测到已启用的系统代理，git 将直连 GitHub。"
+}
+
 function Invoke-Git {
     param([string[]]$Arguments)
 
     $previous = $ErrorActionPreference
     $ErrorActionPreference = 'Continue'
     try {
-        $output = & $gitExe @Arguments 2>&1
+        $output = & $gitExe @($script:GitProxyArgs + $Arguments) 2>&1
         $code = $LASTEXITCODE
     }
     finally {
@@ -92,7 +130,12 @@ foreach ($line in $pushResult.Output) {
     Write-Host $line
 }
 if ($pushResult.ExitCode -ne 0) {
-    throw "推送失败，请检查仓库地址、网络和 GitHub 凭据。"
+    throw @"
+推送失败，请检查仓库地址和 GitHub 凭据。
+如果报的是 "Could not connect to server"，说明到 github.com 的网络不通：
+本脚本会自动使用 Windows 已启用的系统代理，代理未开启时只能直连，国内网络容易超时，
+打开代理后重试即可。
+"@
 }
 
 Write-Host ""
