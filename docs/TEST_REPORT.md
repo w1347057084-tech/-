@@ -88,3 +88,22 @@ Redmi Note 10T Pro / Android 17 / 120 Hz 真机已完成启动横屏、完整周
 - IPA 内容核验：`Payload/Runner.app` 完整，含 `Flutter.framework/Flutter`（9.4 MB，arm64）、`App.framework/App`（5.4 MB，fat arm64）、`icudtl.dat`、`flutter_assets`（含 `assets/data/elements.json`）与 `Assets.car`；`Runner` 可执行为 64 位 arm64 Mach-O；`Runner.app` 自身无签名（符合 `--no-codesign`）。
 - `Info.plist` 实测值：`CFBundleIdentifier = com.example.periodic_table_study`、中文显示名存在、方向仅 `LandscapeLeft`/`LandscapeRight`（无 Portrait）、`UIRequiresFullScreen`、`CADisableMinimumFrameDurationOnPhone`、`UIApplicationSceneManifest` 均在。
 - 本地留存：`dist/periodic_table_study-release.ipa`（6.54 MB，未签名）。
+
+## 产物体积说明
+
+同一份代码、不同目标与构建模式的产物体积并非同一量级：
+
+| 产物 | 架构 / 模式 | 大小 |
+| --- | --- | --- |
+| `dist/periodic_table_study-release.ipa` | iOS arm64 / release | 6.54 MB（解压后 Runner.app 15.52 MB） |
+| `dist/periodic_table_study-android-arm64-release.apk` | Android arm64 / release | 16.35 MB |
+| `dist/periodic_table_study-android-armeabi-v7a-release.apk` | Android arm32 / release | 13.85 MB |
+| `build/app/outputs/flutter-apk/app-debug.apk` | 三架构 / debug | 166.63 MB |
+| `build/app/outputs/flutter-apk/app-profile.apk` | 三架构 / profile | 75.76 MB |
+
+IPA 小的原因：iOS 设备包只有 arm64 一个切片；Android 的 debug/profile 包内含
+armeabi-v7a、arm64-v8a、x86_64 三份引擎与 Dart 代码。debug/profile 还带 JIT 引擎
+与未剥离符号，release 则是 AOT 原生码加体积优化过的 release 引擎。本项目自身资源极少
+（只多出 `assets/data/elements.json` 168 KB），MaterialIcons 被 tree-shake 到 2.9 KB
+（构建日志：1645184 → 2888 字节）。IPA 本身是 zip，压缩率约 58%，安装到设备后按
+解压后的 15.52 MB 计。
