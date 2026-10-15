@@ -105,6 +105,15 @@ build/ios/ipa_unsigned/periodic_table_study-release.ipa
 - Sideloadly / AltStore：把脚本产出的 IPA 拖进工具，登录 Apple ID 签名安装
   （免费账号签名的 App 有效期 7 天）。
 
+Artifact 在 GitHub 网页上下载最方便（需要登录）；如果要在命令行/无登录环境取件，
+可以使用 nightly.link 这类只读镜像，例如：
+
+```text
+https://nightly.link/w1347057084-tech/-/workflows/ios-unsigned-ipa/main/periodic-table-study-unsigned-ipa-macos-15.zip
+```
+
+下载后请比对 GitHub Artifact 页面给出的 SHA-256，确认取到的是同一次构建产物。
+
 ## 六、iOS 侧仍需在 macOS / 真机确认的事项
 
 - `flutter build ios` 全流程编译是否通过（本机无法执行，已做的是工程结构与配置校验）。

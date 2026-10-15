@@ -10,3 +10,4 @@ ios/.symlinks/
 *.iml
 .idea/
 .vscode/
+dist/

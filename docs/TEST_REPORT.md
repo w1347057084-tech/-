@@ -77,3 +77,14 @@ Redmi Note 10T Pro / Android 17 / 120 Hz 真机已完成启动横屏、完整周
 - 工作流引用的 `actions/checkout@v4`、`actions/upload-artifact@v4`、`subosito/flutter-action@v2` 以及 Flutter `3.47.7` tag 均已通过 GitHub API 确认存在（HTTP 200）。
 - `tool/publish_to_github.ps1` 已用本地裸仓库做端到端推送测试：Windows PowerShell 5.1 与 PowerShell 7 下均能正确添加/更新 origin、推送 main 并输出 Actions 地址；脚本同时修正了 5.1 无法读取无 BOM UTF-8 中文脚本的问题（改为带 BOM 保存）。
 - 本机原先只有 Codex 运行时的 git（不在用户 PATH 上），已安装 Git for Windows 2.56.0 到 `C:\Program Files\Git` 并加入系统 PATH；脚本改用"先查 PATH、再回退常见安装目录"的方式定位 git，`publish-to-github.cmd` 也会在需要时把 Git 目录临时补进 PATH。两者都在剥离 PATH 的子进程里实测推送成功。
+
+## 真实 CI 出包结果（GitHub Actions）
+
+- 仓库：`w1347057084-tech/-`（public），工作流 `ios-unsigned-ipa` 推送 `main` 自动触发。
+- run #1：verify 全绿（analyze、工作流校验、34 个测试），macOS 任务排队 15 分钟后被手动取消。
+- run #2：macOS arm64 免费池容量不足，排队 15 分钟后以 `The job was not acquired by Runner of type hosted even after multiple attempts` 失败（GitHub 同时在页面上提示 arm64 runner 容量紧张），与代码无关。
+- run #3：改为矩阵同时申请 `macos-15-intel` 与 `macos-15`，8 分 24 秒完成，两个平台的任务均 succeeded。
+- 产物 `periodic-table-study-unsigned-ipa-macos-15`（6.51 MB）下载后 SHA-256 与 GitHub Artifact 页面记录一致（`f8766f497de508c7f118e6e267f972eefa3eaa01598dd0032a8d3fbf79306edf`）。
+- IPA 内容核验：`Payload/Runner.app` 完整，含 `Flutter.framework/Flutter`（9.4 MB，arm64）、`App.framework/App`（5.4 MB，fat arm64）、`icudtl.dat`、`flutter_assets`（含 `assets/data/elements.json`）与 `Assets.car`；`Runner` 可执行为 64 位 arm64 Mach-O；`Runner.app` 自身无签名（符合 `--no-codesign`）。
+- `Info.plist` 实测值：`CFBundleIdentifier = com.example.periodic_table_study`、中文显示名存在、方向仅 `LandscapeLeft`/`LandscapeRight`（无 Portrait）、`UIRequiresFullScreen`、`CADisableMinimumFrameDurationOnPhone`、`UIApplicationSceneManifest` 均在。
+- 本地留存：`dist/periodic_table_study-release.ipa`（6.54 MB，未签名）。
