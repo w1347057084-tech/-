@@ -7,6 +7,11 @@ rem Usage:
 rem   publish-to-github.cmd https://github.com/<user>/<repo>.git
 rem or double-click it and paste the repository URL when prompted.
 
+rem Git may be installed but missing from the PATH of an already-open terminal.
+if exist "%ProgramFiles%\Git\cmd\git.exe" set "PATH=%ProgramFiles%\Git\cmd;%PATH%"
+if exist "%ProgramFiles(x86)%\Git\cmd\git.exe" set "PATH=%ProgramFiles(x86)%\Git\cmd;%PATH%"
+if exist "%LOCALAPPDATA%\Programs\Git\cmd\git.exe" set "PATH=%LOCALAPPDATA%\Programs\Git\cmd;%PATH%"
+
 set "REPO_URL=%~1"
 if "%REPO_URL%"=="" (
     set /p REPO_URL=Enter GitHub repository URL: 

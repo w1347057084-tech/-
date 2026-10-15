@@ -20,6 +20,7 @@ Path 前置：D:\flutter\bin
 - Android Platform：API 36
 - Android Build Tools：36.0.0
 - JDK：17.0.20.1 LTS
+- Git for Windows：2.56.0（`C:\Program Files\Git`，已写入系统 PATH，供推送仓库使用）
 
 新终端中可直接执行：
 

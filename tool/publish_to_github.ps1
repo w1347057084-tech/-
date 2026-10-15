@@ -18,13 +18,39 @@ param(
 
 $ErrorActionPreference = 'Stop'
 
+function Resolve-GitExecutable {
+    $command = Get-Command git -ErrorAction SilentlyContinue
+    if ($command) {
+        return $command.Source
+    }
+
+    # 刚装完 Git 但当前终端还没刷新 PATH 时，回退到常见安装位置。
+    $candidates = @(
+        (Join-Path $env:ProgramFiles 'Git\cmd\git.exe'),
+        (Join-Path ${env:ProgramFiles(x86)} 'Git\cmd\git.exe'),
+        (Join-Path $env:LOCALAPPDATA 'Programs\Git\cmd\git.exe')
+    )
+    foreach ($candidate in $candidates) {
+        if ($candidate -and (Test-Path $candidate)) {
+            return $candidate
+        }
+    }
+
+    return $null
+}
+
+$gitExe = Resolve-GitExecutable
+if (-not $gitExe) {
+    throw "未找到 git。请先安装 Git for Windows（https://git-scm.com/download/win），再重新运行本脚本。"
+}
+
 function Invoke-Git {
     param([string[]]$Arguments)
 
     $previous = $ErrorActionPreference
     $ErrorActionPreference = 'Continue'
     try {
-        $output = & git @Arguments 2>&1
+        $output = & $gitExe @Arguments 2>&1
         $code = $LASTEXITCODE
     }
     finally {

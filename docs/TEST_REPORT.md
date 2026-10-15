@@ -76,3 +76,4 @@ Redmi Note 10T Pro / Android 17 / 120 Hz 真机已完成启动横屏、完整周
 - 工作流 `.github/workflows/ios-unsigned-ipa.yml` 已用 `package:yaml` 真实解析并通过结构校验（`dart run tool/validate_workflows.dart`），新增 `verify` 任务在 `ubuntu-latest` 上跑 analyze / 工作流校验 / 单元测试，通过后才由 `macos-latest` 构建 IPA。
 - 工作流引用的 `actions/checkout@v4`、`actions/upload-artifact@v4`、`subosito/flutter-action@v2` 以及 Flutter `3.47.7` tag 均已通过 GitHub API 确认存在（HTTP 200）。
 - `tool/publish_to_github.ps1` 已用本地裸仓库做端到端推送测试：Windows PowerShell 5.1 与 PowerShell 7 下均能正确添加/更新 origin、推送 main 并输出 Actions 地址；脚本同时修正了 5.1 无法读取无 BOM UTF-8 中文脚本的问题（改为带 BOM 保存）。
+- 本机原先只有 Codex 运行时的 git（不在用户 PATH 上），已安装 Git for Windows 2.56.0 到 `C:\Program Files\Git` 并加入系统 PATH；脚本改用"先查 PATH、再回退常见安装目录"的方式定位 git，`publish-to-github.cmd` 也会在需要时把 Git 目录临时补进 PATH。两者都在剥离 PATH 的子进程里实测推送成功。
