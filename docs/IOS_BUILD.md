@@ -59,12 +59,24 @@ build/ios/ipa_unsigned/periodic_table_study-release.ipa
 仓库已包含 `.github/workflows/ios-unsigned-ipa.yml`：
 
 1. 在 GitHub 上建一个空仓库（不要勾选 README / gitignore）；
-2. 本机执行一次推送：
+2. 本机执行一次推送。最省事的方式是在资源管理器里双击工程根目录的
+   `publish-to-github.cmd`，按提示粘贴仓库地址；也可以直接跑脚本：
 
    ```powershell
    powershell -ExecutionPolicy Bypass -File tool\publish_to_github.ps1 `
        -RepoUrl https://github.com/<用户名>/<仓库名>.git
    ```
+
+   如果当前目录不在工程里，`-File` 后面必须写完整路径并加引号
+   （路径含空格）：
+
+   ```powershell
+   powershell -ExecutionPolicy Bypass -File `
+       "D:\Users\13470\Documents\Periodic table of elements\tool\publish_to_github.ps1" `
+       -RepoUrl https://github.com/<用户名>/<仓库名>.git
+   ```
+
+   第一次推送会弹出 Git Credential Manager 窗口，登录并授权 GitHub 一次即可。
 
 3. 推送 `main` 会自动触发流程：先跑 `flutter analyze` 与 `flutter test` 作为门禁，
    通过后由 `macos-latest` runner 构建并上传 Artifact
