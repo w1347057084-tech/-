@@ -1,0 +1,7723 @@
+[
+  {
+    "atomicMassType": "standardAtomicWeight",
+    "representativeMassNumber": null,
+    "valenceConfiguration": "1s1",
+    "valenceConfigurationData": {
+      "nobleGasCore": null,
+      "orbitals": [
+        {
+          "orbital": "1s",
+          "electrons": 1
+        }
+      ]
+    },
+    "electronConfigurationData": {
+      "nobleGasCore": null,
+      "orbitals": [
+        {
+          "orbital": "1s",
+          "electrons": 1
+        }
+      ]
+    },
+    "atomicNumber": 1,
+    "symbol": "H",
+    "nameZh": "氢",
+    "nameEn": "Hydrogen",
+    "atomicMass": "1.008",
+    "period": 1,
+    "group": 1,
+    "category": "reactiveNonmetal",
+    "block": "s",
+    "electronConfiguration": "1s1",
+    "displayRow": 1,
+    "displayColumn": 1,
+    "phaseAtStp": "气态",
+    "density": 0.08988,
+    "meltingPointK": 13.99,
+    "boilingPointK": 20.271,
+    "electronegativityPauling": 2.2,
+    "atomicRadiusPm": 53,
+    "oxidationStates": "-1,+1",
+    "discoveryYear": 1766,
+    "discoverer": "Henry Cavendish",
+    "uses": "合成氨、燃料电池、石油精炼",
+    "notes": null,
+    "densityUnit": "g/L (0°C, 101.325 kPa)",
+    "shellDistribution": [
+      1
+    ]
+  },
+  {
+    "atomicMassType": "standardAtomicWeight",
+    "representativeMassNumber": null,
+    "valenceConfiguration": "1s2",
+    "valenceConfigurationData": {
+      "nobleGasCore": null,
+      "orbitals": [
+        {
+          "orbital": "1s",
+          "electrons": 2
+        }
+      ]
+    },
+    "electronConfigurationData": {
+      "nobleGasCore": null,
+      "orbitals": [
+        {
+          "orbital": "1s",
+          "electrons": 2
+        }
+      ]
+    },
+    "atomicNumber": 2,
+    "symbol": "He",
+    "nameZh": "氦",
+    "nameEn": "Helium",
+    "atomicMass": "4.002602",
+    "period": 1,
+    "group": 18,
+    "category": "nobleGas",
+    "block": "s",
+    "electronConfiguration": "1s2",
+    "displayRow": 1,
+    "displayColumn": 18,
+    "phaseAtStp": "气态",
+    "density": 0.1785,
+    "meltingPointK": 0.95,
+    "boilingPointK": 4.222,
+    "electronegativityPauling": null,
+    "atomicRadiusPm": 31,
+    "oxidationStates": "0",
+    "discoveryYear": 1868,
+    "discoverer": "Pierre Janssen 与 Norman Lockyer",
+    "uses": "低温制冷、保护气、超导磁体冷却",
+    "notes": null,
+    "densityUnit": "g/L (0°C, 101.325 kPa)",
+    "shellDistribution": [
+      2
+    ]
+  },
+  {
+    "atomicMassType": "standardAtomicWeight",
+    "representativeMassNumber": null,
+    "valenceConfiguration": "2s1",
+    "valenceConfigurationData": {
+      "nobleGasCore": null,
+      "orbitals": [
+        {
+          "orbital": "2s",
+          "electrons": 1
+        }
+      ]
+    },
+    "electronConfigurationData": {
+      "nobleGasCore": "He",
+      "orbitals": [
+        {
+          "orbital": "2s",
+          "electrons": 1
+        }
+      ]
+    },
+    "atomicNumber": 3,
+    "symbol": "Li",
+    "nameZh": "锂",
+    "nameEn": "Lithium",
+    "atomicMass": "6.94",
+    "period": 2,
+    "group": 1,
+    "category": "alkaliMetal",
+    "block": "s",
+    "electronConfiguration": "[He]2s1",
+    "displayRow": 2,
+    "displayColumn": 1,
+    "phaseAtStp": "固态",
+    "density": 0.534,
+    "meltingPointK": 453.65,
+    "boilingPointK": 1603,
+    "electronegativityPauling": 0.98,
+    "atomicRadiusPm": 167,
+    "oxidationStates": "+1",
+    "discoveryYear": 1817,
+    "discoverer": "Johan August Arfwedson",
+    "uses": "锂离子电池、玻璃与陶瓷",
+    "notes": null,
+    "densityUnit": "g/cm³",
+    "shellDistribution": [
+      2,
+      1
+    ]
+  },
+  {
+    "atomicMassType": "standardAtomicWeight",
+    "representativeMassNumber": null,
+    "valenceConfiguration": "2s2",
+    "valenceConfigurationData": {
+      "nobleGasCore": null,
+      "orbitals": [
+        {
+          "orbital": "2s",
+          "electrons": 2
+        }
+      ]
+    },
+    "electronConfigurationData": {
+      "nobleGasCore": "He",
+      "orbitals": [
+        {
+          "orbital": "2s",
+          "electrons": 2
+        }
+      ]
+    },
+    "atomicNumber": 4,
+    "symbol": "Be",
+    "nameZh": "铍",
+    "nameEn": "Beryllium",
+    "atomicMass": "9.0121831",
+    "period": 2,
+    "group": 2,
+    "category": "alkalineEarthMetal",
+    "block": "s",
+    "electronConfiguration": "[He]2s2",
+    "displayRow": 2,
+    "displayColumn": 2,
+    "phaseAtStp": "固态",
+    "density": 1.85,
+    "meltingPointK": 1560,
+    "boilingPointK": 2742,
+    "electronegativityPauling": 1.57,
+    "atomicRadiusPm": 112,
+    "oxidationStates": "+2",
+    "discoveryYear": 1798,
+    "discoverer": "Louis Nicolas Vauquelin",
+    "uses": "航空航天合金、X 射线窗口",
+    "notes": null,
+    "densityUnit": "g/cm³",
+    "shellDistribution": [
+      2,
+      2
+    ]
+  },
+  {
+    "atomicMassType": "standardAtomicWeight",
+    "representativeMassNumber": null,
+    "valenceConfiguration": "2s2 2p1",
+    "valenceConfigurationData": {
+      "nobleGasCore": null,
+      "orbitals": [
+        {
+          "orbital": "2s",
+          "electrons": 2
+        },
+        {
+          "orbital": "2p",
+          "electrons": 1
+        }
+      ]
+    },
+    "electronConfigurationData": {
+      "nobleGasCore": "He",
+      "orbitals": [
+        {
+          "orbital": "2s",
+          "electrons": 2
+        },
+        {
+          "orbital": "2p",
+          "electrons": 1
+        }
+      ]
+    },
+    "atomicNumber": 5,
+    "symbol": "B",
+    "nameZh": "硼",
+    "nameEn": "Boron",
+    "atomicMass": "10.81",
+    "period": 2,
+    "group": 13,
+    "category": "metalloid",
+    "block": "p",
+    "electronConfiguration": "[He]2s2 2p1",
+    "displayRow": 2,
+    "displayColumn": 13,
+    "phaseAtStp": "固态",
+    "density": 2.34,
+    "meltingPointK": 2349,
+    "boilingPointK": 4200,
+    "electronegativityPauling": 2.04,
+    "atomicRadiusPm": 87,
+    "oxidationStates": "-3,+3",
+    "discoveryYear": 1808,
+    "discoverer": "Joseph Louis Gay-Lussac 等",
+    "uses": "硼硅玻璃、复合材料、半导体掺杂",
+    "notes": null,
+    "densityUnit": "g/cm³",
+    "shellDistribution": [
+      2,
+      3
+    ]
+  },
+  {
+    "atomicMassType": "standardAtomicWeight",
+    "representativeMassNumber": null,
+    "valenceConfiguration": "2s2 2p2",
+    "valenceConfigurationData": {
+      "nobleGasCore": null,
+      "orbitals": [
+        {
+          "orbital": "2s",
+          "electrons": 2
+        },
+        {
+          "orbital": "2p",
+          "electrons": 2
+        }
+      ]
+    },
+    "electronConfigurationData": {
+      "nobleGasCore": "He",
+      "orbitals": [
+        {
+          "orbital": "2s",
+          "electrons": 2
+        },
+        {
+          "orbital": "2p",
+          "electrons": 2
+        }
+      ]
+    },
+    "atomicNumber": 6,
+    "symbol": "C",
+    "nameZh": "碳",
+    "nameEn": "Carbon",
+    "atomicMass": "12.011",
+    "period": 2,
+    "group": 14,
+    "category": "reactiveNonmetal",
+    "block": "p",
+    "electronConfiguration": "[He]2s2 2p2",
+    "displayRow": 2,
+    "displayColumn": 14,
+    "phaseAtStp": "固态",
+    "density": 2.267,
+    "meltingPointK": 3823,
+    "boilingPointK": 4098,
+    "electronegativityPauling": 2.55,
+    "atomicRadiusPm": 67,
+    "oxidationStates": "-4,+2,+4",
+    "discoveryYear": null,
+    "discoverer": "古代已知",
+    "uses": "有机化学基础、钢与碳纤维",
+    "notes": null,
+    "densityUnit": "g/cm³",
+    "shellDistribution": [
+      2,
+      4
+    ]
+  },
+  {
+    "atomicMassType": "standardAtomicWeight",
+    "representativeMassNumber": null,
+    "valenceConfiguration": "2s2 2p3",
+    "valenceConfigurationData": {
+      "nobleGasCore": null,
+      "orbitals": [
+        {
+          "orbital": "2s",
+          "electrons": 2
+        },
+        {
+          "orbital": "2p",
+          "electrons": 3
+        }
+      ]
+    },
+    "electronConfigurationData": {
+      "nobleGasCore": "He",
+      "orbitals": [
+        {
+          "orbital": "2s",
+          "electrons": 2
+        },
+        {
+          "orbital": "2p",
+          "electrons": 3
+        }
+      ]
+    },
+    "atomicNumber": 7,
+    "symbol": "N",
+    "nameZh": "氮",
+    "nameEn": "Nitrogen",
+    "atomicMass": "14.007",
+    "period": 2,
+    "group": 15,
+    "category": "reactiveNonmetal",
+    "block": "p",
+    "electronConfiguration": "[He]2s2 2p3",
+    "displayRow": 2,
+    "displayColumn": 15,
+    "phaseAtStp": "气态",
+    "density": 1.2506,
+    "meltingPointK": 63.15,
+    "boilingPointK": 77.355,
+    "electronegativityPauling": 3.04,
+    "atomicRadiusPm": 56,
+    "oxidationStates": "-3,+3,+5",
+    "discoveryYear": 1772,
+    "discoverer": "Daniel Rutherford",
+    "uses": "肥料、保护气、低温应用",
+    "notes": null,
+    "densityUnit": "g/L (0°C, 101.325 kPa)",
+    "shellDistribution": [
+      2,
+      5
+    ]
+  },
+  {
+    "atomicMassType": "standardAtomicWeight",
+    "representativeMassNumber": null,
+    "valenceConfiguration": "2s2 2p4",
+    "valenceConfigurationData": {
+      "nobleGasCore": null,
+      "orbitals": [
+        {
+          "orbital": "2s",
+          "electrons": 2
+        },
+        {
+          "orbital": "2p",
+          "electrons": 4
+        }
+      ]
+    },
+    "electronConfigurationData": {
+      "nobleGasCore": "He",
+      "orbitals": [
+        {
+          "orbital": "2s",
+          "electrons": 2
+        },
+        {
+          "orbital": "2p",
+          "electrons": 4
+        }
+      ]
+    },
+    "atomicNumber": 8,
+    "symbol": "O",
+    "nameZh": "氧",
+    "nameEn": "Oxygen",
+    "atomicMass": "15.999",
+    "period": 2,
+    "group": 16,
+    "category": "reactiveNonmetal",
+    "block": "p",
+    "electronConfiguration": "[He]2s2 2p4",
+    "displayRow": 2,
+    "displayColumn": 16,
+    "phaseAtStp": "气态",
+    "density": 1.429,
+    "meltingPointK": 54.36,
+    "boilingPointK": 90.188,
+    "electronegativityPauling": 3.44,
+    "atomicRadiusPm": 48,
+    "oxidationStates": "-2,-1",
+    "discoveryYear": 1774,
+    "discoverer": "Carl Wilhelm Scheele 等",
+    "uses": "呼吸支持、冶金、化工氧化",
+    "notes": null,
+    "densityUnit": "g/L (0°C, 101.325 kPa)",
+    "shellDistribution": [
+      2,
+      6
+    ]
+  },
+  {
+    "atomicMassType": "standardAtomicWeight",
+    "representativeMassNumber": null,
+    "valenceConfiguration": "2s2 2p5",
+    "valenceConfigurationData": {
+      "nobleGasCore": null,
+      "orbitals": [
+        {
+          "orbital": "2s",
+          "electrons": 2
+        },
+        {
+          "orbital": "2p",
+          "electrons": 5
+        }
+      ]
+    },
+    "electronConfigurationData": {
+      "nobleGasCore": "He",
+      "orbitals": [
+        {
+          "orbital": "2s",
+          "electrons": 2
+        },
+        {
+          "orbital": "2p",
+          "electrons": 5
+        }
+      ]
+    },
+    "atomicNumber": 9,
+    "symbol": "F",
+    "nameZh": "氟",
+    "nameEn": "Fluorine",
+    "atomicMass": "18.998403163",
+    "period": 2,
+    "group": 17,
+    "category": "halogen",
+    "block": "p",
+    "electronConfiguration": "[He]2s2 2p5",
+    "displayRow": 2,
+    "displayColumn": 17,
+    "phaseAtStp": "气态",
+    "density": 1.696,
+    "meltingPointK": 53.48,
+    "boilingPointK": 85.03,
+    "electronegativityPauling": 3.98,
+    "atomicRadiusPm": 42,
+    "oxidationStates": "-1",
+    "discoveryYear": 1886,
+    "discoverer": "Henri Moissan",
+    "uses": "含氟材料、核燃料加工",
+    "notes": null,
+    "densityUnit": "g/L (0°C, 101.325 kPa)",
+    "shellDistribution": [
+      2,
+      7
+    ]
+  },
+  {
+    "atomicMassType": "standardAtomicWeight",
+    "representativeMassNumber": null,
+    "valenceConfiguration": "2s2 2p6",
+    "valenceConfigurationData": {
+      "nobleGasCore": null,
+      "orbitals": [
+        {
+          "orbital": "2s",
+          "electrons": 2
+        },
+        {
+          "orbital": "2p",
+          "electrons": 6
+        }
+      ]
+    },
+    "electronConfigurationData": {
+      "nobleGasCore": "He",
+      "orbitals": [
+        {
+          "orbital": "2s",
+          "electrons": 2
+        },
+        {
+          "orbital": "2p",
+          "electrons": 6
+        }
+      ]
+    },
+    "atomicNumber": 10,
+    "symbol": "Ne",
+    "nameZh": "氖",
+    "nameEn": "Neon",
+    "atomicMass": "20.1797",
+    "period": 2,
+    "group": 18,
+    "category": "nobleGas",
+    "block": "p",
+    "electronConfiguration": "[He]2s2 2p6",
+    "displayRow": 2,
+    "displayColumn": 18,
+    "phaseAtStp": "气态",
+    "density": 0.8999,
+    "meltingPointK": 24.56,
+    "boilingPointK": 27.104,
+    "electronegativityPauling": null,
+    "atomicRadiusPm": 38,
+    "oxidationStates": "0",
+    "discoveryYear": 1898,
+    "discoverer": "William Ramsay 与 Morris Travers",
+    "uses": "照明、激光、低温制冷",
+    "notes": null,
+    "densityUnit": "g/L (0°C, 101.325 kPa)",
+    "shellDistribution": [
+      2,
+      8
+    ]
+  },
+  {
+    "atomicMassType": "standardAtomicWeight",
+    "representativeMassNumber": null,
+    "valenceConfiguration": "3s1",
+    "valenceConfigurationData": {
+      "nobleGasCore": null,
+      "orbitals": [
+        {
+          "orbital": "3s",
+          "electrons": 1
+        }
+      ]
+    },
+    "electronConfigurationData": {
+      "nobleGasCore": "Ne",
+      "orbitals": [
+        {
+          "orbital": "3s",
+          "electrons": 1
+        }
+      ]
+    },
+    "atomicNumber": 11,
+    "symbol": "Na",
+    "nameZh": "钠",
+    "nameEn": "Sodium",
+    "atomicMass": "22.98976928",
+    "period": 3,
+    "group": 1,
+    "category": "alkaliMetal",
+    "block": "s",
+    "electronConfiguration": "[Ne]3s1",
+    "displayRow": 3,
+    "displayColumn": 1,
+    "phaseAtStp": "固态",
+    "density": 0.968,
+    "meltingPointK": 370.944,
+    "boilingPointK": 1156.09,
+    "electronegativityPauling": 0.93,
+    "atomicRadiusPm": 190,
+    "oxidationStates": "+1",
+    "discoveryYear": 1807,
+    "discoverer": "Humphry Davy",
+    "uses": "钠灯、有机合成、传热介质",
+    "notes": null,
+    "densityUnit": "g/cm³",
+    "shellDistribution": [
+      2,
+      8,
+      1
+    ]
+  },
+  {
+    "atomicMassType": "standardAtomicWeight",
+    "representativeMassNumber": null,
+    "valenceConfiguration": "3s2",
+    "valenceConfigurationData": {
+      "nobleGasCore": null,
+      "orbitals": [
+        {
+          "orbital": "3s",
+          "electrons": 2
+        }
+      ]
+    },
+    "electronConfigurationData": {
+      "nobleGasCore": "Ne",
+      "orbitals": [
+        {
+          "orbital": "3s",
+          "electrons": 2
+        }
+      ]
+    },
+    "atomicNumber": 12,
+    "symbol": "Mg",
+    "nameZh": "镁",
+    "nameEn": "Magnesium",
+    "atomicMass": "24.305",
+    "period": 3,
+    "group": 2,
+    "category": "alkalineEarthMetal",
+    "block": "s",
+    "electronConfiguration": "[Ne]3s2",
+    "displayRow": 3,
+    "displayColumn": 2,
+    "phaseAtStp": "固态",
+    "density": 1.738,
+    "meltingPointK": 923,
+    "boilingPointK": 1363,
+    "electronegativityPauling": 1.31,
+    "atomicRadiusPm": 145,
+    "oxidationStates": "+2",
+    "discoveryYear": 1755,
+    "discoverer": "Joseph Black",
+    "uses": "轻质合金、还原剂、耐火材料",
+    "notes": null,
+    "densityUnit": "g/cm³",
+    "shellDistribution": [
+      2,
+      8,
+      2
+    ]
+  },
+  {
+    "atomicMassType": "standardAtomicWeight",
+    "representativeMassNumber": null,
+    "valenceConfiguration": "3s2 3p1",
+    "valenceConfigurationData": {
+      "nobleGasCore": null,
+      "orbitals": [
+        {
+          "orbital": "3s",
+          "electrons": 2
+        },
+        {
+          "orbital": "3p",
+          "electrons": 1
+        }
+      ]
+    },
+    "electronConfigurationData": {
+      "nobleGasCore": "Ne",
+      "orbitals": [
+        {
+          "orbital": "3s",
+          "electrons": 2
+        },
+        {
+          "orbital": "3p",
+          "electrons": 1
+        }
+      ]
+    },
+    "atomicNumber": 13,
+    "symbol": "Al",
+    "nameZh": "铝",
+    "nameEn": "Aluminium",
+    "atomicMass": "26.9815385",
+    "period": 3,
+    "group": 13,
+    "category": "postTransitionMetal",
+    "block": "p",
+    "electronConfiguration": "[Ne]3s2 3p1",
+    "displayRow": 3,
+    "displayColumn": 13,
+    "phaseAtStp": "固态",
+    "density": 2.7,
+    "meltingPointK": 933.47,
+    "boilingPointK": 2743,
+    "electronegativityPauling": 1.61,
+    "atomicRadiusPm": 118,
+    "oxidationStates": "+3",
+    "discoveryYear": 1825,
+    "discoverer": "Hans Christian Ørsted",
+    "uses": "轻质结构材料、导线、包装",
+    "notes": null,
+    "densityUnit": "g/cm³",
+    "shellDistribution": [
+      2,
+      8,
+      3
+    ]
+  },
+  {
+    "atomicMassType": "standardAtomicWeight",
+    "representativeMassNumber": null,
+    "valenceConfiguration": "3s2 3p2",
+    "valenceConfigurationData": {
+      "nobleGasCore": null,
+      "orbitals": [
+        {
+          "orbital": "3s",
+          "electrons": 2
+        },
+        {
+          "orbital": "3p",
+          "electrons": 2
+        }
+      ]
+    },
+    "electronConfigurationData": {
+      "nobleGasCore": "Ne",
+      "orbitals": [
+        {
+          "orbital": "3s",
+          "electrons": 2
+        },
+        {
+          "orbital": "3p",
+          "electrons": 2
+        }
+      ]
+    },
+    "atomicNumber": 14,
+    "symbol": "Si",
+    "nameZh": "硅",
+    "nameEn": "Silicon",
+    "atomicMass": "28.085",
+    "period": 3,
+    "group": 14,
+    "category": "metalloid",
+    "block": "p",
+    "electronConfiguration": "[Ne]3s2 3p2",
+    "displayRow": 3,
+    "displayColumn": 14,
+    "phaseAtStp": "固态",
+    "density": 2.329,
+    "meltingPointK": 1687,
+    "boilingPointK": 3538,
+    "electronegativityPauling": 1.9,
+    "atomicRadiusPm": 111,
+    "oxidationStates": "-4,+4",
+    "discoveryYear": 1824,
+    "discoverer": "Jöns Jacob Berzelius",
+    "uses": "半导体、光伏、硅氧材料",
+    "notes": null,
+    "densityUnit": "g/cm³",
+    "shellDistribution": [
+      2,
+      8,
+      4
+    ]
+  },
+  {
+    "atomicMassType": "standardAtomicWeight",
+    "representativeMassNumber": null,
+    "valenceConfiguration": "3s2 3p3",
+    "valenceConfigurationData": {
+      "nobleGasCore": null,
+      "orbitals": [
+        {
+          "orbital": "3s",
+          "electrons": 2
+        },
+        {
+          "orbital": "3p",
+          "electrons": 3
+        }
+      ]
+    },
+    "electronConfigurationData": {
+      "nobleGasCore": "Ne",
+      "orbitals": [
+        {
+          "orbital": "3s",
+          "electrons": 2
+        },
+        {
+          "orbital": "3p",
+          "electrons": 3
+        }
+      ]
+    },
+    "atomicNumber": 15,
+    "symbol": "P",
+    "nameZh": "磷",
+    "nameEn": "Phosphorus",
+    "atomicMass": "30.973761998",
+    "period": 3,
+    "group": 15,
+    "category": "reactiveNonmetal",
+    "block": "p",
+    "electronConfiguration": "[Ne]3s2 3p3",
+    "displayRow": 3,
+    "displayColumn": 15,
+    "phaseAtStp": "固态",
+    "density": 1.823,
+    "meltingPointK": 317.3,
+    "boilingPointK": 553.7,
+    "electronegativityPauling": 2.19,
+    "atomicRadiusPm": 98,
+    "oxidationStates": "-3,+3,+5",
+    "discoveryYear": 1669,
+    "discoverer": "Hennig Brand",
+    "uses": "肥料、阻燃剂、有机合成",
+    "notes": null,
+    "densityUnit": "g/cm³",
+    "shellDistribution": [
+      2,
+      8,
+      5
+    ]
+  },
+  {
+    "atomicMassType": "standardAtomicWeight",
+    "representativeMassNumber": null,
+    "valenceConfiguration": "3s2 3p4",
+    "valenceConfigurationData": {
+      "nobleGasCore": null,
+      "orbitals": [
+        {
+          "orbital": "3s",
+          "electrons": 2
+        },
+        {
+          "orbital": "3p",
+          "electrons": 4
+        }
+      ]
+    },
+    "electronConfigurationData": {
+      "nobleGasCore": "Ne",
+      "orbitals": [
+        {
+          "orbital": "3s",
+          "electrons": 2
+        },
+        {
+          "orbital": "3p",
+          "electrons": 4
+        }
+      ]
+    },
+    "atomicNumber": 16,
+    "symbol": "S",
+    "nameZh": "硫",
+    "nameEn": "Sulfur",
+    "atomicMass": "32.06",
+    "period": 3,
+    "group": 16,
+    "category": "reactiveNonmetal",
+    "block": "p",
+    "electronConfiguration": "[Ne]3s2 3p4",
+    "displayRow": 3,
+    "displayColumn": 16,
+    "phaseAtStp": "固态",
+    "density": 2.07,
+    "meltingPointK": 388.36,
+    "boilingPointK": 717.8,
+    "electronegativityPauling": 2.58,
+    "atomicRadiusPm": 88,
+    "oxidationStates": "-2,+2,+4,+6",
+    "discoveryYear": null,
+    "discoverer": "古代已知",
+    "uses": "硫酸、橡胶硫化、农药",
+    "notes": null,
+    "densityUnit": "g/cm³",
+    "shellDistribution": [
+      2,
+      8,
+      6
+    ]
+  },
+  {
+    "atomicMassType": "standardAtomicWeight",
+    "representativeMassNumber": null,
+    "valenceConfiguration": "3s2 3p5",
+    "valenceConfigurationData": {
+      "nobleGasCore": null,
+      "orbitals": [
+        {
+          "orbital": "3s",
+          "electrons": 2
+        },
+        {
+          "orbital": "3p",
+          "electrons": 5
+        }
+      ]
+    },
+    "electronConfigurationData": {
+      "nobleGasCore": "Ne",
+      "orbitals": [
+        {
+          "orbital": "3s",
+          "electrons": 2
+        },
+        {
+          "orbital": "3p",
+          "electrons": 5
+        }
+      ]
+    },
+    "atomicNumber": 17,
+    "symbol": "Cl",
+    "nameZh": "氯",
+    "nameEn": "Chlorine",
+    "atomicMass": "35.45",
+    "period": 3,
+    "group": 17,
+    "category": "halogen",
+    "block": "p",
+    "electronConfiguration": "[Ne]3s2 3p5",
+    "displayRow": 3,
+    "displayColumn": 17,
+    "phaseAtStp": "气态",
+    "density": 3.214,
+    "meltingPointK": 171.6,
+    "boilingPointK": 239.11,
+    "electronegativityPauling": 3.16,
+    "atomicRadiusPm": 79,
+    "oxidationStates": "-1,+1,+3,+5,+7",
+    "discoveryYear": 1774,
+    "discoverer": "Carl Wilhelm Scheele",
+    "uses": "消毒、聚氯乙烯、饮用水处理",
+    "notes": null,
+    "densityUnit": "g/L (0°C, 101.325 kPa)",
+    "shellDistribution": [
+      2,
+      8,
+      7
+    ]
+  },
+  {
+    "atomicMassType": "standardAtomicWeight",
+    "representativeMassNumber": null,
+    "valenceConfiguration": "3s2 3p6",
+    "valenceConfigurationData": {
+      "nobleGasCore": null,
+      "orbitals": [
+        {
+          "orbital": "3s",
+          "electrons": 2
+        },
+        {
+          "orbital": "3p",
+          "electrons": 6
+        }
+      ]
+    },
+    "electronConfigurationData": {
+      "nobleGasCore": "Ne",
+      "orbitals": [
+        {
+          "orbital": "3s",
+          "electrons": 2
+        },
+        {
+          "orbital": "3p",
+          "electrons": 6
+        }
+      ]
+    },
+    "atomicNumber": 18,
+    "symbol": "Ar",
+    "nameZh": "氩",
+    "nameEn": "Argon",
+    "atomicMass": "39.948",
+    "period": 3,
+    "group": 18,
+    "category": "nobleGas",
+    "block": "p",
+    "electronConfiguration": "[Ne]3s2 3p6",
+    "displayRow": 3,
+    "displayColumn": 18,
+    "phaseAtStp": "气态",
+    "density": 1.7837,
+    "meltingPointK": 83.81,
+    "boilingPointK": 87.302,
+    "electronegativityPauling": null,
+    "atomicRadiusPm": 71,
+    "oxidationStates": "0",
+    "discoveryYear": 1894,
+    "discoverer": "Lord Rayleigh 与 William Ramsay",
+    "uses": "焊接保护气、白炽灯、惰性气氛",
+    "notes": null,
+    "densityUnit": "g/L (0°C, 101.325 kPa)",
+    "shellDistribution": [
+      2,
+      8,
+      8
+    ]
+  },
+  {
+    "atomicMassType": "standardAtomicWeight",
+    "representativeMassNumber": null,
+    "valenceConfiguration": "4s1",
+    "valenceConfigurationData": {
+      "nobleGasCore": null,
+      "orbitals": [
+        {
+          "orbital": "4s",
+          "electrons": 1
+        }
+      ]
+    },
+    "electronConfigurationData": {
+      "nobleGasCore": "Ar",
+      "orbitals": [
+        {
+          "orbital": "4s",
+          "electrons": 1
+        }
+      ]
+    },
+    "atomicNumber": 19,
+    "symbol": "K",
+    "nameZh": "钾",
+    "nameEn": "Potassium",
+    "atomicMass": "39.0983",
+    "period": 4,
+    "group": 1,
+    "category": "alkaliMetal",
+    "block": "s",
+    "electronConfiguration": "[Ar]4s1",
+    "displayRow": 4,
+    "displayColumn": 1,
+    "phaseAtStp": "固态",
+    "density": 0.862,
+    "meltingPointK": 336.7,
+    "boilingPointK": 1032,
+    "electronegativityPauling": 0.82,
+    "atomicRadiusPm": 243,
+    "oxidationStates": "+1",
+    "discoveryYear": 1807,
+    "discoverer": "Humphry Davy",
+    "uses": "肥料、玻璃、生理功能",
+    "notes": null,
+    "densityUnit": "g/cm³",
+    "shellDistribution": [
+      2,
+      8,
+      8,
+      1
+    ]
+  },
+  {
+    "atomicMassType": "standardAtomicWeight",
+    "representativeMassNumber": null,
+    "valenceConfiguration": "4s2",
+    "valenceConfigurationData": {
+      "nobleGasCore": null,
+      "orbitals": [
+        {
+          "orbital": "4s",
+          "electrons": 2
+        }
+      ]
+    },
+    "electronConfigurationData": {
+      "nobleGasCore": "Ar",
+      "orbitals": [
+        {
+          "orbital": "4s",
+          "electrons": 2
+        }
+      ]
+    },
+    "atomicNumber": 20,
+    "symbol": "Ca",
+    "nameZh": "钙",
+    "nameEn": "Calcium",
+    "atomicMass": "40.078",
+    "period": 4,
+    "group": 2,
+    "category": "alkalineEarthMetal",
+    "block": "s",
+    "electronConfiguration": "[Ar]4s2",
+    "displayRow": 4,
+    "displayColumn": 2,
+    "phaseAtStp": "固态",
+    "density": 1.55,
+    "meltingPointK": 1115,
+    "boilingPointK": 1757,
+    "electronegativityPauling": 1,
+    "atomicRadiusPm": 194,
+    "oxidationStates": "+2",
+    "discoveryYear": 1808,
+    "discoverer": "Humphry Davy",
+    "uses": "水泥、钢冶炼、骨骼健康",
+    "notes": null,
+    "densityUnit": "g/cm³",
+    "shellDistribution": [
+      2,
+      8,
+      8,
+      2
+    ]
+  },
+  {
+    "atomicMassType": "standardAtomicWeight",
+    "representativeMassNumber": null,
+    "valenceConfiguration": "3d1 4s2",
+    "valenceConfigurationData": {
+      "nobleGasCore": null,
+      "orbitals": [
+        {
+          "orbital": "3d",
+          "electrons": 1
+        },
+        {
+          "orbital": "4s",
+          "electrons": 2
+        }
+      ]
+    },
+    "electronConfigurationData": {
+      "nobleGasCore": "Ar",
+      "orbitals": [
+        {
+          "orbital": "3d",
+          "electrons": 1
+        },
+        {
+          "orbital": "4s",
+          "electrons": 2
+        }
+      ]
+    },
+    "atomicNumber": 21,
+    "symbol": "Sc",
+    "nameZh": "钪",
+    "nameEn": "Scandium",
+    "atomicMass": "44.955908",
+    "period": 4,
+    "group": 3,
+    "category": "transitionMetal",
+    "block": "d",
+    "electronConfiguration": "[Ar]3d1 4s2",
+    "displayRow": 4,
+    "displayColumn": 3,
+    "phaseAtStp": "固态",
+    "density": 2.985,
+    "meltingPointK": 1814,
+    "boilingPointK": 3109,
+    "electronegativityPauling": 1.36,
+    "atomicRadiusPm": 184,
+    "oxidationStates": "+3",
+    "discoveryYear": 1879,
+    "discoverer": "Lars Fredrik Nilson",
+    "uses": "铝合金、金属卤化物灯",
+    "notes": null,
+    "densityUnit": "g/cm³",
+    "shellDistribution": [
+      2,
+      8,
+      9,
+      2
+    ]
+  },
+  {
+    "atomicMassType": "standardAtomicWeight",
+    "representativeMassNumber": null,
+    "valenceConfiguration": "3d2 4s2",
+    "valenceConfigurationData": {
+      "nobleGasCore": null,
+      "orbitals": [
+        {
+          "orbital": "3d",
+          "electrons": 2
+        },
+        {
+          "orbital": "4s",
+          "electrons": 2
+        }
+      ]
+    },
+    "electronConfigurationData": {
+      "nobleGasCore": "Ar",
+      "orbitals": [
+        {
+          "orbital": "3d",
+          "electrons": 2
+        },
+        {
+          "orbital": "4s",
+          "electrons": 2
+        }
+      ]
+    },
+    "atomicNumber": 22,
+    "symbol": "Ti",
+    "nameZh": "钛",
+    "nameEn": "Titanium",
+    "atomicMass": "47.867",
+    "period": 4,
+    "group": 4,
+    "category": "transitionMetal",
+    "block": "d",
+    "electronConfiguration": "[Ar]3d2 4s2",
+    "displayRow": 4,
+    "displayColumn": 4,
+    "phaseAtStp": "固态",
+    "density": 4.506,
+    "meltingPointK": 1941,
+    "boilingPointK": 3560,
+    "electronegativityPauling": 1.54,
+    "atomicRadiusPm": 176,
+    "oxidationStates": "+2,+3,+4",
+    "discoveryYear": 1791,
+    "discoverer": "William Gregor",
+    "uses": "航空航天合金、医疗植入物、颜料",
+    "notes": null,
+    "densityUnit": "g/cm³",
+    "shellDistribution": [
+      2,
+      8,
+      10,
+      2
+    ]
+  },
+  {
+    "atomicMassType": "standardAtomicWeight",
+    "representativeMassNumber": null,
+    "valenceConfiguration": "3d3 4s2",
+    "valenceConfigurationData": {
+      "nobleGasCore": null,
+      "orbitals": [
+        {
+          "orbital": "3d",
+          "electrons": 3
+        },
+        {
+          "orbital": "4s",
+          "electrons": 2
+        }
+      ]
+    },
+    "electronConfigurationData": {
+      "nobleGasCore": "Ar",
+      "orbitals": [
+        {
+          "orbital": "3d",
+          "electrons": 3
+        },
+        {
+          "orbital": "4s",
+          "electrons": 2
+        }
+      ]
+    },
+    "atomicNumber": 23,
+    "symbol": "V",
+    "nameZh": "钒",
+    "nameEn": "Vanadium",
+    "atomicMass": "50.9415",
+    "period": 4,
+    "group": 5,
+    "category": "transitionMetal",
+    "block": "d",
+    "electronConfiguration": "[Ar]3d3 4s2",
+    "displayRow": 4,
+    "displayColumn": 5,
+    "phaseAtStp": "固态",
+    "density": 6.11,
+    "meltingPointK": 2183,
+    "boilingPointK": 3680,
+    "electronegativityPauling": 1.63,
+    "atomicRadiusPm": 171,
+    "oxidationStates": "+2,+3,+4,+5",
+    "discoveryYear": 1801,
+    "discoverer": "Andrés Manuel del Río",
+    "uses": "弹簧钢、催化剂、钒电池",
+    "notes": null,
+    "densityUnit": "g/cm³",
+    "shellDistribution": [
+      2,
+      8,
+      11,
+      2
+    ]
+  },
+  {
+    "atomicMassType": "standardAtomicWeight",
+    "representativeMassNumber": null,
+    "valenceConfiguration": "3d5 4s1",
+    "valenceConfigurationData": {
+      "nobleGasCore": null,
+      "orbitals": [
+        {
+          "orbital": "3d",
+          "electrons": 5
+        },
+        {
+          "orbital": "4s",
+          "electrons": 1
+        }
+      ]
+    },
+    "electronConfigurationData": {
+      "nobleGasCore": "Ar",
+      "orbitals": [
+        {
+          "orbital": "3d",
+          "electrons": 5
+        },
+        {
+          "orbital": "4s",
+          "electrons": 1
+        }
+      ]
+    },
+    "atomicNumber": 24,
+    "symbol": "Cr",
+    "nameZh": "铬",
+    "nameEn": "Chromium",
+    "atomicMass": "51.9961",
+    "period": 4,
+    "group": 6,
+    "category": "transitionMetal",
+    "block": "d",
+    "electronConfiguration": "[Ar]3d5 4s1",
+    "displayRow": 4,
+    "displayColumn": 6,
+    "phaseAtStp": "固态",
+    "density": 7.15,
+    "meltingPointK": 2180,
+    "boilingPointK": 2944,
+    "electronegativityPauling": 1.66,
+    "atomicRadiusPm": 166,
+    "oxidationStates": "+2,+3,+6",
+    "discoveryYear": 1797,
+    "discoverer": "Louis Nicolas Vauquelin",
+    "uses": "不锈钢、电镀、颜料",
+    "notes": "基态电子排布存在 3d 与 4s 能级竞争，属于已知例外。",
+    "densityUnit": "g/cm³",
+    "shellDistribution": [
+      2,
+      8,
+      13,
+      1
+    ]
+  },
+  {
+    "atomicMassType": "standardAtomicWeight",
+    "representativeMassNumber": null,
+    "valenceConfiguration": "3d5 4s2",
+    "valenceConfigurationData": {
+      "nobleGasCore": null,
+      "orbitals": [
+        {
+          "orbital": "3d",
+          "electrons": 5
+        },
+        {
+          "orbital": "4s",
+          "electrons": 2
+        }
+      ]
+    },
+    "electronConfigurationData": {
+      "nobleGasCore": "Ar",
+      "orbitals": [
+        {
+          "orbital": "3d",
+          "electrons": 5
+        },
+        {
+          "orbital": "4s",
+          "electrons": 2
+        }
+      ]
+    },
+    "atomicNumber": 25,
+    "symbol": "Mn",
+    "nameZh": "锰",
+    "nameEn": "Manganese",
+    "atomicMass": "54.938044",
+    "period": 4,
+    "group": 7,
+    "category": "transitionMetal",
+    "block": "d",
+    "electronConfiguration": "[Ar]3d5 4s2",
+    "displayRow": 4,
+    "displayColumn": 7,
+    "phaseAtStp": "固态",
+    "density": 7.21,
+    "meltingPointK": 1519,
+    "boilingPointK": 2334,
+    "electronegativityPauling": 1.55,
+    "atomicRadiusPm": 161,
+    "oxidationStates": "+2,+3,+4,+6,+7",
+    "discoveryYear": 1774,
+    "discoverer": "Johan Gottlieb Gahn",
+    "uses": "炼钢、电池、合金",
+    "notes": null,
+    "densityUnit": "g/cm³",
+    "shellDistribution": [
+      2,
+      8,
+      13,
+      2
+    ]
+  },
+  {
+    "atomicMassType": "standardAtomicWeight",
+    "representativeMassNumber": null,
+    "valenceConfiguration": "3d6 4s2",
+    "valenceConfigurationData": {
+      "nobleGasCore": null,
+      "orbitals": [
+        {
+          "orbital": "3d",
+          "electrons": 6
+        },
+        {
+          "orbital": "4s",
+          "electrons": 2
+        }
+      ]
+    },
+    "electronConfigurationData": {
+      "nobleGasCore": "Ar",
+      "orbitals": [
+        {
+          "orbital": "3d",
+          "electrons": 6
+        },
+        {
+          "orbital": "4s",
+          "electrons": 2
+        }
+      ]
+    },
+    "atomicNumber": 26,
+    "symbol": "Fe",
+    "nameZh": "铁",
+    "nameEn": "Iron",
+    "atomicMass": "55.845",
+    "period": 4,
+    "group": 8,
+    "category": "transitionMetal",
+    "block": "d",
+    "electronConfiguration": "[Ar]3d6 4s2",
+    "displayRow": 4,
+    "displayColumn": 8,
+    "phaseAtStp": "固态",
+    "density": 7.874,
+    "meltingPointK": 1811,
+    "boilingPointK": 3134,
+    "electronegativityPauling": 1.83,
+    "atomicRadiusPm": 156,
+    "oxidationStates": "+2,+3",
+    "discoveryYear": null,
+    "discoverer": "古代已知",
+    "uses": "结构材料、炼钢、血红蛋白组成",
+    "notes": null,
+    "densityUnit": "g/cm³",
+    "shellDistribution": [
+      2,
+      8,
+      14,
+      2
+    ]
+  },
+  {
+    "atomicMassType": "standardAtomicWeight",
+    "representativeMassNumber": null,
+    "valenceConfiguration": "3d7 4s2",
+    "valenceConfigurationData": {
+      "nobleGasCore": null,
+      "orbitals": [
+        {
+          "orbital": "3d",
+          "electrons": 7
+        },
+        {
+          "orbital": "4s",
+          "electrons": 2
+        }
+      ]
+    },
+    "electronConfigurationData": {
+      "nobleGasCore": "Ar",
+      "orbitals": [
+        {
+          "orbital": "3d",
+          "electrons": 7
+        },
+        {
+          "orbital": "4s",
+          "electrons": 2
+        }
+      ]
+    },
+    "atomicNumber": 27,
+    "symbol": "Co",
+    "nameZh": "钴",
+    "nameEn": "Cobalt",
+    "atomicMass": "58.933194",
+    "period": 4,
+    "group": 9,
+    "category": "transitionMetal",
+    "block": "d",
+    "electronConfiguration": "[Ar]3d7 4s2",
+    "displayRow": 4,
+    "displayColumn": 9,
+    "phaseAtStp": "固态",
+    "density": 8.9,
+    "meltingPointK": 1768,
+    "boilingPointK": 3200,
+    "electronegativityPauling": 1.88,
+    "atomicRadiusPm": 152,
+    "oxidationStates": "+2,+3",
+    "discoveryYear": 1735,
+    "discoverer": "Georg Brandt",
+    "uses": "高温合金、电池正极、催化剂",
+    "notes": null,
+    "densityUnit": "g/cm³",
+    "shellDistribution": [
+      2,
+      8,
+      15,
+      2
+    ]
+  },
+  {
+    "atomicMassType": "standardAtomicWeight",
+    "representativeMassNumber": null,
+    "valenceConfiguration": "3d8 4s2",
+    "valenceConfigurationData": {
+      "nobleGasCore": null,
+      "orbitals": [
+        {
+          "orbital": "3d",
+          "electrons": 8
+        },
+        {
+          "orbital": "4s",
+          "electrons": 2
+        }
+      ]
+    },
+    "electronConfigurationData": {
+      "nobleGasCore": "Ar",
+      "orbitals": [
+        {
+          "orbital": "3d",
+          "electrons": 8
+        },
+        {
+          "orbital": "4s",
+          "electrons": 2
+        }
+      ]
+    },
+    "atomicNumber": 28,
+    "symbol": "Ni",
+    "nameZh": "镍",
+    "nameEn": "Nickel",
+    "atomicMass": "58.6934",
+    "period": 4,
+    "group": 10,
+    "category": "transitionMetal",
+    "block": "d",
+    "electronConfiguration": "[Ar]3d8 4s2",
+    "displayRow": 4,
+    "displayColumn": 10,
+    "phaseAtStp": "固态",
+    "density": 8.908,
+    "meltingPointK": 1728,
+    "boilingPointK": 3186,
+    "electronegativityPauling": 1.91,
+    "atomicRadiusPm": 149,
+    "oxidationStates": "+2,+3",
+    "discoveryYear": 1751,
+    "discoverer": "Axel Fredrik Cronstedt",
+    "uses": "不锈钢、电镀、电池",
+    "notes": null,
+    "densityUnit": "g/cm³",
+    "shellDistribution": [
+      2,
+      8,
+      16,
+      2
+    ]
+  },
+  {
+    "atomicMassType": "standardAtomicWeight",
+    "representativeMassNumber": null,
+    "valenceConfiguration": "3d10 4s1",
+    "valenceConfigurationData": {
+      "nobleGasCore": null,
+      "orbitals": [
+        {
+          "orbital": "3d",
+          "electrons": 10
+        },
+        {
+          "orbital": "4s",
+          "electrons": 1
+        }
+      ]
+    },
+    "electronConfigurationData": {
+      "nobleGasCore": "Ar",
+      "orbitals": [
+        {
+          "orbital": "3d",
+          "electrons": 10
+        },
+        {
+          "orbital": "4s",
+          "electrons": 1
+        }
+      ]
+    },
+    "atomicNumber": 29,
+    "symbol": "Cu",
+    "nameZh": "铜",
+    "nameEn": "Copper",
+    "atomicMass": "63.546",
+    "period": 4,
+    "group": 11,
+    "category": "transitionMetal",
+    "block": "d",
+    "electronConfiguration": "[Ar]3d10 4s1",
+    "displayRow": 4,
+    "displayColumn": 11,
+    "phaseAtStp": "固态",
+    "density": 8.96,
+    "meltingPointK": 1357.77,
+    "boilingPointK": 2835,
+    "electronegativityPauling": 1.9,
+    "atomicRadiusPm": 145,
+    "oxidationStates": "+1,+2",
+    "discoveryYear": null,
+    "discoverer": "古代已知",
+    "uses": "导电材料、管道、合金",
+    "notes": "基态电子排布存在 3d 与 4s 能级竞争。",
+    "densityUnit": "g/cm³",
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      1
+    ]
+  },
+  {
+    "atomicMassType": "standardAtomicWeight",
+    "representativeMassNumber": null,
+    "valenceConfiguration": "3d10 4s2",
+    "valenceConfigurationData": {
+      "nobleGasCore": null,
+      "orbitals": [
+        {
+          "orbital": "3d",
+          "electrons": 10
+        },
+        {
+          "orbital": "4s",
+          "electrons": 2
+        }
+      ]
+    },
+    "electronConfigurationData": {
+      "nobleGasCore": "Ar",
+      "orbitals": [
+        {
+          "orbital": "3d",
+          "electrons": 10
+        },
+        {
+          "orbital": "4s",
+          "electrons": 2
+        }
+      ]
+    },
+    "atomicNumber": 30,
+    "symbol": "Zn",
+    "nameZh": "锌",
+    "nameEn": "Zinc",
+    "atomicMass": "65.38",
+    "period": 4,
+    "group": 12,
+    "category": "transitionMetal",
+    "block": "d",
+    "electronConfiguration": "[Ar]3d10 4s2",
+    "displayRow": 4,
+    "displayColumn": 12,
+    "phaseAtStp": "固态",
+    "density": 7.14,
+    "meltingPointK": 692.68,
+    "boilingPointK": 1180,
+    "electronegativityPauling": 1.65,
+    "atomicRadiusPm": 142,
+    "oxidationStates": "+2",
+    "discoveryYear": null,
+    "discoverer": "古代已知",
+    "uses": "镀锌、黄铜、压铸合金",
+    "notes": null,
+    "densityUnit": "g/cm³",
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      2
+    ]
+  },
+  {
+    "atomicMassType": "standardAtomicWeight",
+    "representativeMassNumber": null,
+    "valenceConfiguration": "3d10 4s2 4p1",
+    "valenceConfigurationData": {
+      "nobleGasCore": null,
+      "orbitals": [
+        {
+          "orbital": "3d",
+          "electrons": 10
+        },
+        {
+          "orbital": "4s",
+          "electrons": 2
+        },
+        {
+          "orbital": "4p",
+          "electrons": 1
+        }
+      ]
+    },
+    "electronConfigurationData": {
+      "nobleGasCore": "Ar",
+      "orbitals": [
+        {
+          "orbital": "3d",
+          "electrons": 10
+        },
+        {
+          "orbital": "4s",
+          "electrons": 2
+        },
+        {
+          "orbital": "4p",
+          "electrons": 1
+        }
+      ]
+    },
+    "atomicNumber": 31,
+    "symbol": "Ga",
+    "nameZh": "镓",
+    "nameEn": "Gallium",
+    "atomicMass": "69.723",
+    "period": 4,
+    "group": 13,
+    "category": "postTransitionMetal",
+    "block": "p",
+    "electronConfiguration": "[Ar]3d10 4s2 4p1",
+    "displayRow": 4,
+    "displayColumn": 13,
+    "phaseAtStp": "固态",
+    "density": 5.91,
+    "meltingPointK": 302.9146,
+    "boilingPointK": 2673,
+    "electronegativityPauling": 1.81,
+    "atomicRadiusPm": 136,
+    "oxidationStates": "+3",
+    "discoveryYear": 1875,
+    "discoverer": "Paul-Émile Lecoq de Boisbaudran",
+    "uses": "氮化镓半导体、低熔点合金",
+    "notes": null,
+    "densityUnit": "g/cm³",
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      3
+    ]
+  },
+  {
+    "atomicMassType": "standardAtomicWeight",
+    "representativeMassNumber": null,
+    "valenceConfiguration": "3d10 4s2 4p2",
+    "valenceConfigurationData": {
+      "nobleGasCore": null,
+      "orbitals": [
+        {
+          "orbital": "3d",
+          "electrons": 10
+        },
+        {
+          "orbital": "4s",
+          "electrons": 2
+        },
+        {
+          "orbital": "4p",
+          "electrons": 2
+        }
+      ]
+    },
+    "electronConfigurationData": {
+      "nobleGasCore": "Ar",
+      "orbitals": [
+        {
+          "orbital": "3d",
+          "electrons": 10
+        },
+        {
+          "orbital": "4s",
+          "electrons": 2
+        },
+        {
+          "orbital": "4p",
+          "electrons": 2
+        }
+      ]
+    },
+    "atomicNumber": 32,
+    "symbol": "Ge",
+    "nameZh": "锗",
+    "nameEn": "Germanium",
+    "atomicMass": "72.630",
+    "period": 4,
+    "group": 14,
+    "category": "metalloid",
+    "block": "p",
+    "electronConfiguration": "[Ar]3d10 4s2 4p2",
+    "displayRow": 4,
+    "displayColumn": 14,
+    "phaseAtStp": "固态",
+    "density": 5.323,
+    "meltingPointK": 1211.4,
+    "boilingPointK": 3106,
+    "electronegativityPauling": 2.01,
+    "atomicRadiusPm": 125,
+    "oxidationStates": "-4,+2,+4",
+    "discoveryYear": 1886,
+    "discoverer": "Clemens Winkler",
+    "uses": "红外光学、半导体、光纤",
+    "notes": null,
+    "densityUnit": "g/cm³",
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      4
+    ]
+  },
+  {
+    "atomicMassType": "standardAtomicWeight",
+    "representativeMassNumber": null,
+    "valenceConfiguration": "3d10 4s2 4p3",
+    "valenceConfigurationData": {
+      "nobleGasCore": null,
+      "orbitals": [
+        {
+          "orbital": "3d",
+          "electrons": 10
+        },
+        {
+          "orbital": "4s",
+          "electrons": 2
+        },
+        {
+          "orbital": "4p",
+          "electrons": 3
+        }
+      ]
+    },
+    "electronConfigurationData": {
+      "nobleGasCore": "Ar",
+      "orbitals": [
+        {
+          "orbital": "3d",
+          "electrons": 10
+        },
+        {
+          "orbital": "4s",
+          "electrons": 2
+        },
+        {
+          "orbital": "4p",
+          "electrons": 3
+        }
+      ]
+    },
+    "atomicNumber": 33,
+    "symbol": "As",
+    "nameZh": "砷",
+    "nameEn": "Arsenic",
+    "atomicMass": "74.921595",
+    "period": 4,
+    "group": 15,
+    "category": "metalloid",
+    "block": "p",
+    "electronConfiguration": "[Ar]3d10 4s2 4p3",
+    "displayRow": 4,
+    "displayColumn": 15,
+    "phaseAtStp": "固态",
+    "density": 5.727,
+    "meltingPointK": 1090,
+    "boilingPointK": 887,
+    "electronegativityPauling": 2.18,
+    "atomicRadiusPm": 114,
+    "oxidationStates": "-3,+3,+5",
+    "discoveryYear": null,
+    "discoverer": "古代已知",
+    "uses": "半导体掺杂、木材防腐、合金",
+    "notes": "沸点 887 K 为常压升华点；熔点 1090 K 需在加压条件下测定。",
+    "densityUnit": "g/cm³",
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      5
+    ]
+  },
+  {
+    "atomicMassType": "standardAtomicWeight",
+    "representativeMassNumber": null,
+    "valenceConfiguration": "3d10 4s2 4p4",
+    "valenceConfigurationData": {
+      "nobleGasCore": null,
+      "orbitals": [
+        {
+          "orbital": "3d",
+          "electrons": 10
+        },
+        {
+          "orbital": "4s",
+          "electrons": 2
+        },
+        {
+          "orbital": "4p",
+          "electrons": 4
+        }
+      ]
+    },
+    "electronConfigurationData": {
+      "nobleGasCore": "Ar",
+      "orbitals": [
+        {
+          "orbital": "3d",
+          "electrons": 10
+        },
+        {
+          "orbital": "4s",
+          "electrons": 2
+        },
+        {
+          "orbital": "4p",
+          "electrons": 4
+        }
+      ]
+    },
+    "atomicNumber": 34,
+    "symbol": "Se",
+    "nameZh": "硒",
+    "nameEn": "Selenium",
+    "atomicMass": "78.971",
+    "period": 4,
+    "group": 16,
+    "category": "reactiveNonmetal",
+    "block": "p",
+    "electronConfiguration": "[Ar]3d10 4s2 4p4",
+    "displayRow": 4,
+    "displayColumn": 16,
+    "phaseAtStp": "固态",
+    "density": 4.81,
+    "meltingPointK": 494,
+    "boilingPointK": 958,
+    "electronegativityPauling": 2.55,
+    "atomicRadiusPm": 103,
+    "oxidationStates": "-2,+4,+6",
+    "discoveryYear": 1817,
+    "discoverer": "Jöns Jacob Berzelius",
+    "uses": "玻璃脱色、光敏材料、饲料添加",
+    "notes": null,
+    "densityUnit": "g/cm³",
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      6
+    ]
+  },
+  {
+    "atomicMassType": "standardAtomicWeight",
+    "representativeMassNumber": null,
+    "valenceConfiguration": "3d10 4s2 4p5",
+    "valenceConfigurationData": {
+      "nobleGasCore": null,
+      "orbitals": [
+        {
+          "orbital": "3d",
+          "electrons": 10
+        },
+        {
+          "orbital": "4s",
+          "electrons": 2
+        },
+        {
+          "orbital": "4p",
+          "electrons": 5
+        }
+      ]
+    },
+    "electronConfigurationData": {
+      "nobleGasCore": "Ar",
+      "orbitals": [
+        {
+          "orbital": "3d",
+          "electrons": 10
+        },
+        {
+          "orbital": "4s",
+          "electrons": 2
+        },
+        {
+          "orbital": "4p",
+          "electrons": 5
+        }
+      ]
+    },
+    "atomicNumber": 35,
+    "symbol": "Br",
+    "nameZh": "溴",
+    "nameEn": "Bromine",
+    "atomicMass": "79.904",
+    "period": 4,
+    "group": 17,
+    "category": "halogen",
+    "block": "p",
+    "electronConfiguration": "[Ar]3d10 4s2 4p5",
+    "displayRow": 4,
+    "displayColumn": 17,
+    "phaseAtStp": "液态",
+    "density": 3.12,
+    "meltingPointK": 265.8,
+    "boilingPointK": 332,
+    "electronegativityPauling": 2.96,
+    "atomicRadiusPm": 94,
+    "oxidationStates": "-1,+1,+3,+5,+7",
+    "discoveryYear": 1826,
+    "discoverer": "Antoine Jérôme Balard",
+    "uses": "阻燃剂、水处理、医药",
+    "notes": null,
+    "densityUnit": "g/cm³",
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      7
+    ]
+  },
+  {
+    "atomicMassType": "standardAtomicWeight",
+    "representativeMassNumber": null,
+    "valenceConfiguration": "3d10 4s2 4p6",
+    "valenceConfigurationData": {
+      "nobleGasCore": null,
+      "orbitals": [
+        {
+          "orbital": "3d",
+          "electrons": 10
+        },
+        {
+          "orbital": "4s",
+          "electrons": 2
+        },
+        {
+          "orbital": "4p",
+          "electrons": 6
+        }
+      ]
+    },
+    "electronConfigurationData": {
+      "nobleGasCore": "Ar",
+      "orbitals": [
+        {
+          "orbital": "3d",
+          "electrons": 10
+        },
+        {
+          "orbital": "4s",
+          "electrons": 2
+        },
+        {
+          "orbital": "4p",
+          "electrons": 6
+        }
+      ]
+    },
+    "atomicNumber": 36,
+    "symbol": "Kr",
+    "nameZh": "氪",
+    "nameEn": "Krypton",
+    "atomicMass": "83.798",
+    "period": 4,
+    "group": 18,
+    "category": "nobleGas",
+    "block": "p",
+    "electronConfiguration": "[Ar]3d10 4s2 4p6",
+    "displayRow": 4,
+    "displayColumn": 18,
+    "phaseAtStp": "气态",
+    "density": 3.733,
+    "meltingPointK": 115.78,
+    "boilingPointK": 119.93,
+    "electronegativityPauling": 3,
+    "atomicRadiusPm": 88,
+    "oxidationStates": "0",
+    "discoveryYear": 1898,
+    "discoverer": "William Ramsay 与 Morris Travers",
+    "uses": "高性能照明、激光、绝缘气体",
+    "notes": null,
+    "densityUnit": "g/L (0°C, 101.325 kPa)",
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      8
+    ]
+  },
+  {
+    "atomicMassType": "standardAtomicWeight",
+    "representativeMassNumber": null,
+    "valenceConfiguration": "5s1",
+    "valenceConfigurationData": {
+      "nobleGasCore": null,
+      "orbitals": [
+        {
+          "orbital": "5s",
+          "electrons": 1
+        }
+      ]
+    },
+    "electronConfigurationData": {
+      "nobleGasCore": "Kr",
+      "orbitals": [
+        {
+          "orbital": "5s",
+          "electrons": 1
+        }
+      ]
+    },
+    "atomicNumber": 37,
+    "symbol": "Rb",
+    "nameZh": "铷",
+    "nameEn": "Rubidium",
+    "atomicMass": "85.4678",
+    "period": 5,
+    "group": 1,
+    "category": "alkaliMetal",
+    "block": "s",
+    "electronConfiguration": "[Kr]5s1",
+    "displayRow": 5,
+    "displayColumn": 1,
+    "phaseAtStp": "固态",
+    "density": 1.532,
+    "meltingPointK": 312.45,
+    "boilingPointK": 961,
+    "electronegativityPauling": 0.82,
+    "atomicRadiusPm": 265,
+    "oxidationStates": "+1",
+    "discoveryYear": 1861,
+    "discoverer": "Robert Bunsen 与 Gustav Kirchhoff",
+    "uses": "原子钟、特种玻璃、电子器件",
+    "notes": null,
+    "densityUnit": "g/cm³",
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      8,
+      1
+    ]
+  },
+  {
+    "atomicMassType": "standardAtomicWeight",
+    "representativeMassNumber": null,
+    "valenceConfiguration": "5s2",
+    "valenceConfigurationData": {
+      "nobleGasCore": null,
+      "orbitals": [
+        {
+          "orbital": "5s",
+          "electrons": 2
+        }
+      ]
+    },
+    "electronConfigurationData": {
+      "nobleGasCore": "Kr",
+      "orbitals": [
+        {
+          "orbital": "5s",
+          "electrons": 2
+        }
+      ]
+    },
+    "atomicNumber": 38,
+    "symbol": "Sr",
+    "nameZh": "锶",
+    "nameEn": "Strontium",
+    "atomicMass": "87.62",
+    "period": 5,
+    "group": 2,
+    "category": "alkalineEarthMetal",
+    "block": "s",
+    "electronConfiguration": "[Kr]5s2",
+    "displayRow": 5,
+    "displayColumn": 2,
+    "phaseAtStp": "固态",
+    "density": 2.64,
+    "meltingPointK": 1050,
+    "boilingPointK": 1650,
+    "electronegativityPauling": 0.95,
+    "atomicRadiusPm": 219,
+    "oxidationStates": "+2",
+    "discoveryYear": 1790,
+    "discoverer": "Adair Crawford",
+    "uses": "红色烟火、铁氧体磁体",
+    "notes": null,
+    "densityUnit": "g/cm³",
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      8,
+      2
+    ]
+  },
+  {
+    "atomicMassType": "standardAtomicWeight",
+    "representativeMassNumber": null,
+    "valenceConfiguration": "4d1 5s2",
+    "valenceConfigurationData": {
+      "nobleGasCore": null,
+      "orbitals": [
+        {
+          "orbital": "4d",
+          "electrons": 1
+        },
+        {
+          "orbital": "5s",
+          "electrons": 2
+        }
+      ]
+    },
+    "electronConfigurationData": {
+      "nobleGasCore": "Kr",
+      "orbitals": [
+        {
+          "orbital": "4d",
+          "electrons": 1
+        },
+        {
+          "orbital": "5s",
+          "electrons": 2
+        }
+      ]
+    },
+    "atomicNumber": 39,
+    "symbol": "Y",
+    "nameZh": "钇",
+    "nameEn": "Yttrium",
+    "atomicMass": "88.90584",
+    "period": 5,
+    "group": 3,
+    "category": "transitionMetal",
+    "block": "d",
+    "electronConfiguration": "[Kr]4d1 5s2",
+    "displayRow": 5,
+    "displayColumn": 3,
+    "phaseAtStp": "固态",
+    "density": 4.472,
+    "meltingPointK": 1799,
+    "boilingPointK": 3203,
+    "electronegativityPauling": 1.22,
+    "atomicRadiusPm": 212,
+    "oxidationStates": "+3",
+    "discoveryYear": 1794,
+    "discoverer": "Johan Gadolin",
+    "uses": "荧光粉、激光晶体、陶瓷",
+    "notes": null,
+    "densityUnit": "g/cm³",
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      9,
+      2
+    ]
+  },
+  {
+    "atomicMassType": "standardAtomicWeight",
+    "representativeMassNumber": null,
+    "valenceConfiguration": "4d2 5s2",
+    "valenceConfigurationData": {
+      "nobleGasCore": null,
+      "orbitals": [
+        {
+          "orbital": "4d",
+          "electrons": 2
+        },
+        {
+          "orbital": "5s",
+          "electrons": 2
+        }
+      ]
+    },
+    "electronConfigurationData": {
+      "nobleGasCore": "Kr",
+      "orbitals": [
+        {
+          "orbital": "4d",
+          "electrons": 2
+        },
+        {
+          "orbital": "5s",
+          "electrons": 2
+        }
+      ]
+    },
+    "atomicNumber": 40,
+    "symbol": "Zr",
+    "nameZh": "锆",
+    "nameEn": "Zirconium",
+    "atomicMass": "91.224",
+    "period": 5,
+    "group": 4,
+    "category": "transitionMetal",
+    "block": "d",
+    "electronConfiguration": "[Kr]4d2 5s2",
+    "displayRow": 5,
+    "displayColumn": 4,
+    "phaseAtStp": "固态",
+    "density": 6.52,
+    "meltingPointK": 2128,
+    "boilingPointK": 4650,
+    "electronegativityPauling": 1.33,
+    "atomicRadiusPm": 206,
+    "oxidationStates": "+4",
+    "discoveryYear": 1789,
+    "discoverer": "Martin Heinrich Klaproth",
+    "uses": "核燃料包壳、耐火材料",
+    "notes": null,
+    "densityUnit": "g/cm³",
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      10,
+      2
+    ]
+  },
+  {
+    "atomicMassType": "standardAtomicWeight",
+    "representativeMassNumber": null,
+    "valenceConfiguration": "4d4 5s1",
+    "valenceConfigurationData": {
+      "nobleGasCore": null,
+      "orbitals": [
+        {
+          "orbital": "4d",
+          "electrons": 4
+        },
+        {
+          "orbital": "5s",
+          "electrons": 1
+        }
+      ]
+    },
+    "electronConfigurationData": {
+      "nobleGasCore": "Kr",
+      "orbitals": [
+        {
+          "orbital": "4d",
+          "electrons": 4
+        },
+        {
+          "orbital": "5s",
+          "electrons": 1
+        }
+      ]
+    },
+    "atomicNumber": 41,
+    "symbol": "Nb",
+    "nameZh": "铌",
+    "nameEn": "Niobium",
+    "atomicMass": "92.90637",
+    "period": 5,
+    "group": 5,
+    "category": "transitionMetal",
+    "block": "d",
+    "electronConfiguration": "[Kr]4d4 5s1",
+    "displayRow": 5,
+    "displayColumn": 5,
+    "phaseAtStp": "固态",
+    "density": 8.57,
+    "meltingPointK": 2750,
+    "boilingPointK": 5017,
+    "electronegativityPauling": 1.6,
+    "atomicRadiusPm": 198,
+    "oxidationStates": "+3,+5",
+    "discoveryYear": 1801,
+    "discoverer": "Charles Hatchett",
+    "uses": "超导磁体、特殊钢",
+    "notes": null,
+    "densityUnit": "g/cm³",
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      12,
+      1
+    ]
+  },
+  {
+    "atomicMassType": "standardAtomicWeight",
+    "representativeMassNumber": null,
+    "valenceConfiguration": "4d5 5s1",
+    "valenceConfigurationData": {
+      "nobleGasCore": null,
+      "orbitals": [
+        {
+          "orbital": "4d",
+          "electrons": 5
+        },
+        {
+          "orbital": "5s",
+          "electrons": 1
+        }
+      ]
+    },
+    "electronConfigurationData": {
+      "nobleGasCore": "Kr",
+      "orbitals": [
+        {
+          "orbital": "4d",
+          "electrons": 5
+        },
+        {
+          "orbital": "5s",
+          "electrons": 1
+        }
+      ]
+    },
+    "atomicNumber": 42,
+    "symbol": "Mo",
+    "nameZh": "钼",
+    "nameEn": "Molybdenum",
+    "atomicMass": "95.95",
+    "period": 5,
+    "group": 6,
+    "category": "transitionMetal",
+    "block": "d",
+    "electronConfiguration": "[Kr]4d5 5s1",
+    "displayRow": 5,
+    "displayColumn": 6,
+    "phaseAtStp": "固态",
+    "density": 10.28,
+    "meltingPointK": 2896,
+    "boilingPointK": 4912,
+    "electronegativityPauling": 2.16,
+    "atomicRadiusPm": 190,
+    "oxidationStates": "+4,+6",
+    "discoveryYear": 1778,
+    "discoverer": "Carl Wilhelm Scheele",
+    "uses": "高温合金、催化剂、润滑剂",
+    "notes": null,
+    "densityUnit": "g/cm³",
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      13,
+      1
+    ]
+  },
+  {
+    "atomicMassType": "representativeMassNumber",
+    "representativeMassNumber": 98,
+    "valenceConfiguration": "4d5 5s2",
+    "valenceConfigurationData": {
+      "nobleGasCore": null,
+      "orbitals": [
+        {
+          "orbital": "4d",
+          "electrons": 5
+        },
+        {
+          "orbital": "5s",
+          "electrons": 2
+        }
+      ]
+    },
+    "electronConfigurationData": {
+      "nobleGasCore": "Kr",
+      "orbitals": [
+        {
+          "orbital": "4d",
+          "electrons": 5
+        },
+        {
+          "orbital": "5s",
+          "electrons": 2
+        }
+      ]
+    },
+    "atomicNumber": 43,
+    "symbol": "Tc",
+    "nameZh": "锝",
+    "nameEn": "Technetium",
+    "atomicMass": "[98]",
+    "period": 5,
+    "group": 7,
+    "category": "transitionMetal",
+    "block": "d",
+    "electronConfiguration": "[Kr]4d5 5s2",
+    "displayRow": 5,
+    "displayColumn": 7,
+    "phaseAtStp": "固态",
+    "density": 11,
+    "meltingPointK": 2430,
+    "boilingPointK": 4538,
+    "electronegativityPauling": 1.9,
+    "atomicRadiusPm": 183,
+    "oxidationStates": "+4,+7",
+    "discoveryYear": 1937,
+    "discoverer": "Carlo Perrier 与 Emilio Segrè",
+    "uses": "医学显像、腐蚀研究",
+    "notes": null,
+    "densityUnit": "g/cm³",
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      13,
+      2
+    ]
+  },
+  {
+    "atomicMassType": "standardAtomicWeight",
+    "representativeMassNumber": null,
+    "valenceConfiguration": "4d7 5s1",
+    "valenceConfigurationData": {
+      "nobleGasCore": null,
+      "orbitals": [
+        {
+          "orbital": "4d",
+          "electrons": 7
+        },
+        {
+          "orbital": "5s",
+          "electrons": 1
+        }
+      ]
+    },
+    "electronConfigurationData": {
+      "nobleGasCore": "Kr",
+      "orbitals": [
+        {
+          "orbital": "4d",
+          "electrons": 7
+        },
+        {
+          "orbital": "5s",
+          "electrons": 1
+        }
+      ]
+    },
+    "atomicNumber": 44,
+    "symbol": "Ru",
+    "nameZh": "钌",
+    "nameEn": "Ruthenium",
+    "atomicMass": "101.07",
+    "period": 5,
+    "group": 8,
+    "category": "transitionMetal",
+    "block": "d",
+    "electronConfiguration": "[Kr]4d7 5s1",
+    "displayRow": 5,
+    "displayColumn": 8,
+    "phaseAtStp": "固态",
+    "density": 12.37,
+    "meltingPointK": 2607,
+    "boilingPointK": 4423,
+    "electronegativityPauling": 2.2,
+    "atomicRadiusPm": 178,
+    "oxidationStates": "+3,+4",
+    "discoveryYear": 1844,
+    "discoverer": "Karl Ernst Claus",
+    "uses": "电子触点、催化剂、耐磨合金",
+    "notes": null,
+    "densityUnit": "g/cm³",
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      15,
+      1
+    ]
+  },
+  {
+    "atomicMassType": "standardAtomicWeight",
+    "representativeMassNumber": null,
+    "valenceConfiguration": "4d8 5s1",
+    "valenceConfigurationData": {
+      "nobleGasCore": null,
+      "orbitals": [
+        {
+          "orbital": "4d",
+          "electrons": 8
+        },
+        {
+          "orbital": "5s",
+          "electrons": 1
+        }
+      ]
+    },
+    "electronConfigurationData": {
+      "nobleGasCore": "Kr",
+      "orbitals": [
+        {
+          "orbital": "4d",
+          "electrons": 8
+        },
+        {
+          "orbital": "5s",
+          "electrons": 1
+        }
+      ]
+    },
+    "atomicNumber": 45,
+    "symbol": "Rh",
+    "nameZh": "铑",
+    "nameEn": "Rhodium",
+    "atomicMass": "102.90550",
+    "period": 5,
+    "group": 9,
+    "category": "transitionMetal",
+    "block": "d",
+    "electronConfiguration": "[Kr]4d8 5s1",
+    "displayRow": 5,
+    "displayColumn": 9,
+    "phaseAtStp": "固态",
+    "density": 12.45,
+    "meltingPointK": 2237,
+    "boilingPointK": 3968,
+    "electronegativityPauling": 2.28,
+    "atomicRadiusPm": 173,
+    "oxidationStates": "+3",
+    "discoveryYear": 1803,
+    "discoverer": "William Hyde Wollaston",
+    "uses": "汽车催化、电接触、首饰",
+    "notes": null,
+    "densityUnit": "g/cm³",
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      16,
+      1
+    ]
+  },
+  {
+    "atomicMassType": "standardAtomicWeight",
+    "representativeMassNumber": null,
+    "valenceConfiguration": "4d10",
+    "valenceConfigurationData": {
+      "nobleGasCore": null,
+      "orbitals": [
+        {
+          "orbital": "4d",
+          "electrons": 10
+        }
+      ]
+    },
+    "electronConfigurationData": {
+      "nobleGasCore": "Kr",
+      "orbitals": [
+        {
+          "orbital": "4d",
+          "electrons": 10
+        }
+      ]
+    },
+    "atomicNumber": 46,
+    "symbol": "Pd",
+    "nameZh": "钯",
+    "nameEn": "Palladium",
+    "atomicMass": "106.42",
+    "period": 5,
+    "group": 10,
+    "category": "transitionMetal",
+    "block": "d",
+    "electronConfiguration": "[Kr]4d10",
+    "displayRow": 5,
+    "displayColumn": 10,
+    "phaseAtStp": "固态",
+    "density": 12.023,
+    "meltingPointK": 1828.05,
+    "boilingPointK": 3236,
+    "electronegativityPauling": 2.2,
+    "atomicRadiusPm": 169,
+    "oxidationStates": "+2,+4",
+    "discoveryYear": 1803,
+    "discoverer": "William Hyde Wollaston",
+    "uses": "催化剂、储氢、牙科材料",
+    "notes": null,
+    "densityUnit": "g/cm³",
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      18
+    ]
+  },
+  {
+    "atomicMassType": "standardAtomicWeight",
+    "representativeMassNumber": null,
+    "valenceConfiguration": "4d10 5s1",
+    "valenceConfigurationData": {
+      "nobleGasCore": null,
+      "orbitals": [
+        {
+          "orbital": "4d",
+          "electrons": 10
+        },
+        {
+          "orbital": "5s",
+          "electrons": 1
+        }
+      ]
+    },
+    "electronConfigurationData": {
+      "nobleGasCore": "Kr",
+      "orbitals": [
+        {
+          "orbital": "4d",
+          "electrons": 10
+        },
+        {
+          "orbital": "5s",
+          "electrons": 1
+        }
+      ]
+    },
+    "atomicNumber": 47,
+    "symbol": "Ag",
+    "nameZh": "银",
+    "nameEn": "Silver",
+    "atomicMass": "107.8682",
+    "period": 5,
+    "group": 11,
+    "category": "transitionMetal",
+    "block": "d",
+    "electronConfiguration": "[Kr]4d10 5s1",
+    "displayRow": 5,
+    "displayColumn": 11,
+    "phaseAtStp": "固态",
+    "density": 10.49,
+    "meltingPointK": 1234.93,
+    "boilingPointK": 2435,
+    "electronegativityPauling": 1.93,
+    "atomicRadiusPm": 165,
+    "oxidationStates": "+1",
+    "discoveryYear": null,
+    "discoverer": "古代已知",
+    "uses": "导电触点、首饰、抗菌材料",
+    "notes": "基态电子排布存在 4d 与 5s 能级竞争。",
+    "densityUnit": "g/cm³",
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      18,
+      1
+    ]
+  },
+  {
+    "atomicMassType": "standardAtomicWeight",
+    "representativeMassNumber": null,
+    "valenceConfiguration": "4d10 5s2",
+    "valenceConfigurationData": {
+      "nobleGasCore": null,
+      "orbitals": [
+        {
+          "orbital": "4d",
+          "electrons": 10
+        },
+        {
+          "orbital": "5s",
+          "electrons": 2
+        }
+      ]
+    },
+    "electronConfigurationData": {
+      "nobleGasCore": "Kr",
+      "orbitals": [
+        {
+          "orbital": "4d",
+          "electrons": 10
+        },
+        {
+          "orbital": "5s",
+          "electrons": 2
+        }
+      ]
+    },
+    "atomicNumber": 48,
+    "symbol": "Cd",
+    "nameZh": "镉",
+    "nameEn": "Cadmium",
+    "atomicMass": "112.414",
+    "period": 5,
+    "group": 12,
+    "category": "transitionMetal",
+    "block": "d",
+    "electronConfiguration": "[Kr]4d10 5s2",
+    "displayRow": 5,
+    "displayColumn": 12,
+    "phaseAtStp": "固态",
+    "density": 8.65,
+    "meltingPointK": 594.22,
+    "boilingPointK": 1040,
+    "electronegativityPauling": 1.69,
+    "atomicRadiusPm": 161,
+    "oxidationStates": "+2",
+    "discoveryYear": 1817,
+    "discoverer": "Friedrich Stromeyer",
+    "uses": "电池、颜料、合金",
+    "notes": null,
+    "densityUnit": "g/cm³",
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      18,
+      2
+    ]
+  },
+  {
+    "atomicMassType": "standardAtomicWeight",
+    "representativeMassNumber": null,
+    "valenceConfiguration": "4d10 5s2 5p1",
+    "valenceConfigurationData": {
+      "nobleGasCore": null,
+      "orbitals": [
+        {
+          "orbital": "4d",
+          "electrons": 10
+        },
+        {
+          "orbital": "5s",
+          "electrons": 2
+        },
+        {
+          "orbital": "5p",
+          "electrons": 1
+        }
+      ]
+    },
+    "electronConfigurationData": {
+      "nobleGasCore": "Kr",
+      "orbitals": [
+        {
+          "orbital": "4d",
+          "electrons": 10
+        },
+        {
+          "orbital": "5s",
+          "electrons": 2
+        },
+        {
+          "orbital": "5p",
+          "electrons": 1
+        }
+      ]
+    },
+    "atomicNumber": 49,
+    "symbol": "In",
+    "nameZh": "铟",
+    "nameEn": "Indium",
+    "atomicMass": "114.818",
+    "period": 5,
+    "group": 13,
+    "category": "postTransitionMetal",
+    "block": "p",
+    "electronConfiguration": "[Kr]4d10 5s2 5p1",
+    "displayRow": 5,
+    "displayColumn": 13,
+    "phaseAtStp": "固态",
+    "density": 7.31,
+    "meltingPointK": 429.7485,
+    "boilingPointK": 2345,
+    "electronegativityPauling": 1.78,
+    "atomicRadiusPm": 156,
+    "oxidationStates": "+3",
+    "discoveryYear": 1863,
+    "discoverer": "Ferdinand Reich 与 Hieronymous Richter",
+    "uses": "ITO 透明电极、焊料",
+    "notes": null,
+    "densityUnit": "g/cm³",
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      18,
+      3
+    ]
+  },
+  {
+    "atomicMassType": "standardAtomicWeight",
+    "representativeMassNumber": null,
+    "valenceConfiguration": "4d10 5s2 5p2",
+    "valenceConfigurationData": {
+      "nobleGasCore": null,
+      "orbitals": [
+        {
+          "orbital": "4d",
+          "electrons": 10
+        },
+        {
+          "orbital": "5s",
+          "electrons": 2
+        },
+        {
+          "orbital": "5p",
+          "electrons": 2
+        }
+      ]
+    },
+    "electronConfigurationData": {
+      "nobleGasCore": "Kr",
+      "orbitals": [
+        {
+          "orbital": "4d",
+          "electrons": 10
+        },
+        {
+          "orbital": "5s",
+          "electrons": 2
+        },
+        {
+          "orbital": "5p",
+          "electrons": 2
+        }
+      ]
+    },
+    "atomicNumber": 50,
+    "symbol": "Sn",
+    "nameZh": "锡",
+    "nameEn": "Tin",
+    "atomicMass": "118.710",
+    "period": 5,
+    "group": 14,
+    "category": "postTransitionMetal",
+    "block": "p",
+    "electronConfiguration": "[Kr]4d10 5s2 5p2",
+    "displayRow": 5,
+    "displayColumn": 14,
+    "phaseAtStp": "固态",
+    "density": 7.287,
+    "meltingPointK": 505.08,
+    "boilingPointK": 2875,
+    "electronegativityPauling": 1.96,
+    "atomicRadiusPm": 145,
+    "oxidationStates": "+2,+4",
+    "discoveryYear": null,
+    "discoverer": "古代已知",
+    "uses": "焊料、镀锡、青铜",
+    "notes": null,
+    "densityUnit": "g/cm³",
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      18,
+      4
+    ]
+  },
+  {
+    "atomicMassType": "standardAtomicWeight",
+    "representativeMassNumber": null,
+    "valenceConfiguration": "4d10 5s2 5p3",
+    "valenceConfigurationData": {
+      "nobleGasCore": null,
+      "orbitals": [
+        {
+          "orbital": "4d",
+          "electrons": 10
+        },
+        {
+          "orbital": "5s",
+          "electrons": 2
+        },
+        {
+          "orbital": "5p",
+          "electrons": 3
+        }
+      ]
+    },
+    "electronConfigurationData": {
+      "nobleGasCore": "Kr",
+      "orbitals": [
+        {
+          "orbital": "4d",
+          "electrons": 10
+        },
+        {
+          "orbital": "5s",
+          "electrons": 2
+        },
+        {
+          "orbital": "5p",
+          "electrons": 3
+        }
+      ]
+    },
+    "atomicNumber": 51,
+    "symbol": "Sb",
+    "nameZh": "锑",
+    "nameEn": "Antimony",
+    "atomicMass": "121.760",
+    "period": 5,
+    "group": 15,
+    "category": "metalloid",
+    "block": "p",
+    "electronConfiguration": "[Kr]4d10 5s2 5p3",
+    "displayRow": 5,
+    "displayColumn": 15,
+    "phaseAtStp": "固态",
+    "density": 6.685,
+    "meltingPointK": 903.78,
+    "boilingPointK": 1908,
+    "electronegativityPauling": 2.05,
+    "atomicRadiusPm": 133,
+    "oxidationStates": "-3,+3,+5",
+    "discoveryYear": null,
+    "discoverer": "古代已知",
+    "uses": "阻燃剂、铅酸电池、半导体",
+    "notes": null,
+    "densityUnit": "g/cm³",
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      18,
+      5
+    ]
+  },
+  {
+    "atomicMassType": "standardAtomicWeight",
+    "representativeMassNumber": null,
+    "valenceConfiguration": "4d10 5s2 5p4",
+    "valenceConfigurationData": {
+      "nobleGasCore": null,
+      "orbitals": [
+        {
+          "orbital": "4d",
+          "electrons": 10
+        },
+        {
+          "orbital": "5s",
+          "electrons": 2
+        },
+        {
+          "orbital": "5p",
+          "electrons": 4
+        }
+      ]
+    },
+    "electronConfigurationData": {
+      "nobleGasCore": "Kr",
+      "orbitals": [
+        {
+          "orbital": "4d",
+          "electrons": 10
+        },
+        {
+          "orbital": "5s",
+          "electrons": 2
+        },
+        {
+          "orbital": "5p",
+          "electrons": 4
+        }
+      ]
+    },
+    "atomicNumber": 52,
+    "symbol": "Te",
+    "nameZh": "碲",
+    "nameEn": "Tellurium",
+    "atomicMass": "127.60",
+    "period": 5,
+    "group": 16,
+    "category": "metalloid",
+    "block": "p",
+    "electronConfiguration": "[Kr]4d10 5s2 5p4",
+    "displayRow": 5,
+    "displayColumn": 16,
+    "phaseAtStp": "固态",
+    "density": 6.232,
+    "meltingPointK": 722.66,
+    "boilingPointK": 1261,
+    "electronegativityPauling": 2.1,
+    "atomicRadiusPm": 123,
+    "oxidationStates": "-2,+4,+6",
+    "discoveryYear": 1782,
+    "discoverer": "Franz-Joseph Müller von Reichenstein",
+    "uses": "热电材料、碲化镉薄膜",
+    "notes": null,
+    "densityUnit": "g/cm³",
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      18,
+      6
+    ]
+  },
+  {
+    "atomicMassType": "standardAtomicWeight",
+    "representativeMassNumber": null,
+    "valenceConfiguration": "4d10 5s2 5p5",
+    "valenceConfigurationData": {
+      "nobleGasCore": null,
+      "orbitals": [
+        {
+          "orbital": "4d",
+          "electrons": 10
+        },
+        {
+          "orbital": "5s",
+          "electrons": 2
+        },
+        {
+          "orbital": "5p",
+          "electrons": 5
+        }
+      ]
+    },
+    "electronConfigurationData": {
+      "nobleGasCore": "Kr",
+      "orbitals": [
+        {
+          "orbital": "4d",
+          "electrons": 10
+        },
+        {
+          "orbital": "5s",
+          "electrons": 2
+        },
+        {
+          "orbital": "5p",
+          "electrons": 5
+        }
+      ]
+    },
+    "atomicNumber": 53,
+    "symbol": "I",
+    "nameZh": "碘",
+    "nameEn": "Iodine",
+    "atomicMass": "126.90447",
+    "period": 5,
+    "group": 17,
+    "category": "halogen",
+    "block": "p",
+    "electronConfiguration": "[Kr]4d10 5s2 5p5",
+    "displayRow": 5,
+    "displayColumn": 17,
+    "phaseAtStp": "固态",
+    "density": 4.933,
+    "meltingPointK": 386.85,
+    "boilingPointK": 457.4,
+    "electronegativityPauling": 2.66,
+    "atomicRadiusPm": 115,
+    "oxidationStates": "-1,+1,+3,+5,+7",
+    "discoveryYear": 1811,
+    "discoverer": "Bernard Courtois",
+    "uses": "消毒、显影、甲状腺功能",
+    "notes": null,
+    "densityUnit": "g/cm³",
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      18,
+      7
+    ]
+  },
+  {
+    "atomicMassType": "standardAtomicWeight",
+    "representativeMassNumber": null,
+    "valenceConfiguration": "4d10 5s2 5p6",
+    "valenceConfigurationData": {
+      "nobleGasCore": null,
+      "orbitals": [
+        {
+          "orbital": "4d",
+          "electrons": 10
+        },
+        {
+          "orbital": "5s",
+          "electrons": 2
+        },
+        {
+          "orbital": "5p",
+          "electrons": 6
+        }
+      ]
+    },
+    "electronConfigurationData": {
+      "nobleGasCore": "Kr",
+      "orbitals": [
+        {
+          "orbital": "4d",
+          "electrons": 10
+        },
+        {
+          "orbital": "5s",
+          "electrons": 2
+        },
+        {
+          "orbital": "5p",
+          "electrons": 6
+        }
+      ]
+    },
+    "atomicNumber": 54,
+    "symbol": "Xe",
+    "nameZh": "氙",
+    "nameEn": "Xenon",
+    "atomicMass": "131.293",
+    "period": 5,
+    "group": 18,
+    "category": "nobleGas",
+    "block": "p",
+    "electronConfiguration": "[Kr]4d10 5s2 5p6",
+    "displayRow": 5,
+    "displayColumn": 18,
+    "phaseAtStp": "气态",
+    "density": 5.887,
+    "meltingPointK": 161.4,
+    "boilingPointK": 165.051,
+    "electronegativityPauling": 2.6,
+    "atomicRadiusPm": 108,
+    "oxidationStates": "0,+2",
+    "discoveryYear": 1898,
+    "discoverer": "William Ramsay 与 Morris Travers",
+    "uses": "闪光灯、离子推进、全身麻醉",
+    "notes": null,
+    "densityUnit": "g/L (0°C, 101.325 kPa)",
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      18,
+      8
+    ]
+  },
+  {
+    "atomicMassType": "standardAtomicWeight",
+    "representativeMassNumber": null,
+    "valenceConfiguration": "6s1",
+    "valenceConfigurationData": {
+      "nobleGasCore": null,
+      "orbitals": [
+        {
+          "orbital": "6s",
+          "electrons": 1
+        }
+      ]
+    },
+    "electronConfigurationData": {
+      "nobleGasCore": "Xe",
+      "orbitals": [
+        {
+          "orbital": "6s",
+          "electrons": 1
+        }
+      ]
+    },
+    "atomicNumber": 55,
+    "symbol": "Cs",
+    "nameZh": "铯",
+    "nameEn": "Caesium",
+    "atomicMass": "132.90545196",
+    "period": 6,
+    "group": 1,
+    "category": "alkaliMetal",
+    "block": "s",
+    "electronConfiguration": "[Xe]6s1",
+    "displayRow": 6,
+    "displayColumn": 1,
+    "phaseAtStp": "固态",
+    "density": 1.93,
+    "meltingPointK": 301.7,
+    "boilingPointK": 944,
+    "electronegativityPauling": 0.79,
+    "atomicRadiusPm": 298,
+    "oxidationStates": "+1",
+    "discoveryYear": 1860,
+    "discoverer": "Robert Bunsen 与 Gustav Kirchhoff",
+    "uses": "原子钟、钻井液、光电材料",
+    "notes": null,
+    "densityUnit": "g/cm³",
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      18,
+      8,
+      1
+    ]
+  },
+  {
+    "atomicMassType": "standardAtomicWeight",
+    "representativeMassNumber": null,
+    "valenceConfiguration": "6s2",
+    "valenceConfigurationData": {
+      "nobleGasCore": null,
+      "orbitals": [
+        {
+          "orbital": "6s",
+          "electrons": 2
+        }
+      ]
+    },
+    "electronConfigurationData": {
+      "nobleGasCore": "Xe",
+      "orbitals": [
+        {
+          "orbital": "6s",
+          "electrons": 2
+        }
+      ]
+    },
+    "atomicNumber": 56,
+    "symbol": "Ba",
+    "nameZh": "钡",
+    "nameEn": "Barium",
+    "atomicMass": "137.327",
+    "period": 6,
+    "group": 2,
+    "category": "alkalineEarthMetal",
+    "block": "s",
+    "electronConfiguration": "[Xe]6s2",
+    "displayRow": 6,
+    "displayColumn": 2,
+    "phaseAtStp": "固态",
+    "density": 3.51,
+    "meltingPointK": 1000,
+    "boilingPointK": 2118,
+    "electronegativityPauling": 0.89,
+    "atomicRadiusPm": 253,
+    "oxidationStates": "+2",
+    "discoveryYear": 1808,
+    "discoverer": "Humphry Davy",
+    "uses": "钻井液、医学造影、玻璃",
+    "notes": null,
+    "densityUnit": "g/cm³",
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      18,
+      8,
+      2
+    ]
+  },
+  {
+    "atomicMassType": "standardAtomicWeight",
+    "representativeMassNumber": null,
+    "valenceConfiguration": "5d1 6s2",
+    "valenceConfigurationData": {
+      "nobleGasCore": null,
+      "orbitals": [
+        {
+          "orbital": "5d",
+          "electrons": 1
+        },
+        {
+          "orbital": "6s",
+          "electrons": 2
+        }
+      ]
+    },
+    "electronConfigurationData": {
+      "nobleGasCore": "Xe",
+      "orbitals": [
+        {
+          "orbital": "5d",
+          "electrons": 1
+        },
+        {
+          "orbital": "6s",
+          "electrons": 2
+        }
+      ]
+    },
+    "atomicNumber": 57,
+    "symbol": "La",
+    "nameZh": "镧",
+    "nameEn": "Lanthanum",
+    "atomicMass": "138.90547",
+    "period": 6,
+    "group": null,
+    "category": "lanthanide",
+    "block": "f",
+    "electronConfiguration": "[Xe]5d1 6s2",
+    "displayRow": 9,
+    "displayColumn": 3,
+    "phaseAtStp": "固态",
+    "density": 6.162,
+    "meltingPointK": 1193,
+    "boilingPointK": 3737,
+    "electronegativityPauling": 1.1,
+    "atomicRadiusPm": 226,
+    "oxidationStates": "+3",
+    "discoveryYear": 1839,
+    "discoverer": "Carl Gustaf Mosander",
+    "uses": "光学玻璃、催化裂化、电池",
+    "notes": null,
+    "densityUnit": "g/cm³",
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      18,
+      9,
+      2
+    ]
+  },
+  {
+    "atomicMassType": "standardAtomicWeight",
+    "representativeMassNumber": null,
+    "valenceConfiguration": "4f1 5d1 6s2",
+    "valenceConfigurationData": {
+      "nobleGasCore": null,
+      "orbitals": [
+        {
+          "orbital": "4f",
+          "electrons": 1
+        },
+        {
+          "orbital": "5d",
+          "electrons": 1
+        },
+        {
+          "orbital": "6s",
+          "electrons": 2
+        }
+      ]
+    },
+    "electronConfigurationData": {
+      "nobleGasCore": "Xe",
+      "orbitals": [
+        {
+          "orbital": "4f",
+          "electrons": 1
+        },
+        {
+          "orbital": "5d",
+          "electrons": 1
+        },
+        {
+          "orbital": "6s",
+          "electrons": 2
+        }
+      ]
+    },
+    "atomicNumber": 58,
+    "symbol": "Ce",
+    "nameZh": "铈",
+    "nameEn": "Cerium",
+    "atomicMass": "140.116",
+    "period": 6,
+    "group": null,
+    "category": "lanthanide",
+    "block": "f",
+    "electronConfiguration": "[Xe]4f1 5d1 6s2",
+    "displayRow": 9,
+    "displayColumn": 4,
+    "phaseAtStp": "固态",
+    "density": 6.77,
+    "meltingPointK": 1068,
+    "boilingPointK": 3716,
+    "electronegativityPauling": 1.12,
+    "atomicRadiusPm": 210,
+    "oxidationStates": "+3,+4",
+    "discoveryYear": 1803,
+    "discoverer": "Martin Heinrich Klaproth 与 Jöns Jacob Berzelius",
+    "uses": "催化、抛光粉、玻璃",
+    "notes": "基态电子排布存在 4f 与 5d 能级竞争。",
+    "densityUnit": "g/cm³",
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      19,
+      9,
+      2
+    ]
+  },
+  {
+    "atomicMassType": "standardAtomicWeight",
+    "representativeMassNumber": null,
+    "valenceConfiguration": "4f3 6s2",
+    "valenceConfigurationData": {
+      "nobleGasCore": null,
+      "orbitals": [
+        {
+          "orbital": "4f",
+          "electrons": 3
+        },
+        {
+          "orbital": "6s",
+          "electrons": 2
+        }
+      ]
+    },
+    "electronConfigurationData": {
+      "nobleGasCore": "Xe",
+      "orbitals": [
+        {
+          "orbital": "4f",
+          "electrons": 3
+        },
+        {
+          "orbital": "6s",
+          "electrons": 2
+        }
+      ]
+    },
+    "atomicNumber": 59,
+    "symbol": "Pr",
+    "nameZh": "镨",
+    "nameEn": "Praseodymium",
+    "atomicMass": "140.90766",
+    "period": 6,
+    "group": null,
+    "category": "lanthanide",
+    "block": "f",
+    "electronConfiguration": "[Xe]4f3 6s2",
+    "displayRow": 9,
+    "displayColumn": 5,
+    "phaseAtStp": "固态",
+    "density": 6.77,
+    "meltingPointK": 1208,
+    "boilingPointK": 3403,
+    "electronegativityPauling": 1.13,
+    "atomicRadiusPm": 247,
+    "oxidationStates": "+3,+4",
+    "discoveryYear": 1885,
+    "discoverer": "Carl Auer von Welsbach",
+    "uses": "高强度磁体、着色玻璃",
+    "notes": null,
+    "densityUnit": "g/cm³",
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      21,
+      8,
+      2
+    ]
+  },
+  {
+    "atomicMassType": "standardAtomicWeight",
+    "representativeMassNumber": null,
+    "valenceConfiguration": "4f4 6s2",
+    "valenceConfigurationData": {
+      "nobleGasCore": null,
+      "orbitals": [
+        {
+          "orbital": "4f",
+          "electrons": 4
+        },
+        {
+          "orbital": "6s",
+          "electrons": 2
+        }
+      ]
+    },
+    "electronConfigurationData": {
+      "nobleGasCore": "Xe",
+      "orbitals": [
+        {
+          "orbital": "4f",
+          "electrons": 4
+        },
+        {
+          "orbital": "6s",
+          "electrons": 2
+        }
+      ]
+    },
+    "atomicNumber": 60,
+    "symbol": "Nd",
+    "nameZh": "钕",
+    "nameEn": "Neodymium",
+    "atomicMass": "144.242",
+    "period": 6,
+    "group": null,
+    "category": "lanthanide",
+    "block": "f",
+    "electronConfiguration": "[Xe]4f4 6s2",
+    "displayRow": 9,
+    "displayColumn": 6,
+    "phaseAtStp": "固态",
+    "density": 7.01,
+    "meltingPointK": 1297,
+    "boilingPointK": 3347,
+    "electronegativityPauling": 1.14,
+    "atomicRadiusPm": 206,
+    "oxidationStates": "+3",
+    "discoveryYear": 1885,
+    "discoverer": "Carl Auer von Welsbach",
+    "uses": "钕铁硼磁体、激光",
+    "notes": null,
+    "densityUnit": "g/cm³",
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      22,
+      8,
+      2
+    ]
+  },
+  {
+    "atomicMassType": "representativeMassNumber",
+    "representativeMassNumber": 145,
+    "valenceConfiguration": "4f5 6s2",
+    "valenceConfigurationData": {
+      "nobleGasCore": null,
+      "orbitals": [
+        {
+          "orbital": "4f",
+          "electrons": 5
+        },
+        {
+          "orbital": "6s",
+          "electrons": 2
+        }
+      ]
+    },
+    "electronConfigurationData": {
+      "nobleGasCore": "Xe",
+      "orbitals": [
+        {
+          "orbital": "4f",
+          "electrons": 5
+        },
+        {
+          "orbital": "6s",
+          "electrons": 2
+        }
+      ]
+    },
+    "atomicNumber": 61,
+    "symbol": "Pm",
+    "nameZh": "钷",
+    "nameEn": "Promethium",
+    "atomicMass": "[145]",
+    "period": 6,
+    "group": null,
+    "category": "lanthanide",
+    "block": "f",
+    "electronConfiguration": "[Xe]4f5 6s2",
+    "displayRow": 9,
+    "displayColumn": 7,
+    "phaseAtStp": "固态",
+    "density": 7.26,
+    "meltingPointK": 1315,
+    "boilingPointK": 3273,
+    "electronegativityPauling": null,
+    "atomicRadiusPm": 205,
+    "oxidationStates": "+3",
+    "discoveryYear": 1945,
+    "discoverer": "Jacob A. Marinsky 等",
+    "uses": "核电池、放射性示踪",
+    "notes": null,
+    "densityUnit": "g/cm³",
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      23,
+      8,
+      2
+    ]
+  },
+  {
+    "atomicMassType": "standardAtomicWeight",
+    "representativeMassNumber": null,
+    "valenceConfiguration": "4f6 6s2",
+    "valenceConfigurationData": {
+      "nobleGasCore": null,
+      "orbitals": [
+        {
+          "orbital": "4f",
+          "electrons": 6
+        },
+        {
+          "orbital": "6s",
+          "electrons": 2
+        }
+      ]
+    },
+    "electronConfigurationData": {
+      "nobleGasCore": "Xe",
+      "orbitals": [
+        {
+          "orbital": "4f",
+          "electrons": 6
+        },
+        {
+          "orbital": "6s",
+          "electrons": 2
+        }
+      ]
+    },
+    "atomicNumber": 62,
+    "symbol": "Sm",
+    "nameZh": "钐",
+    "nameEn": "Samarium",
+    "atomicMass": "150.36",
+    "period": 6,
+    "group": null,
+    "category": "lanthanide",
+    "block": "f",
+    "electronConfiguration": "[Xe]4f6 6s2",
+    "displayRow": 9,
+    "displayColumn": 8,
+    "phaseAtStp": "固态",
+    "density": 7.52,
+    "meltingPointK": 1345,
+    "boilingPointK": 2173,
+    "electronegativityPauling": 1.17,
+    "atomicRadiusPm": 238,
+    "oxidationStates": "+2,+3",
+    "discoveryYear": 1879,
+    "discoverer": "Paul-Émile Lecoq de Boisbaudran",
+    "uses": "钐钴磁体、中子吸收",
+    "notes": null,
+    "densityUnit": "g/cm³",
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      24,
+      8,
+      2
+    ]
+  },
+  {
+    "atomicMassType": "standardAtomicWeight",
+    "representativeMassNumber": null,
+    "valenceConfiguration": "4f7 6s2",
+    "valenceConfigurationData": {
+      "nobleGasCore": null,
+      "orbitals": [
+        {
+          "orbital": "4f",
+          "electrons": 7
+        },
+        {
+          "orbital": "6s",
+          "electrons": 2
+        }
+      ]
+    },
+    "electronConfigurationData": {
+      "nobleGasCore": "Xe",
+      "orbitals": [
+        {
+          "orbital": "4f",
+          "electrons": 7
+        },
+        {
+          "orbital": "6s",
+          "electrons": 2
+        }
+      ]
+    },
+    "atomicNumber": 63,
+    "symbol": "Eu",
+    "nameZh": "铕",
+    "nameEn": "Europium",
+    "atomicMass": "151.964",
+    "period": 6,
+    "group": null,
+    "category": "lanthanide",
+    "block": "f",
+    "electronConfiguration": "[Xe]4f7 6s2",
+    "displayRow": 9,
+    "displayColumn": 9,
+    "phaseAtStp": "固态",
+    "density": 5.244,
+    "meltingPointK": 1099,
+    "boilingPointK": 1802,
+    "electronegativityPauling": null,
+    "atomicRadiusPm": 231,
+    "oxidationStates": "+2,+3",
+    "discoveryYear": 1901,
+    "discoverer": "Eugène-Anatole Demarçay",
+    "uses": "荧光粉、防伪标记",
+    "notes": null,
+    "densityUnit": "g/cm³",
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      25,
+      8,
+      2
+    ]
+  },
+  {
+    "atomicMassType": "standardAtomicWeight",
+    "representativeMassNumber": null,
+    "valenceConfiguration": "4f7 5d1 6s2",
+    "valenceConfigurationData": {
+      "nobleGasCore": null,
+      "orbitals": [
+        {
+          "orbital": "4f",
+          "electrons": 7
+        },
+        {
+          "orbital": "5d",
+          "electrons": 1
+        },
+        {
+          "orbital": "6s",
+          "electrons": 2
+        }
+      ]
+    },
+    "electronConfigurationData": {
+      "nobleGasCore": "Xe",
+      "orbitals": [
+        {
+          "orbital": "4f",
+          "electrons": 7
+        },
+        {
+          "orbital": "5d",
+          "electrons": 1
+        },
+        {
+          "orbital": "6s",
+          "electrons": 2
+        }
+      ]
+    },
+    "atomicNumber": 64,
+    "symbol": "Gd",
+    "nameZh": "钆",
+    "nameEn": "Gadolinium",
+    "atomicMass": "157.25",
+    "period": 6,
+    "group": null,
+    "category": "lanthanide",
+    "block": "f",
+    "electronConfiguration": "[Xe]4f7 5d1 6s2",
+    "displayRow": 9,
+    "displayColumn": 10,
+    "phaseAtStp": "固态",
+    "density": 7.9,
+    "meltingPointK": 1585,
+    "boilingPointK": 3546,
+    "electronegativityPauling": 1.2,
+    "atomicRadiusPm": 233,
+    "oxidationStates": "+3",
+    "discoveryYear": 1880,
+    "discoverer": "Jean Charles Galissard de Marignac",
+    "uses": "磁共振造影、磁制冷",
+    "notes": "5d 电子参与稳定基态。",
+    "densityUnit": "g/cm³",
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      25,
+      9,
+      2
+    ]
+  },
+  {
+    "atomicMassType": "standardAtomicWeight",
+    "representativeMassNumber": null,
+    "valenceConfiguration": "4f9 6s2",
+    "valenceConfigurationData": {
+      "nobleGasCore": null,
+      "orbitals": [
+        {
+          "orbital": "4f",
+          "electrons": 9
+        },
+        {
+          "orbital": "6s",
+          "electrons": 2
+        }
+      ]
+    },
+    "electronConfigurationData": {
+      "nobleGasCore": "Xe",
+      "orbitals": [
+        {
+          "orbital": "4f",
+          "electrons": 9
+        },
+        {
+          "orbital": "6s",
+          "electrons": 2
+        }
+      ]
+    },
+    "atomicNumber": 65,
+    "symbol": "Tb",
+    "nameZh": "铽",
+    "nameEn": "Terbium",
+    "atomicMass": "158.92535",
+    "period": 6,
+    "group": null,
+    "category": "lanthanide",
+    "block": "f",
+    "electronConfiguration": "[Xe]4f9 6s2",
+    "displayRow": 9,
+    "displayColumn": 11,
+    "phaseAtStp": "固态",
+    "density": 8.23,
+    "meltingPointK": 1629,
+    "boilingPointK": 3503,
+    "electronegativityPauling": null,
+    "atomicRadiusPm": 225,
+    "oxidationStates": "+3,+4",
+    "discoveryYear": 1843,
+    "discoverer": "Carl Gustaf Mosander",
+    "uses": "荧光材料、磁致伸缩材料",
+    "notes": null,
+    "densityUnit": "g/cm³",
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      27,
+      8,
+      2
+    ]
+  },
+  {
+    "atomicMassType": "standardAtomicWeight",
+    "representativeMassNumber": null,
+    "valenceConfiguration": "4f10 6s2",
+    "valenceConfigurationData": {
+      "nobleGasCore": null,
+      "orbitals": [
+        {
+          "orbital": "4f",
+          "electrons": 10
+        },
+        {
+          "orbital": "6s",
+          "electrons": 2
+        }
+      ]
+    },
+    "electronConfigurationData": {
+      "nobleGasCore": "Xe",
+      "orbitals": [
+        {
+          "orbital": "4f",
+          "electrons": 10
+        },
+        {
+          "orbital": "6s",
+          "electrons": 2
+        }
+      ]
+    },
+    "atomicNumber": 66,
+    "symbol": "Dy",
+    "nameZh": "镝",
+    "nameEn": "Dysprosium",
+    "atomicMass": "162.500",
+    "period": 6,
+    "group": null,
+    "category": "lanthanide",
+    "block": "f",
+    "electronConfiguration": "[Xe]4f10 6s2",
+    "displayRow": 9,
+    "displayColumn": 12,
+    "phaseAtStp": "固态",
+    "density": 8.54,
+    "meltingPointK": 1680,
+    "boilingPointK": 2840,
+    "electronegativityPauling": 1.22,
+    "atomicRadiusPm": 228,
+    "oxidationStates": "+3",
+    "discoveryYear": 1886,
+    "discoverer": "Paul-Émile Lecoq de Boisbaudran",
+    "uses": "钕铁硼磁体添加剂、激光",
+    "notes": null,
+    "densityUnit": "g/cm³",
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      28,
+      8,
+      2
+    ]
+  },
+  {
+    "atomicMassType": "standardAtomicWeight",
+    "representativeMassNumber": null,
+    "valenceConfiguration": "4f11 6s2",
+    "valenceConfigurationData": {
+      "nobleGasCore": null,
+      "orbitals": [
+        {
+          "orbital": "4f",
+          "electrons": 11
+        },
+        {
+          "orbital": "6s",
+          "electrons": 2
+        }
+      ]
+    },
+    "electronConfigurationData": {
+      "nobleGasCore": "Xe",
+      "orbitals": [
+        {
+          "orbital": "4f",
+          "electrons": 11
+        },
+        {
+          "orbital": "6s",
+          "electrons": 2
+        }
+      ]
+    },
+    "atomicNumber": 67,
+    "symbol": "Ho",
+    "nameZh": "钬",
+    "nameEn": "Holmium",
+    "atomicMass": "164.93033",
+    "period": 6,
+    "group": null,
+    "category": "lanthanide",
+    "block": "f",
+    "electronConfiguration": "[Xe]4f11 6s2",
+    "displayRow": 9,
+    "displayColumn": 13,
+    "phaseAtStp": "固态",
+    "density": 8.79,
+    "meltingPointK": 1734,
+    "boilingPointK": 2993,
+    "electronegativityPauling": 1.23,
+    "atomicRadiusPm": 226,
+    "oxidationStates": "+3",
+    "discoveryYear": 1878,
+    "discoverer": "Marc Delafontaine 等",
+    "uses": "磁通集中器、玻璃着色",
+    "notes": null,
+    "densityUnit": "g/cm³",
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      29,
+      8,
+      2
+    ]
+  },
+  {
+    "atomicMassType": "standardAtomicWeight",
+    "representativeMassNumber": null,
+    "valenceConfiguration": "4f12 6s2",
+    "valenceConfigurationData": {
+      "nobleGasCore": null,
+      "orbitals": [
+        {
+          "orbital": "4f",
+          "electrons": 12
+        },
+        {
+          "orbital": "6s",
+          "electrons": 2
+        }
+      ]
+    },
+    "electronConfigurationData": {
+      "nobleGasCore": "Xe",
+      "orbitals": [
+        {
+          "orbital": "4f",
+          "electrons": 12
+        },
+        {
+          "orbital": "6s",
+          "electrons": 2
+        }
+      ]
+    },
+    "atomicNumber": 68,
+    "symbol": "Er",
+    "nameZh": "铒",
+    "nameEn": "Erbium",
+    "atomicMass": "167.259",
+    "period": 6,
+    "group": null,
+    "category": "lanthanide",
+    "block": "f",
+    "electronConfiguration": "[Xe]4f12 6s2",
+    "displayRow": 9,
+    "displayColumn": 14,
+    "phaseAtStp": "固态",
+    "density": 9.066,
+    "meltingPointK": 1802,
+    "boilingPointK": 3141,
+    "electronegativityPauling": 1.24,
+    "atomicRadiusPm": 226,
+    "oxidationStates": "+3",
+    "discoveryYear": 1843,
+    "discoverer": "Carl Gustaf Mosander",
+    "uses": "掺铒光纤放大器、激光",
+    "notes": null,
+    "densityUnit": "g/cm³",
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      30,
+      8,
+      2
+    ]
+  },
+  {
+    "atomicMassType": "standardAtomicWeight",
+    "representativeMassNumber": null,
+    "valenceConfiguration": "4f13 6s2",
+    "valenceConfigurationData": {
+      "nobleGasCore": null,
+      "orbitals": [
+        {
+          "orbital": "4f",
+          "electrons": 13
+        },
+        {
+          "orbital": "6s",
+          "electrons": 2
+        }
+      ]
+    },
+    "electronConfigurationData": {
+      "nobleGasCore": "Xe",
+      "orbitals": [
+        {
+          "orbital": "4f",
+          "electrons": 13
+        },
+        {
+          "orbital": "6s",
+          "electrons": 2
+        }
+      ]
+    },
+    "atomicNumber": 69,
+    "symbol": "Tm",
+    "nameZh": "铥",
+    "nameEn": "Thulium",
+    "atomicMass": "168.93422",
+    "period": 6,
+    "group": null,
+    "category": "lanthanide",
+    "block": "f",
+    "electronConfiguration": "[Xe]4f13 6s2",
+    "displayRow": 9,
+    "displayColumn": 15,
+    "phaseAtStp": "固态",
+    "density": 9.32,
+    "meltingPointK": 1818,
+    "boilingPointK": 2223,
+    "electronegativityPauling": 1.25,
+    "atomicRadiusPm": 222,
+    "oxidationStates": "+2,+3",
+    "discoveryYear": 1879,
+    "discoverer": "Per Teodor Cleve",
+    "uses": "便携 X 射线源、激光",
+    "notes": null,
+    "densityUnit": "g/cm³",
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      31,
+      8,
+      2
+    ]
+  },
+  {
+    "atomicMassType": "standardAtomicWeight",
+    "representativeMassNumber": null,
+    "valenceConfiguration": "4f14 6s2",
+    "valenceConfigurationData": {
+      "nobleGasCore": null,
+      "orbitals": [
+        {
+          "orbital": "4f",
+          "electrons": 14
+        },
+        {
+          "orbital": "6s",
+          "electrons": 2
+        }
+      ]
+    },
+    "electronConfigurationData": {
+      "nobleGasCore": "Xe",
+      "orbitals": [
+        {
+          "orbital": "4f",
+          "electrons": 14
+        },
+        {
+          "orbital": "6s",
+          "electrons": 2
+        }
+      ]
+    },
+    "atomicNumber": 70,
+    "symbol": "Yb",
+    "nameZh": "镱",
+    "nameEn": "Ytterbium",
+    "atomicMass": "173.045",
+    "period": 6,
+    "group": null,
+    "category": "lanthanide",
+    "block": "f",
+    "electronConfiguration": "[Xe]4f14 6s2",
+    "displayRow": 9,
+    "displayColumn": 16,
+    "phaseAtStp": "固态",
+    "density": 6.9,
+    "meltingPointK": 1097,
+    "boilingPointK": 1469,
+    "electronegativityPauling": null,
+    "atomicRadiusPm": 222,
+    "oxidationStates": "+2,+3",
+    "discoveryYear": 1878,
+    "discoverer": "Jean Charles Galissard de Marignac",
+    "uses": "激光、原子钟、合金",
+    "notes": null,
+    "densityUnit": "g/cm³",
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      32,
+      8,
+      2
+    ]
+  },
+  {
+    "atomicMassType": "standardAtomicWeight",
+    "representativeMassNumber": null,
+    "valenceConfiguration": "4f14 5d1 6s2",
+    "valenceConfigurationData": {
+      "nobleGasCore": null,
+      "orbitals": [
+        {
+          "orbital": "4f",
+          "electrons": 14
+        },
+        {
+          "orbital": "5d",
+          "electrons": 1
+        },
+        {
+          "orbital": "6s",
+          "electrons": 2
+        }
+      ]
+    },
+    "electronConfigurationData": {
+      "nobleGasCore": "Xe",
+      "orbitals": [
+        {
+          "orbital": "4f",
+          "electrons": 14
+        },
+        {
+          "orbital": "5d",
+          "electrons": 1
+        },
+        {
+          "orbital": "6s",
+          "electrons": 2
+        }
+      ]
+    },
+    "atomicNumber": 71,
+    "symbol": "Lu",
+    "nameZh": "镥",
+    "nameEn": "Lutetium",
+    "atomicMass": "174.9668",
+    "period": 6,
+    "group": null,
+    "category": "lanthanide",
+    "block": "f",
+    "electronConfiguration": "[Xe]4f14 5d1 6s2",
+    "displayRow": 9,
+    "displayColumn": 17,
+    "phaseAtStp": "固态",
+    "density": 9.841,
+    "meltingPointK": 1925,
+    "boilingPointK": 3675,
+    "electronegativityPauling": 1.27,
+    "atomicRadiusPm": 217,
+    "oxidationStates": "+3",
+    "discoveryYear": 1907,
+    "discoverer": "Georges Urbain 等",
+    "uses": "PET 探测器、催化剂",
+    "notes": null,
+    "densityUnit": "g/cm³",
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      32,
+      9,
+      2
+    ]
+  },
+  {
+    "atomicMassType": "standardAtomicWeight",
+    "representativeMassNumber": null,
+    "valenceConfiguration": "4f14 5d2 6s2",
+    "valenceConfigurationData": {
+      "nobleGasCore": null,
+      "orbitals": [
+        {
+          "orbital": "4f",
+          "electrons": 14
+        },
+        {
+          "orbital": "5d",
+          "electrons": 2
+        },
+        {
+          "orbital": "6s",
+          "electrons": 2
+        }
+      ]
+    },
+    "electronConfigurationData": {
+      "nobleGasCore": "Xe",
+      "orbitals": [
+        {
+          "orbital": "4f",
+          "electrons": 14
+        },
+        {
+          "orbital": "5d",
+          "electrons": 2
+        },
+        {
+          "orbital": "6s",
+          "electrons": 2
+        }
+      ]
+    },
+    "atomicNumber": 72,
+    "symbol": "Hf",
+    "nameZh": "铪",
+    "nameEn": "Hafnium",
+    "atomicMass": "178.49",
+    "period": 6,
+    "group": 4,
+    "category": "transitionMetal",
+    "block": "d",
+    "electronConfiguration": "[Xe]4f14 5d2 6s2",
+    "displayRow": 6,
+    "displayColumn": 4,
+    "phaseAtStp": "固态",
+    "density": 13.31,
+    "meltingPointK": 2506,
+    "boilingPointK": 4876,
+    "electronegativityPauling": 1.3,
+    "atomicRadiusPm": 208,
+    "oxidationStates": "+4",
+    "discoveryYear": 1923,
+    "discoverer": "Dirk Coster 与 George de Hevesy",
+    "uses": "核控制棒、高介电材料",
+    "notes": null,
+    "densityUnit": "g/cm³",
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      32,
+      10,
+      2
+    ]
+  },
+  {
+    "atomicMassType": "standardAtomicWeight",
+    "representativeMassNumber": null,
+    "valenceConfiguration": "4f14 5d3 6s2",
+    "valenceConfigurationData": {
+      "nobleGasCore": null,
+      "orbitals": [
+        {
+          "orbital": "4f",
+          "electrons": 14
+        },
+        {
+          "orbital": "5d",
+          "electrons": 3
+        },
+        {
+          "orbital": "6s",
+          "electrons": 2
+        }
+      ]
+    },
+    "electronConfigurationData": {
+      "nobleGasCore": "Xe",
+      "orbitals": [
+        {
+          "orbital": "4f",
+          "electrons": 14
+        },
+        {
+          "orbital": "5d",
+          "electrons": 3
+        },
+        {
+          "orbital": "6s",
+          "electrons": 2
+        }
+      ]
+    },
+    "atomicNumber": 73,
+    "symbol": "Ta",
+    "nameZh": "钽",
+    "nameEn": "Tantalum",
+    "atomicMass": "180.94788",
+    "period": 6,
+    "group": 5,
+    "category": "transitionMetal",
+    "block": "d",
+    "electronConfiguration": "[Xe]4f14 5d3 6s2",
+    "displayRow": 6,
+    "displayColumn": 5,
+    "phaseAtStp": "固态",
+    "density": 16.69,
+    "meltingPointK": 3290,
+    "boilingPointK": 5731,
+    "electronegativityPauling": 1.5,
+    "atomicRadiusPm": 200,
+    "oxidationStates": "+5",
+    "discoveryYear": 1802,
+    "discoverer": "Anders Gustaf Ekeberg",
+    "uses": "电解电容器、高温合金",
+    "notes": null,
+    "densityUnit": "g/cm³",
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      32,
+      11,
+      2
+    ]
+  },
+  {
+    "atomicMassType": "standardAtomicWeight",
+    "representativeMassNumber": null,
+    "valenceConfiguration": "4f14 5d4 6s2",
+    "valenceConfigurationData": {
+      "nobleGasCore": null,
+      "orbitals": [
+        {
+          "orbital": "4f",
+          "electrons": 14
+        },
+        {
+          "orbital": "5d",
+          "electrons": 4
+        },
+        {
+          "orbital": "6s",
+          "electrons": 2
+        }
+      ]
+    },
+    "electronConfigurationData": {
+      "nobleGasCore": "Xe",
+      "orbitals": [
+        {
+          "orbital": "4f",
+          "electrons": 14
+        },
+        {
+          "orbital": "5d",
+          "electrons": 4
+        },
+        {
+          "orbital": "6s",
+          "electrons": 2
+        }
+      ]
+    },
+    "atomicNumber": 74,
+    "symbol": "W",
+    "nameZh": "钨",
+    "nameEn": "Tungsten",
+    "atomicMass": "183.84",
+    "period": 6,
+    "group": 6,
+    "category": "transitionMetal",
+    "block": "d",
+    "electronConfiguration": "[Xe]4f14 5d4 6s2",
+    "displayRow": 6,
+    "displayColumn": 6,
+    "phaseAtStp": "固态",
+    "density": 19.25,
+    "meltingPointK": 3695,
+    "boilingPointK": 6203,
+    "electronegativityPauling": 2.36,
+    "atomicRadiusPm": 193,
+    "oxidationStates": "+2,+3,+4,+5,+6",
+    "discoveryYear": 1783,
+    "discoverer": "Juan José Elhuyar 与 Fausto Elhuyar",
+    "uses": "硬质合金、灯丝、耐磨材料",
+    "notes": null,
+    "densityUnit": "g/cm³",
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      32,
+      12,
+      2
+    ]
+  },
+  {
+    "atomicMassType": "standardAtomicWeight",
+    "representativeMassNumber": null,
+    "valenceConfiguration": "4f14 5d5 6s2",
+    "valenceConfigurationData": {
+      "nobleGasCore": null,
+      "orbitals": [
+        {
+          "orbital": "4f",
+          "electrons": 14
+        },
+        {
+          "orbital": "5d",
+          "electrons": 5
+        },
+        {
+          "orbital": "6s",
+          "electrons": 2
+        }
+      ]
+    },
+    "electronConfigurationData": {
+      "nobleGasCore": "Xe",
+      "orbitals": [
+        {
+          "orbital": "4f",
+          "electrons": 14
+        },
+        {
+          "orbital": "5d",
+          "electrons": 5
+        },
+        {
+          "orbital": "6s",
+          "electrons": 2
+        }
+      ]
+    },
+    "atomicNumber": 75,
+    "symbol": "Re",
+    "nameZh": "铼",
+    "nameEn": "Rhenium",
+    "atomicMass": "186.207",
+    "period": 6,
+    "group": 7,
+    "category": "transitionMetal",
+    "block": "d",
+    "electronConfiguration": "[Xe]4f14 5d5 6s2",
+    "displayRow": 6,
+    "displayColumn": 7,
+    "phaseAtStp": "固态",
+    "density": 21.02,
+    "meltingPointK": 3459,
+    "boilingPointK": 5869,
+    "electronegativityPauling": 1.9,
+    "atomicRadiusPm": 188,
+    "oxidationStates": "+2,+3,+4,+5,+6,+7",
+    "discoveryYear": 1925,
+    "discoverer": "Walter Noddack 等",
+    "uses": "高温合金、催化剂",
+    "notes": null,
+    "densityUnit": "g/cm³",
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      32,
+      13,
+      2
+    ]
+  },
+  {
+    "atomicMassType": "standardAtomicWeight",
+    "representativeMassNumber": null,
+    "valenceConfiguration": "4f14 5d6 6s2",
+    "valenceConfigurationData": {
+      "nobleGasCore": null,
+      "orbitals": [
+        {
+          "orbital": "4f",
+          "electrons": 14
+        },
+        {
+          "orbital": "5d",
+          "electrons": 6
+        },
+        {
+          "orbital": "6s",
+          "electrons": 2
+        }
+      ]
+    },
+    "electronConfigurationData": {
+      "nobleGasCore": "Xe",
+      "orbitals": [
+        {
+          "orbital": "4f",
+          "electrons": 14
+        },
+        {
+          "orbital": "5d",
+          "electrons": 6
+        },
+        {
+          "orbital": "6s",
+          "electrons": 2
+        }
+      ]
+    },
+    "atomicNumber": 76,
+    "symbol": "Os",
+    "nameZh": "锇",
+    "nameEn": "Osmium",
+    "atomicMass": "190.23",
+    "period": 6,
+    "group": 8,
+    "category": "transitionMetal",
+    "block": "d",
+    "electronConfiguration": "[Xe]4f14 5d6 6s2",
+    "displayRow": 6,
+    "displayColumn": 8,
+    "phaseAtStp": "固态",
+    "density": 22.59,
+    "meltingPointK": 3306,
+    "boilingPointK": 5285,
+    "electronegativityPauling": 2.2,
+    "atomicRadiusPm": 185,
+    "oxidationStates": "+2,+3,+4,+5,+6,+8",
+    "discoveryYear": 1803,
+    "discoverer": "Smithson Tennant",
+    "uses": "耐磨触点、催化剂",
+    "notes": null,
+    "densityUnit": "g/cm³",
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      32,
+      14,
+      2
+    ]
+  },
+  {
+    "atomicMassType": "standardAtomicWeight",
+    "representativeMassNumber": null,
+    "valenceConfiguration": "4f14 5d7 6s2",
+    "valenceConfigurationData": {
+      "nobleGasCore": null,
+      "orbitals": [
+        {
+          "orbital": "4f",
+          "electrons": 14
+        },
+        {
+          "orbital": "5d",
+          "electrons": 7
+        },
+        {
+          "orbital": "6s",
+          "electrons": 2
+        }
+      ]
+    },
+    "electronConfigurationData": {
+      "nobleGasCore": "Xe",
+      "orbitals": [
+        {
+          "orbital": "4f",
+          "electrons": 14
+        },
+        {
+          "orbital": "5d",
+          "electrons": 7
+        },
+        {
+          "orbital": "6s",
+          "electrons": 2
+        }
+      ]
+    },
+    "atomicNumber": 77,
+    "symbol": "Ir",
+    "nameZh": "铱",
+    "nameEn": "Iridium",
+    "atomicMass": "192.217",
+    "period": 6,
+    "group": 9,
+    "category": "transitionMetal",
+    "block": "d",
+    "electronConfiguration": "[Xe]4f14 5d7 6s2",
+    "displayRow": 6,
+    "displayColumn": 9,
+    "phaseAtStp": "固态",
+    "density": 22.56,
+    "meltingPointK": 2719,
+    "boilingPointK": 4403,
+    "electronegativityPauling": 2.2,
+    "atomicRadiusPm": 180,
+    "oxidationStates": "+2,+3,+4",
+    "discoveryYear": 1803,
+    "discoverer": "Smithson Tennant",
+    "uses": "火花塞、坩埚、催化剂",
+    "notes": null,
+    "densityUnit": "g/cm³",
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      32,
+      15,
+      2
+    ]
+  },
+  {
+    "atomicMassType": "standardAtomicWeight",
+    "representativeMassNumber": null,
+    "valenceConfiguration": "4f14 5d9 6s1",
+    "valenceConfigurationData": {
+      "nobleGasCore": null,
+      "orbitals": [
+        {
+          "orbital": "4f",
+          "electrons": 14
+        },
+        {
+          "orbital": "5d",
+          "electrons": 9
+        },
+        {
+          "orbital": "6s",
+          "electrons": 1
+        }
+      ]
+    },
+    "electronConfigurationData": {
+      "nobleGasCore": "Xe",
+      "orbitals": [
+        {
+          "orbital": "4f",
+          "electrons": 14
+        },
+        {
+          "orbital": "5d",
+          "electrons": 9
+        },
+        {
+          "orbital": "6s",
+          "electrons": 1
+        }
+      ]
+    },
+    "atomicNumber": 78,
+    "symbol": "Pt",
+    "nameZh": "铂",
+    "nameEn": "Platinum",
+    "atomicMass": "195.084",
+    "period": 6,
+    "group": 10,
+    "category": "transitionMetal",
+    "block": "d",
+    "electronConfiguration": "[Xe]4f14 5d9 6s1",
+    "displayRow": 6,
+    "displayColumn": 10,
+    "phaseAtStp": "固态",
+    "density": 21.45,
+    "meltingPointK": 2041.4,
+    "boilingPointK": 4098,
+    "electronegativityPauling": 2.28,
+    "atomicRadiusPm": 177,
+    "oxidationStates": "+2,+4",
+    "discoveryYear": 1735,
+    "discoverer": "Antonio de Ulloa",
+    "uses": "催化剂、电极、首饰",
+    "notes": "基态电子排布存在 5d 与 6s 能级竞争。",
+    "densityUnit": "g/cm³",
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      32,
+      17,
+      1
+    ]
+  },
+  {
+    "atomicMassType": "standardAtomicWeight",
+    "representativeMassNumber": null,
+    "valenceConfiguration": "4f14 5d10 6s1",
+    "valenceConfigurationData": {
+      "nobleGasCore": null,
+      "orbitals": [
+        {
+          "orbital": "4f",
+          "electrons": 14
+        },
+        {
+          "orbital": "5d",
+          "electrons": 10
+        },
+        {
+          "orbital": "6s",
+          "electrons": 1
+        }
+      ]
+    },
+    "electronConfigurationData": {
+      "nobleGasCore": "Xe",
+      "orbitals": [
+        {
+          "orbital": "4f",
+          "electrons": 14
+        },
+        {
+          "orbital": "5d",
+          "electrons": 10
+        },
+        {
+          "orbital": "6s",
+          "electrons": 1
+        }
+      ]
+    },
+    "atomicNumber": 79,
+    "symbol": "Au",
+    "nameZh": "金",
+    "nameEn": "Gold",
+    "atomicMass": "196.966569",
+    "period": 6,
+    "group": 11,
+    "category": "transitionMetal",
+    "block": "d",
+    "electronConfiguration": "[Xe]4f14 5d10 6s1",
+    "displayRow": 6,
+    "displayColumn": 11,
+    "phaseAtStp": "固态",
+    "density": 19.3,
+    "meltingPointK": 1337.33,
+    "boilingPointK": 3243,
+    "electronegativityPauling": 2.54,
+    "atomicRadiusPm": 174,
+    "oxidationStates": "+1,+3",
+    "discoveryYear": null,
+    "discoverer": "古代已知",
+    "uses": "首饰、电子触点、货币",
+    "notes": "基态电子排布存在 5d 与 6s 能级竞争。",
+    "densityUnit": "g/cm³",
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      32,
+      18,
+      1
+    ]
+  },
+  {
+    "atomicMassType": "standardAtomicWeight",
+    "representativeMassNumber": null,
+    "valenceConfiguration": "4f14 5d10 6s2",
+    "valenceConfigurationData": {
+      "nobleGasCore": null,
+      "orbitals": [
+        {
+          "orbital": "4f",
+          "electrons": 14
+        },
+        {
+          "orbital": "5d",
+          "electrons": 10
+        },
+        {
+          "orbital": "6s",
+          "electrons": 2
+        }
+      ]
+    },
+    "electronConfigurationData": {
+      "nobleGasCore": "Xe",
+      "orbitals": [
+        {
+          "orbital": "4f",
+          "electrons": 14
+        },
+        {
+          "orbital": "5d",
+          "electrons": 10
+        },
+        {
+          "orbital": "6s",
+          "electrons": 2
+        }
+      ]
+    },
+    "atomicNumber": 80,
+    "symbol": "Hg",
+    "nameZh": "汞",
+    "nameEn": "Mercury",
+    "atomicMass": "200.592",
+    "period": 6,
+    "group": 12,
+    "category": "transitionMetal",
+    "block": "d",
+    "electronConfiguration": "[Xe]4f14 5d10 6s2",
+    "displayRow": 6,
+    "displayColumn": 12,
+    "phaseAtStp": "液态",
+    "density": 13.534,
+    "meltingPointK": 234.321,
+    "boilingPointK": 629.88,
+    "electronegativityPauling": 2,
+    "atomicRadiusPm": 171,
+    "oxidationStates": "+1,+2",
+    "discoveryYear": null,
+    "discoverer": "古代已知",
+    "uses": "温度计、荧光灯、化学电极",
+    "notes": null,
+    "densityUnit": "g/cm³",
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      32,
+      18,
+      2
+    ]
+  },
+  {
+    "atomicMassType": "standardAtomicWeight",
+    "representativeMassNumber": null,
+    "valenceConfiguration": "4f14 5d10 6s2 6p1",
+    "valenceConfigurationData": {
+      "nobleGasCore": null,
+      "orbitals": [
+        {
+          "orbital": "4f",
+          "electrons": 14
+        },
+        {
+          "orbital": "5d",
+          "electrons": 10
+        },
+        {
+          "orbital": "6s",
+          "electrons": 2
+        },
+        {
+          "orbital": "6p",
+          "electrons": 1
+        }
+      ]
+    },
+    "electronConfigurationData": {
+      "nobleGasCore": "Xe",
+      "orbitals": [
+        {
+          "orbital": "4f",
+          "electrons": 14
+        },
+        {
+          "orbital": "5d",
+          "electrons": 10
+        },
+        {
+          "orbital": "6s",
+          "electrons": 2
+        },
+        {
+          "orbital": "6p",
+          "electrons": 1
+        }
+      ]
+    },
+    "atomicNumber": 81,
+    "symbol": "Tl",
+    "nameZh": "铊",
+    "nameEn": "Thallium",
+    "atomicMass": "204.38",
+    "period": 6,
+    "group": 13,
+    "category": "postTransitionMetal",
+    "block": "p",
+    "electronConfiguration": "[Xe]4f14 5d10 6s2 6p1",
+    "displayRow": 6,
+    "displayColumn": 13,
+    "phaseAtStp": "固态",
+    "density": 11.85,
+    "meltingPointK": 577,
+    "boilingPointK": 1746,
+    "electronegativityPauling": 1.62,
+    "atomicRadiusPm": 156,
+    "oxidationStates": "+1,+3",
+    "discoveryYear": 1861,
+    "discoverer": "William Crookes",
+    "uses": "红外光学、高温超导研究",
+    "notes": null,
+    "densityUnit": "g/cm³",
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      32,
+      18,
+      3
+    ]
+  },
+  {
+    "atomicMassType": "standardAtomicWeight",
+    "representativeMassNumber": null,
+    "valenceConfiguration": "4f14 5d10 6s2 6p2",
+    "valenceConfigurationData": {
+      "nobleGasCore": null,
+      "orbitals": [
+        {
+          "orbital": "4f",
+          "electrons": 14
+        },
+        {
+          "orbital": "5d",
+          "electrons": 10
+        },
+        {
+          "orbital": "6s",
+          "electrons": 2
+        },
+        {
+          "orbital": "6p",
+          "electrons": 2
+        }
+      ]
+    },
+    "electronConfigurationData": {
+      "nobleGasCore": "Xe",
+      "orbitals": [
+        {
+          "orbital": "4f",
+          "electrons": 14
+        },
+        {
+          "orbital": "5d",
+          "electrons": 10
+        },
+        {
+          "orbital": "6s",
+          "electrons": 2
+        },
+        {
+          "orbital": "6p",
+          "electrons": 2
+        }
+      ]
+    },
+    "atomicNumber": 82,
+    "symbol": "Pb",
+    "nameZh": "铅",
+    "nameEn": "Lead",
+    "atomicMass": "207.2",
+    "period": 6,
+    "group": 14,
+    "category": "postTransitionMetal",
+    "block": "p",
+    "electronConfiguration": "[Xe]4f14 5d10 6s2 6p2",
+    "displayRow": 6,
+    "displayColumn": 14,
+    "phaseAtStp": "固态",
+    "density": 11.34,
+    "meltingPointK": 600.61,
+    "boilingPointK": 2022,
+    "electronegativityPauling": 2.33,
+    "atomicRadiusPm": 154,
+    "oxidationStates": "+2,+4",
+    "discoveryYear": null,
+    "discoverer": "古代已知",
+    "uses": "铅酸电池、辐射屏蔽、焊料",
+    "notes": null,
+    "densityUnit": "g/cm³",
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      32,
+      18,
+      4
+    ]
+  },
+  {
+    "atomicMassType": "standardAtomicWeight",
+    "representativeMassNumber": null,
+    "valenceConfiguration": "4f14 5d10 6s2 6p3",
+    "valenceConfigurationData": {
+      "nobleGasCore": null,
+      "orbitals": [
+        {
+          "orbital": "4f",
+          "electrons": 14
+        },
+        {
+          "orbital": "5d",
+          "electrons": 10
+        },
+        {
+          "orbital": "6s",
+          "electrons": 2
+        },
+        {
+          "orbital": "6p",
+          "electrons": 3
+        }
+      ]
+    },
+    "electronConfigurationData": {
+      "nobleGasCore": "Xe",
+      "orbitals": [
+        {
+          "orbital": "4f",
+          "electrons": 14
+        },
+        {
+          "orbital": "5d",
+          "electrons": 10
+        },
+        {
+          "orbital": "6s",
+          "electrons": 2
+        },
+        {
+          "orbital": "6p",
+          "electrons": 3
+        }
+      ]
+    },
+    "atomicNumber": 83,
+    "symbol": "Bi",
+    "nameZh": "铋",
+    "nameEn": "Bismuth",
+    "atomicMass": "208.98040",
+    "period": 6,
+    "group": 15,
+    "category": "postTransitionMetal",
+    "block": "p",
+    "electronConfiguration": "[Xe]4f14 5d10 6s2 6p3",
+    "displayRow": 6,
+    "displayColumn": 15,
+    "phaseAtStp": "固态",
+    "density": 9.78,
+    "meltingPointK": 544.7,
+    "boilingPointK": 1837,
+    "electronegativityPauling": 2.02,
+    "atomicRadiusPm": 143,
+    "oxidationStates": "+3,+5",
+    "discoveryYear": null,
+    "discoverer": "古代已知",
+    "uses": "无铅焊料、医药、颜料",
+    "notes": null,
+    "densityUnit": "g/cm³",
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      32,
+      18,
+      5
+    ]
+  },
+  {
+    "atomicMassType": "representativeMassNumber",
+    "representativeMassNumber": 209,
+    "valenceConfiguration": "4f14 5d10 6s2 6p4",
+    "valenceConfigurationData": {
+      "nobleGasCore": null,
+      "orbitals": [
+        {
+          "orbital": "4f",
+          "electrons": 14
+        },
+        {
+          "orbital": "5d",
+          "electrons": 10
+        },
+        {
+          "orbital": "6s",
+          "electrons": 2
+        },
+        {
+          "orbital": "6p",
+          "electrons": 4
+        }
+      ]
+    },
+    "electronConfigurationData": {
+      "nobleGasCore": "Xe",
+      "orbitals": [
+        {
+          "orbital": "4f",
+          "electrons": 14
+        },
+        {
+          "orbital": "5d",
+          "electrons": 10
+        },
+        {
+          "orbital": "6s",
+          "electrons": 2
+        },
+        {
+          "orbital": "6p",
+          "electrons": 4
+        }
+      ]
+    },
+    "atomicNumber": 84,
+    "symbol": "Po",
+    "nameZh": "钋",
+    "nameEn": "Polonium",
+    "atomicMass": "[209]",
+    "period": 6,
+    "group": 16,
+    "category": "postTransitionMetal",
+    "block": "p",
+    "electronConfiguration": "[Xe]4f14 5d10 6s2 6p4",
+    "displayRow": 6,
+    "displayColumn": 16,
+    "phaseAtStp": "固态",
+    "density": 9.2,
+    "meltingPointK": 527,
+    "boilingPointK": 1235,
+    "electronegativityPauling": 2,
+    "atomicRadiusPm": 135,
+    "oxidationStates": "-2,+2,+4",
+    "discoveryYear": 1898,
+    "discoverer": "Marie Curie 与 Pierre Curie",
+    "uses": "静电消除、放射性研究",
+    "notes": null,
+    "densityUnit": "g/cm³",
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      32,
+      18,
+      6
+    ]
+  },
+  {
+    "atomicMassType": "representativeMassNumber",
+    "representativeMassNumber": 210,
+    "valenceConfiguration": "4f14 5d10 6s2 6p5",
+    "valenceConfigurationData": {
+      "nobleGasCore": null,
+      "orbitals": [
+        {
+          "orbital": "4f",
+          "electrons": 14
+        },
+        {
+          "orbital": "5d",
+          "electrons": 10
+        },
+        {
+          "orbital": "6s",
+          "electrons": 2
+        },
+        {
+          "orbital": "6p",
+          "electrons": 5
+        }
+      ]
+    },
+    "electronConfigurationData": {
+      "nobleGasCore": "Xe",
+      "orbitals": [
+        {
+          "orbital": "4f",
+          "electrons": 14
+        },
+        {
+          "orbital": "5d",
+          "electrons": 10
+        },
+        {
+          "orbital": "6s",
+          "electrons": 2
+        },
+        {
+          "orbital": "6p",
+          "electrons": 5
+        }
+      ]
+    },
+    "atomicNumber": 85,
+    "symbol": "At",
+    "nameZh": "砹",
+    "nameEn": "Astatine",
+    "atomicMass": "[210]",
+    "period": 6,
+    "group": 17,
+    "category": "halogen",
+    "block": "p",
+    "electronConfiguration": "[Xe]4f14 5d10 6s2 6p5",
+    "displayRow": 6,
+    "displayColumn": 17,
+    "phaseAtStp": "固态",
+    "density": null,
+    "meltingPointK": 575,
+    "boilingPointK": 610,
+    "electronegativityPauling": 2.2,
+    "atomicRadiusPm": 127,
+    "oxidationStates": "-1,+1,+3,+5,+7",
+    "discoveryYear": 1940,
+    "discoverer": "Dale R. Corson 等",
+    "uses": "放射性研究与靶材",
+    "notes": null,
+    "densityUnit": "g/cm³",
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      32,
+      18,
+      7
+    ]
+  },
+  {
+    "atomicMassType": "representativeMassNumber",
+    "representativeMassNumber": 222,
+    "valenceConfiguration": "4f14 5d10 6s2 6p6",
+    "valenceConfigurationData": {
+      "nobleGasCore": null,
+      "orbitals": [
+        {
+          "orbital": "4f",
+          "electrons": 14
+        },
+        {
+          "orbital": "5d",
+          "electrons": 10
+        },
+        {
+          "orbital": "6s",
+          "electrons": 2
+        },
+        {
+          "orbital": "6p",
+          "electrons": 6
+        }
+      ]
+    },
+    "electronConfigurationData": {
+      "nobleGasCore": "Xe",
+      "orbitals": [
+        {
+          "orbital": "4f",
+          "electrons": 14
+        },
+        {
+          "orbital": "5d",
+          "electrons": 10
+        },
+        {
+          "orbital": "6s",
+          "electrons": 2
+        },
+        {
+          "orbital": "6p",
+          "electrons": 6
+        }
+      ]
+    },
+    "atomicNumber": 86,
+    "symbol": "Rn",
+    "nameZh": "氡",
+    "nameEn": "Radon",
+    "atomicMass": "[222]",
+    "period": 6,
+    "group": 18,
+    "category": "nobleGas",
+    "block": "p",
+    "electronConfiguration": "[Xe]4f14 5d10 6s2 6p6",
+    "displayRow": 6,
+    "displayColumn": 18,
+    "phaseAtStp": "气态",
+    "density": 9.73,
+    "meltingPointK": 202,
+    "boilingPointK": 211.5,
+    "electronegativityPauling": 2.2,
+    "atomicRadiusPm": 120,
+    "oxidationStates": "0,+2",
+    "discoveryYear": 1899,
+    "discoverer": "Friedrich Ernst Dorn",
+    "uses": "氡气监测、放射治疗",
+    "notes": null,
+    "densityUnit": "g/L (0°C, 101.325 kPa)",
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      32,
+      18,
+      8
+    ]
+  },
+  {
+    "atomicMassType": "representativeMassNumber",
+    "representativeMassNumber": 223,
+    "valenceConfiguration": "7s1",
+    "valenceConfigurationData": {
+      "nobleGasCore": null,
+      "orbitals": [
+        {
+          "orbital": "7s",
+          "electrons": 1
+        }
+      ]
+    },
+    "electronConfigurationData": {
+      "nobleGasCore": "Rn",
+      "orbitals": [
+        {
+          "orbital": "7s",
+          "electrons": 1
+        }
+      ]
+    },
+    "atomicNumber": 87,
+    "symbol": "Fr",
+    "nameZh": "钫",
+    "nameEn": "Francium",
+    "atomicMass": "[223]",
+    "period": 7,
+    "group": 1,
+    "category": "alkaliMetal",
+    "block": "s",
+    "electronConfiguration": "[Rn]7s1",
+    "displayRow": 7,
+    "displayColumn": 1,
+    "phaseAtStp": "固态",
+    "density": null,
+    "meltingPointK": 300,
+    "boilingPointK": 950,
+    "electronegativityPauling": 0.7,
+    "atomicRadiusPm": 348,
+    "oxidationStates": "+1",
+    "discoveryYear": 1939,
+    "discoverer": "Marguerite Perey",
+    "uses": "基础放射化学研究",
+    "notes": null,
+    "densityUnit": "g/cm³",
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      32,
+      18,
+      8,
+      1
+    ]
+  },
+  {
+    "atomicMassType": "representativeMassNumber",
+    "representativeMassNumber": 226,
+    "valenceConfiguration": "7s2",
+    "valenceConfigurationData": {
+      "nobleGasCore": null,
+      "orbitals": [
+        {
+          "orbital": "7s",
+          "electrons": 2
+        }
+      ]
+    },
+    "electronConfigurationData": {
+      "nobleGasCore": "Rn",
+      "orbitals": [
+        {
+          "orbital": "7s",
+          "electrons": 2
+        }
+      ]
+    },
+    "atomicNumber": 88,
+    "symbol": "Ra",
+    "nameZh": "镭",
+    "nameEn": "Radium",
+    "atomicMass": "[226]",
+    "period": 7,
+    "group": 2,
+    "category": "alkalineEarthMetal",
+    "block": "s",
+    "electronConfiguration": "[Rn]7s2",
+    "displayRow": 7,
+    "displayColumn": 2,
+    "phaseAtStp": "固态",
+    "density": 5.5,
+    "meltingPointK": 973,
+    "boilingPointK": 2010,
+    "electronegativityPauling": 0.9,
+    "atomicRadiusPm": 215,
+    "oxidationStates": "+2",
+    "discoveryYear": 1898,
+    "discoverer": "Marie Curie 与 Pierre Curie",
+    "uses": "放射治疗、基础研究",
+    "notes": null,
+    "densityUnit": "g/cm³",
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      32,
+      18,
+      8,
+      2
+    ]
+  },
+  {
+    "atomicMassType": "representativeMassNumber",
+    "representativeMassNumber": 227,
+    "valenceConfiguration": "6d1 7s2",
+    "valenceConfigurationData": {
+      "nobleGasCore": null,
+      "orbitals": [
+        {
+          "orbital": "6d",
+          "electrons": 1
+        },
+        {
+          "orbital": "7s",
+          "electrons": 2
+        }
+      ]
+    },
+    "electronConfigurationData": {
+      "nobleGasCore": "Rn",
+      "orbitals": [
+        {
+          "orbital": "6d",
+          "electrons": 1
+        },
+        {
+          "orbital": "7s",
+          "electrons": 2
+        }
+      ]
+    },
+    "atomicNumber": 89,
+    "symbol": "Ac",
+    "nameZh": "锕",
+    "nameEn": "Actinium",
+    "atomicMass": "[227]",
+    "period": 7,
+    "group": null,
+    "category": "actinide",
+    "block": "f",
+    "electronConfiguration": "[Rn]6d1 7s2",
+    "displayRow": 10,
+    "displayColumn": 3,
+    "phaseAtStp": "固态",
+    "density": 10.07,
+    "meltingPointK": 1500,
+    "boilingPointK": 3500,
+    "electronegativityPauling": 1.1,
+    "atomicRadiusPm": 195,
+    "oxidationStates": "+3",
+    "discoveryYear": 1899,
+    "discoverer": "André-Louis Debierne",
+    "uses": "中子源、放射性研究",
+    "notes": null,
+    "densityUnit": "g/cm³",
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      32,
+      18,
+      9,
+      2
+    ]
+  },
+  {
+    "atomicMassType": "standardAtomicWeight",
+    "representativeMassNumber": null,
+    "valenceConfiguration": "6d2 7s2",
+    "valenceConfigurationData": {
+      "nobleGasCore": null,
+      "orbitals": [
+        {
+          "orbital": "6d",
+          "electrons": 2
+        },
+        {
+          "orbital": "7s",
+          "electrons": 2
+        }
+      ]
+    },
+    "electronConfigurationData": {
+      "nobleGasCore": "Rn",
+      "orbitals": [
+        {
+          "orbital": "6d",
+          "electrons": 2
+        },
+        {
+          "orbital": "7s",
+          "electrons": 2
+        }
+      ]
+    },
+    "atomicNumber": 90,
+    "symbol": "Th",
+    "nameZh": "钍",
+    "nameEn": "Thorium",
+    "atomicMass": "232.0377",
+    "period": 7,
+    "group": null,
+    "category": "actinide",
+    "block": "f",
+    "electronConfiguration": "[Rn]6d2 7s2",
+    "displayRow": 10,
+    "displayColumn": 4,
+    "phaseAtStp": "固态",
+    "density": 11.72,
+    "meltingPointK": 2023,
+    "boilingPointK": 5061,
+    "electronegativityPauling": 1.3,
+    "atomicRadiusPm": 180,
+    "oxidationStates": "+4",
+    "discoveryYear": 1829,
+    "discoverer": "Jöns Jacob Berzelius",
+    "uses": "核燃料、高温合金",
+    "notes": null,
+    "densityUnit": "g/cm³",
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      32,
+      18,
+      10,
+      2
+    ]
+  },
+  {
+    "atomicMassType": "standardAtomicWeight",
+    "representativeMassNumber": null,
+    "valenceConfiguration": "5f2 6d1 7s2",
+    "valenceConfigurationData": {
+      "nobleGasCore": null,
+      "orbitals": [
+        {
+          "orbital": "5f",
+          "electrons": 2
+        },
+        {
+          "orbital": "6d",
+          "electrons": 1
+        },
+        {
+          "orbital": "7s",
+          "electrons": 2
+        }
+      ]
+    },
+    "electronConfigurationData": {
+      "nobleGasCore": "Rn",
+      "orbitals": [
+        {
+          "orbital": "5f",
+          "electrons": 2
+        },
+        {
+          "orbital": "6d",
+          "electrons": 1
+        },
+        {
+          "orbital": "7s",
+          "electrons": 2
+        }
+      ]
+    },
+    "atomicNumber": 91,
+    "symbol": "Pa",
+    "nameZh": "镤",
+    "nameEn": "Protactinium",
+    "atomicMass": "231.03588",
+    "period": 7,
+    "group": null,
+    "category": "actinide",
+    "block": "f",
+    "electronConfiguration": "[Rn]5f2 6d1 7s2",
+    "displayRow": 10,
+    "displayColumn": 5,
+    "phaseAtStp": "固态",
+    "density": 15.37,
+    "meltingPointK": 1841,
+    "boilingPointK": 4300,
+    "electronegativityPauling": 1.5,
+    "atomicRadiusPm": 180,
+    "oxidationStates": "+4,+5",
+    "discoveryYear": 1913,
+    "discoverer": "Kasimir Fajans 与 Otto Göhring",
+    "uses": "地质年代测定、核研究",
+    "notes": null,
+    "densityUnit": "g/cm³",
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      32,
+      20,
+      9,
+      2
+    ]
+  },
+  {
+    "atomicMassType": "standardAtomicWeight",
+    "representativeMassNumber": null,
+    "valenceConfiguration": "5f3 6d1 7s2",
+    "valenceConfigurationData": {
+      "nobleGasCore": null,
+      "orbitals": [
+        {
+          "orbital": "5f",
+          "electrons": 3
+        },
+        {
+          "orbital": "6d",
+          "electrons": 1
+        },
+        {
+          "orbital": "7s",
+          "electrons": 2
+        }
+      ]
+    },
+    "electronConfigurationData": {
+      "nobleGasCore": "Rn",
+      "orbitals": [
+        {
+          "orbital": "5f",
+          "electrons": 3
+        },
+        {
+          "orbital": "6d",
+          "electrons": 1
+        },
+        {
+          "orbital": "7s",
+          "electrons": 2
+        }
+      ]
+    },
+    "atomicNumber": 92,
+    "symbol": "U",
+    "nameZh": "铀",
+    "nameEn": "Uranium",
+    "atomicMass": "238.02891",
+    "period": 7,
+    "group": null,
+    "category": "actinide",
+    "block": "f",
+    "electronConfiguration": "[Rn]5f3 6d1 7s2",
+    "displayRow": 10,
+    "displayColumn": 6,
+    "phaseAtStp": "固态",
+    "density": 18.95,
+    "meltingPointK": 1405.3,
+    "boilingPointK": 4404,
+    "electronegativityPauling": 1.38,
+    "atomicRadiusPm": 175,
+    "oxidationStates": "+3,+4,+5,+6",
+    "discoveryYear": 1789,
+    "discoverer": "Martin Heinrich Klaproth",
+    "uses": "核燃料、密度材料",
+    "notes": null,
+    "densityUnit": "g/cm³",
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      32,
+      21,
+      9,
+      2
+    ]
+  },
+  {
+    "atomicMassType": "representativeMassNumber",
+    "representativeMassNumber": 237,
+    "valenceConfiguration": "5f4 6d1 7s2",
+    "valenceConfigurationData": {
+      "nobleGasCore": null,
+      "orbitals": [
+        {
+          "orbital": "5f",
+          "electrons": 4
+        },
+        {
+          "orbital": "6d",
+          "electrons": 1
+        },
+        {
+          "orbital": "7s",
+          "electrons": 2
+        }
+      ]
+    },
+    "electronConfigurationData": {
+      "nobleGasCore": "Rn",
+      "orbitals": [
+        {
+          "orbital": "5f",
+          "electrons": 4
+        },
+        {
+          "orbital": "6d",
+          "electrons": 1
+        },
+        {
+          "orbital": "7s",
+          "electrons": 2
+        }
+      ]
+    },
+    "atomicNumber": 93,
+    "symbol": "Np",
+    "nameZh": "镎",
+    "nameEn": "Neptunium",
+    "atomicMass": "[237]",
+    "period": 7,
+    "group": null,
+    "category": "actinide",
+    "block": "f",
+    "electronConfiguration": "[Rn]5f4 6d1 7s2",
+    "displayRow": 10,
+    "displayColumn": 7,
+    "phaseAtStp": "固态",
+    "density": 20.45,
+    "meltingPointK": 917,
+    "boilingPointK": 4273,
+    "electronegativityPauling": 1.36,
+    "atomicRadiusPm": 175,
+    "oxidationStates": "+3,+4,+5,+6,+7",
+    "discoveryYear": 1940,
+    "discoverer": "Edwin McMillan 与 Philip Abelson",
+    "uses": "中子探测器、核研究",
+    "notes": null,
+    "densityUnit": "g/cm³",
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      32,
+      22,
+      9,
+      2
+    ]
+  },
+  {
+    "atomicMassType": "representativeMassNumber",
+    "representativeMassNumber": 244,
+    "valenceConfiguration": "5f6 7s2",
+    "valenceConfigurationData": {
+      "nobleGasCore": null,
+      "orbitals": [
+        {
+          "orbital": "5f",
+          "electrons": 6
+        },
+        {
+          "orbital": "7s",
+          "electrons": 2
+        }
+      ]
+    },
+    "electronConfigurationData": {
+      "nobleGasCore": "Rn",
+      "orbitals": [
+        {
+          "orbital": "5f",
+          "electrons": 6
+        },
+        {
+          "orbital": "7s",
+          "electrons": 2
+        }
+      ]
+    },
+    "atomicNumber": 94,
+    "symbol": "Pu",
+    "nameZh": "钚",
+    "nameEn": "Plutonium",
+    "atomicMass": "[244]",
+    "period": 7,
+    "group": null,
+    "category": "actinide",
+    "block": "f",
+    "electronConfiguration": "[Rn]5f6 7s2",
+    "displayRow": 10,
+    "displayColumn": 8,
+    "phaseAtStp": "固态",
+    "density": 19.84,
+    "meltingPointK": 912.5,
+    "boilingPointK": 3505,
+    "electronegativityPauling": 1.28,
+    "atomicRadiusPm": 175,
+    "oxidationStates": "+3,+4,+5,+6,+7",
+    "discoveryYear": 1940,
+    "discoverer": "Glenn T. Seaborg 等",
+    "uses": "核燃料、空间电源",
+    "notes": null,
+    "densityUnit": "g/cm³",
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      32,
+      24,
+      8,
+      2
+    ]
+  },
+  {
+    "atomicMassType": "representativeMassNumber",
+    "representativeMassNumber": 243,
+    "valenceConfiguration": "5f7 7s2",
+    "valenceConfigurationData": {
+      "nobleGasCore": null,
+      "orbitals": [
+        {
+          "orbital": "5f",
+          "electrons": 7
+        },
+        {
+          "orbital": "7s",
+          "electrons": 2
+        }
+      ]
+    },
+    "electronConfigurationData": {
+      "nobleGasCore": "Rn",
+      "orbitals": [
+        {
+          "orbital": "5f",
+          "electrons": 7
+        },
+        {
+          "orbital": "7s",
+          "electrons": 2
+        }
+      ]
+    },
+    "atomicNumber": 95,
+    "symbol": "Am",
+    "nameZh": "镅",
+    "nameEn": "Americium",
+    "atomicMass": "[243]",
+    "period": 7,
+    "group": null,
+    "category": "actinide",
+    "block": "f",
+    "electronConfiguration": "[Rn]5f7 7s2",
+    "displayRow": 10,
+    "displayColumn": 9,
+    "phaseAtStp": "固态",
+    "density": 12,
+    "meltingPointK": 1449,
+    "boilingPointK": 2880,
+    "electronegativityPauling": 1.13,
+    "atomicRadiusPm": 175,
+    "oxidationStates": "+2,+3,+4,+5,+6",
+    "discoveryYear": 1944,
+    "discoverer": "Glenn T. Seaborg 等",
+    "uses": "电离室、核研究",
+    "notes": null,
+    "densityUnit": "g/cm³",
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      32,
+      25,
+      8,
+      2
+    ]
+  },
+  {
+    "atomicMassType": "representativeMassNumber",
+    "representativeMassNumber": 247,
+    "valenceConfiguration": "5f7 6d1 7s2",
+    "valenceConfigurationData": {
+      "nobleGasCore": null,
+      "orbitals": [
+        {
+          "orbital": "5f",
+          "electrons": 7
+        },
+        {
+          "orbital": "6d",
+          "electrons": 1
+        },
+        {
+          "orbital": "7s",
+          "electrons": 2
+        }
+      ]
+    },
+    "electronConfigurationData": {
+      "nobleGasCore": "Rn",
+      "orbitals": [
+        {
+          "orbital": "5f",
+          "electrons": 7
+        },
+        {
+          "orbital": "6d",
+          "electrons": 1
+        },
+        {
+          "orbital": "7s",
+          "electrons": 2
+        }
+      ]
+    },
+    "atomicNumber": 96,
+    "symbol": "Cm",
+    "nameZh": "锔",
+    "nameEn": "Curium",
+    "atomicMass": "[247]",
+    "period": 7,
+    "group": null,
+    "category": "actinide",
+    "block": "f",
+    "electronConfiguration": "[Rn]5f7 6d1 7s2",
+    "displayRow": 10,
+    "displayColumn": 10,
+    "phaseAtStp": "固态",
+    "density": 13.51,
+    "meltingPointK": 1613,
+    "boilingPointK": 3383,
+    "electronegativityPauling": 1.28,
+    "atomicRadiusPm": 175,
+    "oxidationStates": "+3,+4",
+    "discoveryYear": 1944,
+    "discoverer": "Glenn T. Seaborg 等",
+    "uses": "空间电源、核研究",
+    "notes": null,
+    "densityUnit": "g/cm³",
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      32,
+      25,
+      9,
+      2
+    ]
+  },
+  {
+    "atomicMassType": "representativeMassNumber",
+    "representativeMassNumber": 247,
+    "valenceConfiguration": "5f9 7s2",
+    "valenceConfigurationData": {
+      "nobleGasCore": null,
+      "orbitals": [
+        {
+          "orbital": "5f",
+          "electrons": 9
+        },
+        {
+          "orbital": "7s",
+          "electrons": 2
+        }
+      ]
+    },
+    "electronConfigurationData": {
+      "nobleGasCore": "Rn",
+      "orbitals": [
+        {
+          "orbital": "5f",
+          "electrons": 9
+        },
+        {
+          "orbital": "7s",
+          "electrons": 2
+        }
+      ]
+    },
+    "atomicNumber": 97,
+    "symbol": "Bk",
+    "nameZh": "锫",
+    "nameEn": "Berkelium",
+    "atomicMass": "[247]",
+    "period": 7,
+    "group": null,
+    "category": "actinide",
+    "block": "f",
+    "electronConfiguration": "[Rn]5f9 7s2",
+    "displayRow": 10,
+    "displayColumn": 11,
+    "phaseAtStp": "固态",
+    "density": 14.78,
+    "meltingPointK": 1259,
+    "boilingPointK": 2900,
+    "electronegativityPauling": 1.3,
+    "atomicRadiusPm": 175,
+    "oxidationStates": "+3,+4",
+    "discoveryYear": 1949,
+    "discoverer": "Glenn T. Seaborg 等",
+    "uses": "超重元素合成靶材",
+    "notes": null,
+    "densityUnit": "g/cm³",
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      32,
+      27,
+      8,
+      2
+    ]
+  },
+  {
+    "atomicMassType": "representativeMassNumber",
+    "representativeMassNumber": 251,
+    "valenceConfiguration": "5f10 7s2",
+    "valenceConfigurationData": {
+      "nobleGasCore": null,
+      "orbitals": [
+        {
+          "orbital": "5f",
+          "electrons": 10
+        },
+        {
+          "orbital": "7s",
+          "electrons": 2
+        }
+      ]
+    },
+    "electronConfigurationData": {
+      "nobleGasCore": "Rn",
+      "orbitals": [
+        {
+          "orbital": "5f",
+          "electrons": 10
+        },
+        {
+          "orbital": "7s",
+          "electrons": 2
+        }
+      ]
+    },
+    "atomicNumber": 98,
+    "symbol": "Cf",
+    "nameZh": "锎",
+    "nameEn": "Californium",
+    "atomicMass": "[251]",
+    "period": 7,
+    "group": null,
+    "category": "actinide",
+    "block": "f",
+    "electronConfiguration": "[Rn]5f10 7s2",
+    "displayRow": 10,
+    "displayColumn": 12,
+    "phaseAtStp": "固态",
+    "density": 15.1,
+    "meltingPointK": 1173,
+    "boilingPointK": 1743,
+    "electronegativityPauling": 1.3,
+    "atomicRadiusPm": 175,
+    "oxidationStates": "+2,+3,+4",
+    "discoveryYear": 1950,
+    "discoverer": "Glenn T. Seaborg 等",
+    "uses": "中子源、核研究",
+    "notes": null,
+    "densityUnit": "g/cm³",
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      32,
+      28,
+      8,
+      2
+    ]
+  },
+  {
+    "atomicMassType": "representativeMassNumber",
+    "representativeMassNumber": 252,
+    "valenceConfiguration": "5f11 7s2",
+    "valenceConfigurationData": {
+      "nobleGasCore": null,
+      "orbitals": [
+        {
+          "orbital": "5f",
+          "electrons": 11
+        },
+        {
+          "orbital": "7s",
+          "electrons": 2
+        }
+      ]
+    },
+    "electronConfigurationData": {
+      "nobleGasCore": "Rn",
+      "orbitals": [
+        {
+          "orbital": "5f",
+          "electrons": 11
+        },
+        {
+          "orbital": "7s",
+          "electrons": 2
+        }
+      ]
+    },
+    "atomicNumber": 99,
+    "symbol": "Es",
+    "nameZh": "锿",
+    "nameEn": "Einsteinium",
+    "atomicMass": "[252]",
+    "period": 7,
+    "group": null,
+    "category": "actinide",
+    "block": "f",
+    "electronConfiguration": "[Rn]5f11 7s2",
+    "displayRow": 10,
+    "displayColumn": 13,
+    "phaseAtStp": "固态",
+    "density": 8.84,
+    "meltingPointK": 1133,
+    "boilingPointK": 1269,
+    "electronegativityPauling": 1.3,
+    "atomicRadiusPm": 175,
+    "oxidationStates": "+2,+3",
+    "discoveryYear": 1952,
+    "discoverer": "Albert Ghiorso 等",
+    "uses": "基础核化学研究",
+    "notes": null,
+    "densityUnit": "g/cm³",
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      32,
+      29,
+      8,
+      2
+    ]
+  },
+  {
+    "atomicMassType": "representativeMassNumber",
+    "representativeMassNumber": 257,
+    "valenceConfiguration": "5f12 7s2",
+    "valenceConfigurationData": {
+      "nobleGasCore": null,
+      "orbitals": [
+        {
+          "orbital": "5f",
+          "electrons": 12
+        },
+        {
+          "orbital": "7s",
+          "electrons": 2
+        }
+      ]
+    },
+    "electronConfigurationData": {
+      "nobleGasCore": "Rn",
+      "orbitals": [
+        {
+          "orbital": "5f",
+          "electrons": 12
+        },
+        {
+          "orbital": "7s",
+          "electrons": 2
+        }
+      ]
+    },
+    "atomicNumber": 100,
+    "symbol": "Fm",
+    "nameZh": "镄",
+    "nameEn": "Fermium",
+    "atomicMass": "[257]",
+    "period": 7,
+    "group": null,
+    "category": "actinide",
+    "block": "f",
+    "electronConfiguration": "[Rn]5f12 7s2",
+    "displayRow": 10,
+    "displayColumn": 14,
+    "phaseAtStp": "固态",
+    "density": null,
+    "meltingPointK": 1800,
+    "boilingPointK": null,
+    "electronegativityPauling": 1.3,
+    "atomicRadiusPm": null,
+    "oxidationStates": "+2,+3",
+    "discoveryYear": 1952,
+    "discoverer": "Albert Ghiorso 等",
+    "uses": "基础核化学研究",
+    "notes": null,
+    "densityUnit": "g/cm³",
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      32,
+      30,
+      8,
+      2
+    ]
+  },
+  {
+    "atomicMassType": "representativeMassNumber",
+    "representativeMassNumber": 258,
+    "valenceConfiguration": "5f13 7s2",
+    "valenceConfigurationData": {
+      "nobleGasCore": null,
+      "orbitals": [
+        {
+          "orbital": "5f",
+          "electrons": 13
+        },
+        {
+          "orbital": "7s",
+          "electrons": 2
+        }
+      ]
+    },
+    "electronConfigurationData": {
+      "nobleGasCore": "Rn",
+      "orbitals": [
+        {
+          "orbital": "5f",
+          "electrons": 13
+        },
+        {
+          "orbital": "7s",
+          "electrons": 2
+        }
+      ]
+    },
+    "atomicNumber": 101,
+    "symbol": "Md",
+    "nameZh": "钔",
+    "nameEn": "Mendelevium",
+    "atomicMass": "[258]",
+    "period": 7,
+    "group": null,
+    "category": "actinide",
+    "block": "f",
+    "electronConfiguration": "[Rn]5f13 7s2",
+    "displayRow": 10,
+    "displayColumn": 15,
+    "phaseAtStp": "固态",
+    "density": null,
+    "meltingPointK": 1100,
+    "boilingPointK": null,
+    "electronegativityPauling": 1.3,
+    "atomicRadiusPm": null,
+    "oxidationStates": "+2,+3",
+    "discoveryYear": 1955,
+    "discoverer": "Albert Ghiorso 等",
+    "uses": "基础核化学研究",
+    "notes": null,
+    "densityUnit": "g/cm³",
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      32,
+      31,
+      8,
+      2
+    ]
+  },
+  {
+    "atomicMassType": "representativeMassNumber",
+    "representativeMassNumber": 259,
+    "valenceConfiguration": "5f14 7s2",
+    "valenceConfigurationData": {
+      "nobleGasCore": null,
+      "orbitals": [
+        {
+          "orbital": "5f",
+          "electrons": 14
+        },
+        {
+          "orbital": "7s",
+          "electrons": 2
+        }
+      ]
+    },
+    "electronConfigurationData": {
+      "nobleGasCore": "Rn",
+      "orbitals": [
+        {
+          "orbital": "5f",
+          "electrons": 14
+        },
+        {
+          "orbital": "7s",
+          "electrons": 2
+        }
+      ]
+    },
+    "atomicNumber": 102,
+    "symbol": "No",
+    "nameZh": "锘",
+    "nameEn": "Nobelium",
+    "atomicMass": "[259]",
+    "period": 7,
+    "group": null,
+    "category": "actinide",
+    "block": "f",
+    "electronConfiguration": "[Rn]5f14 7s2",
+    "displayRow": 10,
+    "displayColumn": 16,
+    "phaseAtStp": "固态",
+    "density": null,
+    "meltingPointK": 1100,
+    "boilingPointK": null,
+    "electronegativityPauling": 1.3,
+    "atomicRadiusPm": null,
+    "oxidationStates": "+2,+3",
+    "discoveryYear": 1957,
+    "discoverer": "Albert Ghiorso 等",
+    "uses": "基础核化学研究",
+    "notes": null,
+    "densityUnit": "g/cm³",
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      32,
+      32,
+      8,
+      2
+    ]
+  },
+  {
+    "atomicMassType": "representativeMassNumber",
+    "representativeMassNumber": 266,
+    "valenceConfiguration": "5f14 7s2 7p1",
+    "valenceConfigurationData": {
+      "nobleGasCore": null,
+      "orbitals": [
+        {
+          "orbital": "5f",
+          "electrons": 14
+        },
+        {
+          "orbital": "7s",
+          "electrons": 2
+        },
+        {
+          "orbital": "7p",
+          "electrons": 1
+        }
+      ]
+    },
+    "electronConfigurationData": {
+      "nobleGasCore": "Rn",
+      "orbitals": [
+        {
+          "orbital": "5f",
+          "electrons": 14
+        },
+        {
+          "orbital": "7s",
+          "electrons": 2
+        },
+        {
+          "orbital": "7p",
+          "electrons": 1
+        }
+      ]
+    },
+    "atomicNumber": 103,
+    "symbol": "Lr",
+    "nameZh": "铹",
+    "nameEn": "Lawrencium",
+    "atomicMass": "[266]",
+    "period": 7,
+    "group": null,
+    "category": "actinide",
+    "block": "f",
+    "electronConfiguration": "[Rn]5f14 7s2 7p1",
+    "displayRow": 10,
+    "displayColumn": 17,
+    "phaseAtStp": "固态",
+    "density": null,
+    "meltingPointK": 1900,
+    "boilingPointK": null,
+    "electronegativityPauling": 1.3,
+    "atomicRadiusPm": null,
+    "oxidationStates": "+3",
+    "discoveryYear": 1961,
+    "discoverer": "Albert Ghiorso 等",
+    "uses": "基础核化学研究",
+    "notes": "基态电子排布包含 7p 电子。",
+    "densityUnit": "g/cm³",
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      32,
+      32,
+      8,
+      3
+    ]
+  },
+  {
+    "atomicMassType": "representativeMassNumber",
+    "representativeMassNumber": 267,
+    "valenceConfiguration": "5f14 6d2 7s2",
+    "valenceConfigurationData": {
+      "nobleGasCore": null,
+      "orbitals": [
+        {
+          "orbital": "5f",
+          "electrons": 14
+        },
+        {
+          "orbital": "6d",
+          "electrons": 2
+        },
+        {
+          "orbital": "7s",
+          "electrons": 2
+        }
+      ]
+    },
+    "electronConfigurationData": {
+      "nobleGasCore": "Rn",
+      "orbitals": [
+        {
+          "orbital": "5f",
+          "electrons": 14
+        },
+        {
+          "orbital": "6d",
+          "electrons": 2
+        },
+        {
+          "orbital": "7s",
+          "electrons": 2
+        }
+      ]
+    },
+    "atomicNumber": 104,
+    "symbol": "Rf",
+    "nameZh": "鑪",
+    "nameEn": "Rutherfordium",
+    "atomicMass": "[267]",
+    "period": 7,
+    "group": 4,
+    "category": "transitionMetal",
+    "block": "d",
+    "electronConfiguration": "[Rn]5f14 6d2 7s2",
+    "displayRow": 7,
+    "displayColumn": 4,
+    "phaseAtStp": "固态(预测)",
+    "density": null,
+    "meltingPointK": 2400,
+    "boilingPointK": 5800,
+    "electronegativityPauling": null,
+    "atomicRadiusPm": null,
+    "oxidationStates": "+4",
+    "discoveryYear": 1964,
+    "discoverer": "联合核子研究所等",
+    "uses": "超重元素研究",
+    "notes": null,
+    "densityUnit": "g/cm³",
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      32,
+      32,
+      10,
+      2
+    ]
+  },
+  {
+    "atomicMassType": "representativeMassNumber",
+    "representativeMassNumber": 268,
+    "valenceConfiguration": "5f14 6d3 7s2",
+    "valenceConfigurationData": {
+      "nobleGasCore": null,
+      "orbitals": [
+        {
+          "orbital": "5f",
+          "electrons": 14
+        },
+        {
+          "orbital": "6d",
+          "electrons": 3
+        },
+        {
+          "orbital": "7s",
+          "electrons": 2
+        }
+      ]
+    },
+    "electronConfigurationData": {
+      "nobleGasCore": "Rn",
+      "orbitals": [
+        {
+          "orbital": "5f",
+          "electrons": 14
+        },
+        {
+          "orbital": "6d",
+          "electrons": 3
+        },
+        {
+          "orbital": "7s",
+          "electrons": 2
+        }
+      ]
+    },
+    "atomicNumber": 105,
+    "symbol": "Db",
+    "nameZh": "𨧀",
+    "nameEn": "Dubnium",
+    "atomicMass": "[268]",
+    "period": 7,
+    "group": 5,
+    "category": "transitionMetal",
+    "block": "d",
+    "electronConfiguration": "[Rn]5f14 6d3 7s2",
+    "displayRow": 7,
+    "displayColumn": 5,
+    "phaseAtStp": "固态(预测)",
+    "density": null,
+    "meltingPointK": null,
+    "boilingPointK": null,
+    "electronegativityPauling": null,
+    "atomicRadiusPm": null,
+    "oxidationStates": "+5",
+    "discoveryYear": 1968,
+    "discoverer": "联合核子研究所与劳伦斯伯克利实验室",
+    "uses": "超重元素研究",
+    "notes": null,
+    "densityUnit": "g/cm³",
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      32,
+      32,
+      11,
+      2
+    ]
+  },
+  {
+    "atomicMassType": "representativeMassNumber",
+    "representativeMassNumber": 269,
+    "valenceConfiguration": "5f14 6d4 7s2",
+    "valenceConfigurationData": {
+      "nobleGasCore": null,
+      "orbitals": [
+        {
+          "orbital": "5f",
+          "electrons": 14
+        },
+        {
+          "orbital": "6d",
+          "electrons": 4
+        },
+        {
+          "orbital": "7s",
+          "electrons": 2
+        }
+      ]
+    },
+    "electronConfigurationData": {
+      "nobleGasCore": "Rn",
+      "orbitals": [
+        {
+          "orbital": "5f",
+          "electrons": 14
+        },
+        {
+          "orbital": "6d",
+          "electrons": 4
+        },
+        {
+          "orbital": "7s",
+          "electrons": 2
+        }
+      ]
+    },
+    "atomicNumber": 106,
+    "symbol": "Sg",
+    "nameZh": "𨭎",
+    "nameEn": "Seaborgium",
+    "atomicMass": "[269]",
+    "period": 7,
+    "group": 6,
+    "category": "transitionMetal",
+    "block": "d",
+    "electronConfiguration": "[Rn]5f14 6d4 7s2",
+    "displayRow": 7,
+    "displayColumn": 6,
+    "phaseAtStp": "固态(预测)",
+    "density": null,
+    "meltingPointK": null,
+    "boilingPointK": null,
+    "electronegativityPauling": null,
+    "atomicRadiusPm": null,
+    "oxidationStates": "+6",
+    "discoveryYear": 1974,
+    "discoverer": "劳伦斯伯克利实验室等",
+    "uses": "超重元素研究",
+    "notes": null,
+    "densityUnit": "g/cm³",
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      32,
+      32,
+      12,
+      2
+    ]
+  },
+  {
+    "atomicMassType": "representativeMassNumber",
+    "representativeMassNumber": 270,
+    "valenceConfiguration": "5f14 6d5 7s2",
+    "valenceConfigurationData": {
+      "nobleGasCore": null,
+      "orbitals": [
+        {
+          "orbital": "5f",
+          "electrons": 14
+        },
+        {
+          "orbital": "6d",
+          "electrons": 5
+        },
+        {
+          "orbital": "7s",
+          "electrons": 2
+        }
+      ]
+    },
+    "electronConfigurationData": {
+      "nobleGasCore": "Rn",
+      "orbitals": [
+        {
+          "orbital": "5f",
+          "electrons": 14
+        },
+        {
+          "orbital": "6d",
+          "electrons": 5
+        },
+        {
+          "orbital": "7s",
+          "electrons": 2
+        }
+      ]
+    },
+    "atomicNumber": 107,
+    "symbol": "Bh",
+    "nameZh": "𨨏",
+    "nameEn": "Bohrium",
+    "atomicMass": "[270]",
+    "period": 7,
+    "group": 7,
+    "category": "transitionMetal",
+    "block": "d",
+    "electronConfiguration": "[Rn]5f14 6d5 7s2",
+    "displayRow": 7,
+    "displayColumn": 7,
+    "phaseAtStp": "固态(预测)",
+    "density": null,
+    "meltingPointK": null,
+    "boilingPointK": null,
+    "electronegativityPauling": null,
+    "atomicRadiusPm": null,
+    "oxidationStates": "+7",
+    "discoveryYear": 1981,
+    "discoverer": "重离子研究所",
+    "uses": "超重元素研究",
+    "notes": null,
+    "densityUnit": "g/cm³",
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      32,
+      32,
+      13,
+      2
+    ]
+  },
+  {
+    "atomicMassType": "representativeMassNumber",
+    "representativeMassNumber": 269,
+    "valenceConfiguration": "5f14 6d6 7s2",
+    "valenceConfigurationData": {
+      "nobleGasCore": null,
+      "orbitals": [
+        {
+          "orbital": "5f",
+          "electrons": 14
+        },
+        {
+          "orbital": "6d",
+          "electrons": 6
+        },
+        {
+          "orbital": "7s",
+          "electrons": 2
+        }
+      ]
+    },
+    "electronConfigurationData": {
+      "nobleGasCore": "Rn",
+      "orbitals": [
+        {
+          "orbital": "5f",
+          "electrons": 14
+        },
+        {
+          "orbital": "6d",
+          "electrons": 6
+        },
+        {
+          "orbital": "7s",
+          "electrons": 2
+        }
+      ]
+    },
+    "atomicNumber": 108,
+    "symbol": "Hs",
+    "nameZh": "𨭆",
+    "nameEn": "Hassium",
+    "atomicMass": "[269]",
+    "period": 7,
+    "group": 8,
+    "category": "transitionMetal",
+    "block": "d",
+    "electronConfiguration": "[Rn]5f14 6d6 7s2",
+    "displayRow": 7,
+    "displayColumn": 8,
+    "phaseAtStp": "固态(预测)",
+    "density": null,
+    "meltingPointK": null,
+    "boilingPointK": null,
+    "electronegativityPauling": null,
+    "atomicRadiusPm": null,
+    "oxidationStates": "+8",
+    "discoveryYear": 1984,
+    "discoverer": "重离子研究所",
+    "uses": "超重元素研究",
+    "notes": null,
+    "densityUnit": "g/cm³",
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      32,
+      32,
+      14,
+      2
+    ]
+  },
+  {
+    "atomicMassType": "representativeMassNumber",
+    "representativeMassNumber": 278,
+    "valenceConfiguration": "5f14 6d7 7s2",
+    "valenceConfigurationData": {
+      "nobleGasCore": null,
+      "orbitals": [
+        {
+          "orbital": "5f",
+          "electrons": 14
+        },
+        {
+          "orbital": "6d",
+          "electrons": 7
+        },
+        {
+          "orbital": "7s",
+          "electrons": 2
+        }
+      ]
+    },
+    "electronConfigurationData": {
+      "nobleGasCore": "Rn",
+      "orbitals": [
+        {
+          "orbital": "5f",
+          "electrons": 14
+        },
+        {
+          "orbital": "6d",
+          "electrons": 7
+        },
+        {
+          "orbital": "7s",
+          "electrons": 2
+        }
+      ]
+    },
+    "atomicNumber": 109,
+    "symbol": "Mt",
+    "nameZh": "䥑",
+    "nameEn": "Meitnerium",
+    "atomicMass": "[278]",
+    "period": 7,
+    "group": 9,
+    "category": "unknown",
+    "block": "d",
+    "electronConfiguration": "[Rn]5f14 6d7 7s2",
+    "displayRow": 7,
+    "displayColumn": 9,
+    "phaseAtStp": "固态(预测)",
+    "density": null,
+    "meltingPointK": null,
+    "boilingPointK": null,
+    "electronegativityPauling": null,
+    "atomicRadiusPm": null,
+    "oxidationStates": "",
+    "discoveryYear": 1982,
+    "discoverer": "重离子研究所",
+    "uses": "超重元素研究",
+    "notes": null,
+    "densityUnit": "g/cm³",
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      32,
+      32,
+      15,
+      2
+    ]
+  },
+  {
+    "atomicMassType": "representativeMassNumber",
+    "representativeMassNumber": 281,
+    "valenceConfiguration": "5f14 6d8 7s2",
+    "valenceConfigurationData": {
+      "nobleGasCore": null,
+      "orbitals": [
+        {
+          "orbital": "5f",
+          "electrons": 14
+        },
+        {
+          "orbital": "6d",
+          "electrons": 8
+        },
+        {
+          "orbital": "7s",
+          "electrons": 2
+        }
+      ]
+    },
+    "electronConfigurationData": {
+      "nobleGasCore": "Rn",
+      "orbitals": [
+        {
+          "orbital": "5f",
+          "electrons": 14
+        },
+        {
+          "orbital": "6d",
+          "electrons": 8
+        },
+        {
+          "orbital": "7s",
+          "electrons": 2
+        }
+      ]
+    },
+    "atomicNumber": 110,
+    "symbol": "Ds",
+    "nameZh": "鐽",
+    "nameEn": "Darmstadtium",
+    "atomicMass": "[281]",
+    "period": 7,
+    "group": 10,
+    "category": "unknown",
+    "block": "d",
+    "electronConfiguration": "[Rn]5f14 6d8 7s2",
+    "displayRow": 7,
+    "displayColumn": 10,
+    "phaseAtStp": "固态(预测)",
+    "density": null,
+    "meltingPointK": null,
+    "boilingPointK": null,
+    "electronegativityPauling": null,
+    "atomicRadiusPm": null,
+    "oxidationStates": "",
+    "discoveryYear": 1994,
+    "discoverer": "重离子研究所",
+    "uses": "超重元素研究",
+    "notes": null,
+    "densityUnit": "g/cm³",
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      32,
+      32,
+      16,
+      2
+    ]
+  },
+  {
+    "atomicMassType": "representativeMassNumber",
+    "representativeMassNumber": 282,
+    "valenceConfiguration": "5f14 6d9 7s2",
+    "valenceConfigurationData": {
+      "nobleGasCore": null,
+      "orbitals": [
+        {
+          "orbital": "5f",
+          "electrons": 14
+        },
+        {
+          "orbital": "6d",
+          "electrons": 9
+        },
+        {
+          "orbital": "7s",
+          "electrons": 2
+        }
+      ]
+    },
+    "electronConfigurationData": {
+      "nobleGasCore": "Rn",
+      "orbitals": [
+        {
+          "orbital": "5f",
+          "electrons": 14
+        },
+        {
+          "orbital": "6d",
+          "electrons": 9
+        },
+        {
+          "orbital": "7s",
+          "electrons": 2
+        }
+      ]
+    },
+    "atomicNumber": 111,
+    "symbol": "Rg",
+    "nameZh": "錀",
+    "nameEn": "Roentgenium",
+    "atomicMass": "[282]",
+    "period": 7,
+    "group": 11,
+    "category": "unknown",
+    "block": "d",
+    "electronConfiguration": "[Rn]5f14 6d9 7s2",
+    "displayRow": 7,
+    "displayColumn": 11,
+    "phaseAtStp": "固态(预测)",
+    "density": null,
+    "meltingPointK": null,
+    "boilingPointK": null,
+    "electronegativityPauling": null,
+    "atomicRadiusPm": null,
+    "oxidationStates": "",
+    "discoveryYear": 1994,
+    "discoverer": "重离子研究所",
+    "uses": "超重元素研究",
+    "notes": null,
+    "densityUnit": "g/cm³",
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      32,
+      32,
+      17,
+      2
+    ]
+  },
+  {
+    "atomicMassType": "representativeMassNumber",
+    "representativeMassNumber": 285,
+    "valenceConfiguration": "5f14 6d10 7s2",
+    "valenceConfigurationData": {
+      "nobleGasCore": null,
+      "orbitals": [
+        {
+          "orbital": "5f",
+          "electrons": 14
+        },
+        {
+          "orbital": "6d",
+          "electrons": 10
+        },
+        {
+          "orbital": "7s",
+          "electrons": 2
+        }
+      ]
+    },
+    "electronConfigurationData": {
+      "nobleGasCore": "Rn",
+      "orbitals": [
+        {
+          "orbital": "5f",
+          "electrons": 14
+        },
+        {
+          "orbital": "6d",
+          "electrons": 10
+        },
+        {
+          "orbital": "7s",
+          "electrons": 2
+        }
+      ]
+    },
+    "atomicNumber": 112,
+    "symbol": "Cn",
+    "nameZh": "鎶",
+    "nameEn": "Copernicium",
+    "atomicMass": "[285]",
+    "period": 7,
+    "group": 12,
+    "category": "transitionMetal",
+    "block": "d",
+    "electronConfiguration": "[Rn]5f14 6d10 7s2",
+    "displayRow": 7,
+    "displayColumn": 12,
+    "phaseAtStp": "固态(预测)",
+    "density": null,
+    "meltingPointK": 283,
+    "boilingPointK": 340,
+    "electronegativityPauling": null,
+    "atomicRadiusPm": null,
+    "oxidationStates": "+2",
+    "discoveryYear": 1996,
+    "discoverer": "重离子研究所",
+    "uses": "超重元素研究",
+    "notes": null,
+    "densityUnit": "g/cm³",
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      32,
+      32,
+      18,
+      2
+    ]
+  },
+  {
+    "atomicMassType": "representativeMassNumber",
+    "representativeMassNumber": 286,
+    "valenceConfiguration": "5f14 6d10 7s2 7p1",
+    "valenceConfigurationData": {
+      "nobleGasCore": null,
+      "orbitals": [
+        {
+          "orbital": "5f",
+          "electrons": 14
+        },
+        {
+          "orbital": "6d",
+          "electrons": 10
+        },
+        {
+          "orbital": "7s",
+          "electrons": 2
+        },
+        {
+          "orbital": "7p",
+          "electrons": 1
+        }
+      ]
+    },
+    "electronConfigurationData": {
+      "nobleGasCore": "Rn",
+      "orbitals": [
+        {
+          "orbital": "5f",
+          "electrons": 14
+        },
+        {
+          "orbital": "6d",
+          "electrons": 10
+        },
+        {
+          "orbital": "7s",
+          "electrons": 2
+        },
+        {
+          "orbital": "7p",
+          "electrons": 1
+        }
+      ]
+    },
+    "atomicNumber": 113,
+    "symbol": "Nh",
+    "nameZh": "鉨",
+    "nameEn": "Nihonium",
+    "atomicMass": "[286]",
+    "period": 7,
+    "group": 13,
+    "category": "postTransitionMetal",
+    "block": "p",
+    "electronConfiguration": "[Rn]5f14 6d10 7s2 7p1",
+    "displayRow": 7,
+    "displayColumn": 13,
+    "phaseAtStp": "固态(预测)",
+    "density": null,
+    "meltingPointK": 700,
+    "boilingPointK": 1400,
+    "electronegativityPauling": null,
+    "atomicRadiusPm": null,
+    "oxidationStates": "+1,+3",
+    "discoveryYear": 2003,
+    "discoverer": "理化学研究所",
+    "uses": "超重元素研究",
+    "notes": null,
+    "densityUnit": "g/cm³",
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      32,
+      32,
+      18,
+      3
+    ]
+  },
+  {
+    "atomicMassType": "representativeMassNumber",
+    "representativeMassNumber": 289,
+    "valenceConfiguration": "5f14 6d10 7s2 7p2",
+    "valenceConfigurationData": {
+      "nobleGasCore": null,
+      "orbitals": [
+        {
+          "orbital": "5f",
+          "electrons": 14
+        },
+        {
+          "orbital": "6d",
+          "electrons": 10
+        },
+        {
+          "orbital": "7s",
+          "electrons": 2
+        },
+        {
+          "orbital": "7p",
+          "electrons": 2
+        }
+      ]
+    },
+    "electronConfigurationData": {
+      "nobleGasCore": "Rn",
+      "orbitals": [
+        {
+          "orbital": "5f",
+          "electrons": 14
+        },
+        {
+          "orbital": "6d",
+          "electrons": 10
+        },
+        {
+          "orbital": "7s",
+          "electrons": 2
+        },
+        {
+          "orbital": "7p",
+          "electrons": 2
+        }
+      ]
+    },
+    "atomicNumber": 114,
+    "symbol": "Fl",
+    "nameZh": "鈇",
+    "nameEn": "Flerovium",
+    "atomicMass": "[289]",
+    "period": 7,
+    "group": 14,
+    "category": "postTransitionMetal",
+    "block": "p",
+    "electronConfiguration": "[Rn]5f14 6d10 7s2 7p2",
+    "displayRow": 7,
+    "displayColumn": 14,
+    "phaseAtStp": "固态(预测)",
+    "density": null,
+    "meltingPointK": 200,
+    "boilingPointK": 380,
+    "electronegativityPauling": null,
+    "atomicRadiusPm": null,
+    "oxidationStates": "+2,+4",
+    "discoveryYear": 1998,
+    "discoverer": "联合核子研究所等",
+    "uses": "超重元素研究",
+    "notes": null,
+    "densityUnit": "g/cm³",
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      32,
+      32,
+      18,
+      4
+    ]
+  },
+  {
+    "atomicMassType": "representativeMassNumber",
+    "representativeMassNumber": 290,
+    "valenceConfiguration": "5f14 6d10 7s2 7p3",
+    "valenceConfigurationData": {
+      "nobleGasCore": null,
+      "orbitals": [
+        {
+          "orbital": "5f",
+          "electrons": 14
+        },
+        {
+          "orbital": "6d",
+          "electrons": 10
+        },
+        {
+          "orbital": "7s",
+          "electrons": 2
+        },
+        {
+          "orbital": "7p",
+          "electrons": 3
+        }
+      ]
+    },
+    "electronConfigurationData": {
+      "nobleGasCore": "Rn",
+      "orbitals": [
+        {
+          "orbital": "5f",
+          "electrons": 14
+        },
+        {
+          "orbital": "6d",
+          "electrons": 10
+        },
+        {
+          "orbital": "7s",
+          "electrons": 2
+        },
+        {
+          "orbital": "7p",
+          "electrons": 3
+        }
+      ]
+    },
+    "atomicNumber": 115,
+    "symbol": "Mc",
+    "nameZh": "镆",
+    "nameEn": "Moscovium",
+    "atomicMass": "[290]",
+    "period": 7,
+    "group": 15,
+    "category": "postTransitionMetal",
+    "block": "p",
+    "electronConfiguration": "[Rn]5f14 6d10 7s2 7p3",
+    "displayRow": 7,
+    "displayColumn": 15,
+    "phaseAtStp": "固态(预测)",
+    "density": null,
+    "meltingPointK": 700,
+    "boilingPointK": 1400,
+    "electronegativityPauling": null,
+    "atomicRadiusPm": null,
+    "oxidationStates": "+1,+3",
+    "discoveryYear": 2003,
+    "discoverer": "联合核子研究所与劳伦斯利弗莫尔实验室",
+    "uses": "超重元素研究",
+    "notes": null,
+    "densityUnit": "g/cm³",
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      32,
+      32,
+      18,
+      5
+    ]
+  },
+  {
+    "atomicMassType": "representativeMassNumber",
+    "representativeMassNumber": 293,
+    "valenceConfiguration": "5f14 6d10 7s2 7p4",
+    "valenceConfigurationData": {
+      "nobleGasCore": null,
+      "orbitals": [
+        {
+          "orbital": "5f",
+          "electrons": 14
+        },
+        {
+          "orbital": "6d",
+          "electrons": 10
+        },
+        {
+          "orbital": "7s",
+          "electrons": 2
+        },
+        {
+          "orbital": "7p",
+          "electrons": 4
+        }
+      ]
+    },
+    "electronConfigurationData": {
+      "nobleGasCore": "Rn",
+      "orbitals": [
+        {
+          "orbital": "5f",
+          "electrons": 14
+        },
+        {
+          "orbital": "6d",
+          "electrons": 10
+        },
+        {
+          "orbital": "7s",
+          "electrons": 2
+        },
+        {
+          "orbital": "7p",
+          "electrons": 4
+        }
+      ]
+    },
+    "atomicNumber": 116,
+    "symbol": "Lv",
+    "nameZh": "鉝",
+    "nameEn": "Livermorium",
+    "atomicMass": "[293]",
+    "period": 7,
+    "group": 16,
+    "category": "postTransitionMetal",
+    "block": "p",
+    "electronConfiguration": "[Rn]5f14 6d10 7s2 7p4",
+    "displayRow": 7,
+    "displayColumn": 16,
+    "phaseAtStp": "固态(预测)",
+    "density": null,
+    "meltingPointK": 709,
+    "boilingPointK": 1085,
+    "electronegativityPauling": null,
+    "atomicRadiusPm": null,
+    "oxidationStates": "+2,+4",
+    "discoveryYear": 2000,
+    "discoverer": "联合核子研究所与劳伦斯利弗莫尔实验室",
+    "uses": "超重元素研究",
+    "notes": null,
+    "densityUnit": "g/cm³",
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      32,
+      32,
+      18,
+      6
+    ]
+  },
+  {
+    "atomicMassType": "representativeMassNumber",
+    "representativeMassNumber": 294,
+    "valenceConfiguration": "5f14 6d10 7s2 7p5",
+    "valenceConfigurationData": {
+      "nobleGasCore": null,
+      "orbitals": [
+        {
+          "orbital": "5f",
+          "electrons": 14
+        },
+        {
+          "orbital": "6d",
+          "electrons": 10
+        },
+        {
+          "orbital": "7s",
+          "electrons": 2
+        },
+        {
+          "orbital": "7p",
+          "electrons": 5
+        }
+      ]
+    },
+    "electronConfigurationData": {
+      "nobleGasCore": "Rn",
+      "orbitals": [
+        {
+          "orbital": "5f",
+          "electrons": 14
+        },
+        {
+          "orbital": "6d",
+          "electrons": 10
+        },
+        {
+          "orbital": "7s",
+          "electrons": 2
+        },
+        {
+          "orbital": "7p",
+          "electrons": 5
+        }
+      ]
+    },
+    "atomicNumber": 117,
+    "symbol": "Ts",
+    "nameZh": "鿬",
+    "nameEn": "Tennessine",
+    "atomicMass": "[294]",
+    "period": 7,
+    "group": 17,
+    "category": "halogen",
+    "block": "p",
+    "electronConfiguration": "[Rn]5f14 6d10 7s2 7p5",
+    "displayRow": 7,
+    "displayColumn": 17,
+    "phaseAtStp": "固态(预测)",
+    "density": null,
+    "meltingPointK": 723,
+    "boilingPointK": 883,
+    "electronegativityPauling": null,
+    "atomicRadiusPm": null,
+    "oxidationStates": "",
+    "discoveryYear": 2010,
+    "discoverer": "联合核子研究所等",
+    "uses": "超重元素研究",
+    "notes": null,
+    "densityUnit": "g/cm³",
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      32,
+      32,
+      18,
+      7
+    ]
+  },
+  {
+    "atomicMassType": "representativeMassNumber",
+    "representativeMassNumber": 294,
+    "valenceConfiguration": "5f14 6d10 7s2 7p6",
+    "valenceConfigurationData": {
+      "nobleGasCore": null,
+      "orbitals": [
+        {
+          "orbital": "5f",
+          "electrons": 14
+        },
+        {
+          "orbital": "6d",
+          "electrons": 10
+        },
+        {
+          "orbital": "7s",
+          "electrons": 2
+        },
+        {
+          "orbital": "7p",
+          "electrons": 6
+        }
+      ]
+    },
+    "electronConfigurationData": {
+      "nobleGasCore": "Rn",
+      "orbitals": [
+        {
+          "orbital": "5f",
+          "electrons": 14
+        },
+        {
+          "orbital": "6d",
+          "electrons": 10
+        },
+        {
+          "orbital": "7s",
+          "electrons": 2
+        },
+        {
+          "orbital": "7p",
+          "electrons": 6
+        }
+      ]
+    },
+    "atomicNumber": 118,
+    "symbol": "Og",
+    "nameZh": "鿫",
+    "nameEn": "Oganesson",
+    "atomicMass": "[294]",
+    "period": 7,
+    "group": 18,
+    "category": "nobleGas",
+    "block": "p",
+    "electronConfiguration": "[Rn]5f14 6d10 7s2 7p6",
+    "displayRow": 7,
+    "displayColumn": 18,
+    "phaseAtStp": "固态(预测)",
+    "density": null,
+    "meltingPointK": 325,
+    "boilingPointK": 450,
+    "electronegativityPauling": null,
+    "atomicRadiusPm": null,
+    "oxidationStates": "",
+    "discoveryYear": 2002,
+    "discoverer": "联合核子研究所与劳伦斯利弗莫尔实验室",
+    "uses": "超重元素研究",
+    "notes": null,
+    "densityUnit": "g/cm³",
+    "shellDistribution": [
+      2,
+      8,
+      18,
+      32,
+      32,
+      18,
+      8
+    ]
+  }
+]
