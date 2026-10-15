@@ -58,12 +58,25 @@ build/ios/ipa_unsigned/periodic_table_study-release.ipa
 
 仓库已包含 `.github/workflows/ios-unsigned-ipa.yml`：
 
-1. 把工程推送到 GitHub 仓库；
-2. 在 Actions 页面手动触发 `ios-unsigned-ipa`（或推送 `v*` tag）；
-3. 运行结束后下载 Artifact `periodic-table-study-unsigned-ipa`，即为未签名 IPA。
+1. 在 GitHub 上建一个空仓库（不要勾选 README / gitignore）；
+2. 本机执行一次推送：
+
+   ```powershell
+   powershell -ExecutionPolicy Bypass -File tool\publish_to_github.ps1 `
+       -RepoUrl https://github.com/<用户名>/<仓库名>.git
+   ```
+
+3. 推送 `main` 会自动触发流程：先跑 `flutter analyze` 与 `flutter test` 作为门禁，
+   通过后由 `macos-latest` runner 构建并上传 Artifact
+   `periodic-table-study-unsigned-ipa`，下载解压即为未签名 IPA。
+   也可以在 Actions 页面手动 `Run workflow`，或推送 `v*` tag。
 
 该流程使用 `macos-latest` runner 和 Flutter 3.47.7，不需要本地 Mac，
 也不需要任何 Apple 开发者证书。
+
+注意：公开仓库的 Actions 不计量；私有仓库的 macOS runner 按 10 倍消耗额度
+（构建一次约 100 分钟额度）。若不想每次 push 都触发，可把 workflow 里
+`on.push.branches` 一节删掉，改用手动触发。
 
 ## 五、未签名 IPA 怎么装到真机
 

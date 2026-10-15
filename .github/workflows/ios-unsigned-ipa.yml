@@ -3,11 +3,41 @@ name: ios-unsigned-ipa
 on:
   workflow_dispatch:
   push:
+    branches:
+      - main
     tags:
       - 'v*'
 
 jobs:
+  verify:
+    name: 静态分析 + 单元测试
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          flutter-version: 3.47.7
+          channel: stable
+          cache: true
+
+      - name: flutter pub get
+        run: flutter pub get
+
+      - name: flutter analyze
+        run: flutter analyze
+
+      - name: 校验工作流配置
+        run: dart run tool/validate_workflows.dart
+
+      - name: flutter test
+        run: flutter test
+
   build-unsigned-ipa:
+    name: 构建未签名 IPA
+    needs: verify
     runs-on: macos-latest
     steps:
       - name: Checkout
@@ -21,7 +51,9 @@ jobs:
           cache: true
 
       - name: Toolchain info
-        run: flutter doctor -v
+        run: |
+          flutter doctor -v
+          xcodebuild -version
 
       - name: Build unsigned IPA
         run: bash tool/build_unsigned_ipa.sh release

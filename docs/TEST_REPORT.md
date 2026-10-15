@@ -70,3 +70,9 @@ Redmi Note 10T Pro / Android 17 / 120 Hz 真机已完成启动横屏、完整周
 - 新增 `.github/workflows/ios-unsigned-ipa.yml` 与 `.gitattributes`，可在没有 Mac 的情况下用 GitHub Actions 的 macOS runner 出包，并保证 shell 脚本以 LF 行尾提交。
 - **未执行**：`xcodebuild` 编译、IPA 实际产出、iPhone/iPad 真机运行。本机为 Windows，Flutter 在非 macOS 主机上不注册 `ios` / `ipa` 子命令，实测 `flutter build ios --no-codesign` 输出 `Could not find an option named "--no-codesign".`。
 - iOS 改动不涉及 Dart 代码：`flutter analyze` 仍为 0 issues，`flutter test` 仍为 34 passed。
+
+## CI 出包流程验证（无 Mac 路径）
+
+- 工作流 `.github/workflows/ios-unsigned-ipa.yml` 已用 `package:yaml` 真实解析并通过结构校验（`dart run tool/validate_workflows.dart`），新增 `verify` 任务在 `ubuntu-latest` 上跑 analyze / 工作流校验 / 单元测试，通过后才由 `macos-latest` 构建 IPA。
+- 工作流引用的 `actions/checkout@v4`、`actions/upload-artifact@v4`、`subosito/flutter-action@v2` 以及 Flutter `3.47.7` tag 均已通过 GitHub API 确认存在（HTTP 200）。
+- `tool/publish_to_github.ps1` 已用本地裸仓库做端到端推送测试：Windows PowerShell 5.1 与 PowerShell 7 下均能正确添加/更新 origin、推送 main 并输出 Actions 地址；脚本同时修正了 5.1 无法读取无 BOM UTF-8 中文脚本的问题（改为带 BOM 保存）。
