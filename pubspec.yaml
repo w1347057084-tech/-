@@ -16,6 +16,12 @@ flutter:
   uses-material-design: true
   assets:
     - assets/data/elements.json
+  # 超重元素简体名（𬬻、鿫 等）属于 CJK 扩展区，系统字体普遍缺字形，
+  # 这里内置一份只含这 15 个字的子集（Noto Sans SC + 遍黑体）做兜底。
+  fonts:
+    - family: RareCJKSubset
+      fonts:
+        - asset: assets/fonts/RareCJK-Subset.ttf
 
 dev_dependencies:
   flutter_test:

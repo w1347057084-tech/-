@@ -15,6 +15,26 @@
 
 ## 电子排布结构
 
+## 中文名称与生僻字显示
+
+104–118 号元素采用中国大陆的**简体**规范名（如 104 𬬻、109 鿏、116 𫟷、118 鿫）。
+这些字分布在 CJK 扩展 B/C/D/E 区，`android` 默认字体与 Windows/macOS 常见中文字体
+普遍没有对应字形，直接使用会显示成空方框。
+
+处理方式：应用内置 `assets/fonts/RareCJK-Subset.ttf`（约 18 KB），
+它只包含这 15 个汉字，来源为 Noto Sans SC（BMP 区 6 字）与遍黑体 Plangothic
+（扩展区 9 字），两者都是 SIL OFL 1.1，可自由捆绑分发。字体通过
+`ThemeData.fontFamilyFallback` 排在系统字体之前兜底：常用汉字仍走系统字体，
+只有系统缺字形时才落到这份子集。
+
+子集由 `tool/subset_rare_cjk_font.mjs` 生成，可复现：
+
+```bash
+node tool/subset_rare_cjk_font.mjs \
+  <opentype.min.js> <PlangothicP1-Regular.ttf> <PlangothicP2-Regular.ttf> \
+  <NotoSansSC-子集.ttf> assets/fonts/RareCJK-Subset.ttf
+```
+
 例如铬的完整排布同时保存为：
 
 ```json

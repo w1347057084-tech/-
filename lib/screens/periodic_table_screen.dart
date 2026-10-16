@@ -498,6 +498,7 @@ class _PeriodicTableGrid extends StatelessWidget {
                   child: _HighlightMarker(
                     key: ValueKey('highlight-overlay-$highlightedAtomicNumber'),
                     sequence: highlightSequence,
+                    element: highlightedElement,
                   ),
                 ),
               ),
@@ -597,9 +598,14 @@ class _PeriodicTableGrid extends StatelessWidget {
 }
 
 class _HighlightMarker extends StatelessWidget {
-  const _HighlightMarker({super.key, required this.sequence});
+  const _HighlightMarker({
+    super.key,
+    required this.sequence,
+    required this.element,
+  });
 
   final int sequence;
+  final ElementData element;
 
   @override
   Widget build(BuildContext context) {
@@ -609,21 +615,41 @@ class _HighlightMarker extends StatelessWidget {
       duration: const Duration(milliseconds: 620),
       builder: (context, value, child) {
         final pulse = math.sin(math.pi * value);
-        return Transform.scale(
-          scale: 1 + 0.04 * pulse,
-          child: DecoratedBox(
-            decoration: BoxDecoration(
-              borderRadius: BorderRadius.circular(5),
-              border: Border.all(color: AppColors.warning, width: 2.4),
-              boxShadow: [
-                BoxShadow(
-                  color: AppColors.warning.withAlpha((90 + 80 * pulse).round()),
-                  blurRadius: 8 + 5 * pulse,
-                  spreadRadius: 1,
+        return Stack(
+          fit: StackFit.expand,
+          children: [
+            // 提示时直接把元素填进目标格子：半透明显示，既指出位置也不当成答题结果。
+            Opacity(
+              opacity: 0.85,
+              child: ExcludeSemantics(
+                child: ElementTile(
+                  key: ValueKey('hint-fill-${element.atomicNumber}'),
+                  element: element,
+                  hidden: false,
+                  completed: false,
+                  onTap: () {},
                 ),
-              ],
+              ),
             ),
-          ),
+            Transform.scale(
+              scale: 1 + 0.04 * pulse,
+              child: DecoratedBox(
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(5),
+                  border: Border.all(color: AppColors.warning, width: 2.4),
+                  boxShadow: [
+                    BoxShadow(
+                      color: AppColors.warning.withAlpha(
+                        (90 + 80 * pulse).round(),
+                      ),
+                      blurRadius: 8 + 5 * pulse,
+                      spreadRadius: 1,
+                    ),
+                  ],
+                ),
+              ),
+            ),
+          ],
         );
       },
     );

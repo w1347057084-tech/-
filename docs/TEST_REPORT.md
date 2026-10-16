@@ -91,6 +91,16 @@ Redmi Note 10T Pro / Android 17 / 120 Hz 真机已完成启动横屏、完整周
 
 ## 产物体积说明
 
+## 超重元素简体名与提示填充（本轮）
+
+- 104–118 号元素中文名由繁体字形改为大陆规范简体名（𬬻、𬭊、𬭳、𬭛、𬭶、鿏、𫟼、𬬭、鿔、鿭、𫓧、镆、𫟷、鿬、鿫），数据源仍是 `tool/element_core.mjs` → `assets/data/elements.json`。
+- 实测：这些字在 Windows 浏览器与 Android 系统字体中大面积缺字形（修复前 15 格里 14 格显示为空框）。因此内置 `assets/fonts/RareCJK-Subset.ttf`（18 KB，Noto Sans SC 6 字 + 遍黑体 9 字，均 OFL 1.1），并经 `ThemeData.fontFamilyFallback` 兜底。
+- 逐字校验：合并后字体 cmap 覆盖全部 15 个码位（U+2CB3B、U+2CB4A、U+2CB73、U+2CB5B、U+2CB76、U+9FCF、U+2B7FC、U+2CB2D、U+9FD4、U+9FED、U+2B4E7、U+9546、U+2B7F7、U+9FEC、U+9FEB）。
+- Web 端真机（无头 Edge）逐格截图核对：第 7 周期 104–118 全部显示为简体名，无空框。
+- 背诵模式「提示」改为**直接把待放置元素填进目标格子**：目标格显示该元素的序号、相对原子质量、符号与中文名，叠加金色脉冲描边，仍不改变随机队列、进度与判定（点格子才算作答）。
+- 验证：`flutter analyze` 0 issues；`flutter test` 35 passed；Web 端截图确认提示填充落在真实周期/族位置（示例元素 Os 落在第 6 周期第 8 族）。
+- APK：已重新构建 release 包并确认字体资源打包正确（`assets/flutter_assets/assets/fonts/RareCJK-Subset.ttf`，`FontManifest.json` 含 `RareCJKSubset`）。
+
 同一份代码、不同目标与构建模式的产物体积并非同一量级：
 
 | 产物 | 架构 / 模式 | 大小 |

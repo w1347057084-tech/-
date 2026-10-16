@@ -46,6 +46,7 @@ class AppTheme {
       colorScheme: colorScheme,
       scaffoldBackgroundColor: AppColors.background,
       fontFamilyFallback: const [
+        'RareCJKSubset',
         'Microsoft YaHei',
         'Noto Sans CJK SC',
         'PingFang SC',

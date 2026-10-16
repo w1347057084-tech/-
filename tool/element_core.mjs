@@ -102,19 +102,19 @@ export const CORE_ROWS = String.raw`
 101|Md|钔|Mendelevium|[258]|7||actinide|f|[Rn]5f13 7s2
 102|No|锘|Nobelium|[259]|7||actinide|f|[Rn]5f14 7s2
 103|Lr|铹|Lawrencium|[266]|7||actinide|f|[Rn]5f14 7s2 7p1
-104|Rf|鑪|Rutherfordium|[267]|7|4|transitionMetal|d|[Rn]5f14 6d2 7s2
-105|Db|𨧀|Dubnium|[268]|7|5|transitionMetal|d|[Rn]5f14 6d3 7s2
-106|Sg|𨭎|Seaborgium|[269]|7|6|transitionMetal|d|[Rn]5f14 6d4 7s2
-107|Bh|𨨏|Bohrium|[270]|7|7|transitionMetal|d|[Rn]5f14 6d5 7s2
-108|Hs|𨭆|Hassium|[269]|7|8|transitionMetal|d|[Rn]5f14 6d6 7s2
-109|Mt|䥑|Meitnerium|[278]|7|9|unknown|d|[Rn]5f14 6d7 7s2
-110|Ds|鐽|Darmstadtium|[281]|7|10|unknown|d|[Rn]5f14 6d8 7s2
-111|Rg|錀|Roentgenium|[282]|7|11|unknown|d|[Rn]5f14 6d9 7s2
-112|Cn|鎶|Copernicium|[285]|7|12|transitionMetal|d|[Rn]5f14 6d10 7s2
-113|Nh|鉨|Nihonium|[286]|7|13|postTransitionMetal|p|[Rn]5f14 6d10 7s2 7p1
-114|Fl|鈇|Flerovium|[289]|7|14|postTransitionMetal|p|[Rn]5f14 6d10 7s2 7p2
+104|Rf|𬬻|Rutherfordium|[267]|7|4|transitionMetal|d|[Rn]5f14 6d2 7s2
+105|Db|𬭊|Dubnium|[268]|7|5|transitionMetal|d|[Rn]5f14 6d3 7s2
+106|Sg|𬭳|Seaborgium|[269]|7|6|transitionMetal|d|[Rn]5f14 6d4 7s2
+107|Bh|𬭛|Bohrium|[270]|7|7|transitionMetal|d|[Rn]5f14 6d5 7s2
+108|Hs|𬭶|Hassium|[269]|7|8|transitionMetal|d|[Rn]5f14 6d6 7s2
+109|Mt|鿏|Meitnerium|[278]|7|9|unknown|d|[Rn]5f14 6d7 7s2
+110|Ds|𫟼|Darmstadtium|[281]|7|10|unknown|d|[Rn]5f14 6d8 7s2
+111|Rg|𬬭|Roentgenium|[282]|7|11|unknown|d|[Rn]5f14 6d9 7s2
+112|Cn|鿔|Copernicium|[285]|7|12|transitionMetal|d|[Rn]5f14 6d10 7s2
+113|Nh|鿭|Nihonium|[286]|7|13|postTransitionMetal|p|[Rn]5f14 6d10 7s2 7p1
+114|Fl|𫓧|Flerovium|[289]|7|14|postTransitionMetal|p|[Rn]5f14 6d10 7s2 7p2
 115|Mc|镆|Moscovium|[290]|7|15|postTransitionMetal|p|[Rn]5f14 6d10 7s2 7p3
-116|Lv|鉝|Livermorium|[293]|7|16|postTransitionMetal|p|[Rn]5f14 6d10 7s2 7p4
+116|Lv|𫟷|Livermorium|[293]|7|16|postTransitionMetal|p|[Rn]5f14 6d10 7s2 7p4
 117|Ts|鿬|Tennessine|[294]|7|17|halogen|p|[Rn]5f14 6d10 7s2 7p5
 118|Og|鿫|Oganesson|[294]|7|18|nobleGas|p|[Rn]5f14 6d10 7s2 7p6
 `;

@@ -15,7 +15,17 @@ Future<void> main(List<String> args) async {
 
   final cdpBase = args[0];
   final outputPath = args[1];
-  final clickArgs = args.skip(2).map(int.parse).toList(growable: false);
+  // 支持 --wait=<毫秒> 控制点击后等待时间（默认 2000），
+  // 便于抓取只短暂显示的动效（例如 1.8 秒后消失的背诵提示）。
+  var waitMs = 2000;
+  final clickArgs = <int>[];
+  for (final arg in args.skip(2)) {
+    if (arg.startsWith('--wait=')) {
+      waitMs = int.parse(arg.substring('--wait='.length));
+    } else {
+      clickArgs.add(int.parse(arg));
+    }
+  }
   if (clickArgs.length.isOdd) {
     stderr.writeln('点击坐标需要成对给出');
     exit(2);
@@ -85,7 +95,7 @@ Future<void> main(List<String> args) async {
       await Future<void>.delayed(const Duration(milliseconds: 80));
     }
     stdout.writeln('已点击 ($clickX, $clickY)，等待动画结束…');
-    await Future<void>.delayed(const Duration(milliseconds: 2000));
+    await Future<void>.delayed(Duration(milliseconds: waitMs));
   }
 
   final shot = await send('Page.captureScreenshot', {'format': 'png'});
