@@ -37,6 +37,14 @@ void main() {
     await _capture(tester, 'element-detail.png');
   });
 
+  testWidgets('capture detail opened over the periodic table', (tester) async {
+    await _pump(tester, home: PeriodicTableScreen(repository: repository));
+    await tester.tap(find.byKey(const ValueKey('element-container-26')));
+    await tester.pump();
+    await tester.pump(const Duration(milliseconds: 900));
+    await _capture(tester, 'detail-over-table.png');
+  });
+
   testWidgets('capture lanthanide panel', (tester) async {
     final lanthanides = repository.elements
         .where((element) => element.category == ElementCategory.lanthanide)
@@ -56,13 +64,12 @@ void main() {
 Future<void> _pump(WidgetTester tester, {required Widget home}) async {
   await tester.binding.setSurfaceSize(const Size(1366, 768));
   addTearDown(() => tester.binding.setSurfaceSize(null));
+  // 边界包在最外层，这样弹出的路由（OpenContainer 的 open 页面）
+  // 也会被截进同一张图里。
   await tester.pumpWidget(
-    MaterialApp(
-      theme: AppTheme.dark,
-      home: RepaintBoundary(
-        key: const ValueKey('snapshot-boundary'),
-        child: home,
-      ),
+    RepaintBoundary(
+      key: const ValueKey('snapshot-boundary'),
+      child: MaterialApp(theme: AppTheme.dark, home: home),
     ),
   );
   await tester.pump(const Duration(milliseconds: 120));

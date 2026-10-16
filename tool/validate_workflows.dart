@@ -13,12 +13,15 @@ void main() {
     exit(2);
   }
 
-  final files = dir
-      .listSync()
-      .whereType<File>()
-      .where((file) => file.path.endsWith('.yml') || file.path.endsWith('.yaml'))
-      .toList()
-    ..sort((a, b) => a.path.compareTo(b.path));
+  final files =
+      dir
+          .listSync()
+          .whereType<File>()
+          .where(
+            (file) => file.path.endsWith('.yml') || file.path.endsWith('.yaml'),
+          )
+          .toList()
+        ..sort((a, b) => a.path.compareTo(b.path));
 
   if (files.isEmpty) {
     stderr.writeln('未找到工作流文件');
@@ -70,7 +73,9 @@ void main() {
         }
       }
     } on YamlException catch (error) {
-      problems.add('YAML 解析失败：${error.message}（第 ${(error.span?.start.line ?? 0) + 1} 行）');
+      problems.add(
+        'YAML 解析失败：${error.message}（第 ${(error.span?.start.line ?? 0) + 1} 行）',
+      );
     }
 
     if (problems.isEmpty) {

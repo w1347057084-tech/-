@@ -26,93 +26,73 @@ class SeriesPanel extends StatelessWidget {
     final color = AppColors.categoryColors[category]!;
     final title = isLanthanide ? '镧系元素' : '锕系元素';
     final range = isLanthanide ? '57-71' : '89-103';
-    final screen = MediaQuery.sizeOf(context);
-
-    return Material(
-      color: AppColors.background,
-      child: SafeArea(
-        minimum: const EdgeInsets.all(8),
-        child: Center(
-          child: ConstrainedBox(
-            constraints: BoxConstraints(
-              maxWidth: 1220,
-              maxHeight: (screen.height - 20).clamp(250.0, 360.0),
-            ),
-            child: DecoratedBox(
-              decoration: BoxDecoration(
-                color: AppColors.panel,
-                borderRadius: BorderRadius.circular(8),
-                border: Border.all(color: color),
-                boxShadow: const [
-                  BoxShadow(
-                    color: Color(0x66000000),
-                    blurRadius: 18,
-                    offset: Offset(0, 8),
+    // 只负责卡片本身：尺寸、遮罩与展开动画由 TransformContainer 的模态浮层决定。
+    return DecoratedBox(
+      decoration: BoxDecoration(
+        color: AppColors.panel,
+        borderRadius: BorderRadius.circular(8),
+        border: Border.all(color: color),
+        boxShadow: const [
+          BoxShadow(
+            color: Color(0x66000000),
+            blurRadius: 18,
+            offset: Offset(0, 8),
+          ),
+        ],
+      ),
+      child: Column(
+        children: [
+          _SeriesHeader(
+            title: title,
+            range: range,
+            color: color,
+            count: elements.length,
+            onClose: onClose,
+          ),
+          const Divider(),
+          Expanded(
+            child: LayoutBuilder(
+              builder: (context, constraints) {
+                final columns = _columnsFor(constraints.maxWidth);
+                return GridView.builder(
+                  padding: const EdgeInsets.all(10),
+                  itemCount: elements.length,
+                  gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+                    crossAxisCount: columns,
+                    crossAxisSpacing: 7,
+                    mainAxisSpacing: 7,
+                    childAspectRatio: constraints.maxWidth >= 900 ? 1.34 : 1.18,
                   ),
-                ],
-              ),
-              child: Column(
-                children: [
-                  _SeriesHeader(
-                    title: title,
-                    range: range,
-                    color: color,
-                    count: elements.length,
-                    onClose: onClose,
-                  ),
-                  const Divider(),
-                  Expanded(
-                    child: LayoutBuilder(
-                      builder: (context, constraints) {
-                        final columns = _columnsFor(constraints.maxWidth);
-                        return GridView.builder(
-                          padding: const EdgeInsets.all(10),
-                          itemCount: elements.length,
-                          gridDelegate:
-                              SliverGridDelegateWithFixedCrossAxisCount(
-                                crossAxisCount: columns,
-                                crossAxisSpacing: 7,
-                                mainAxisSpacing: 7,
-                                childAspectRatio: constraints.maxWidth >= 900
-                                    ? 1.34
-                                    : 1.18,
-                              ),
-                          itemBuilder: (context, index) {
-                            final element = elements[index];
-                            return TransformContainer(
-                              key: ValueKey(
-                                'series-element-${element.atomicNumber}',
-                              ),
-                              routeName: '/elements/${element.atomicNumber}',
-                              closedColor: color.withAlpha(230),
-                              middleColor: AppColors.panel,
-                              openColor: AppColors.background,
-                              transitionDuration: AppMotion.detailDuration,
-                              closedBuilder: (openContainer) {
-                                return ElementTile(
-                                  element: element,
-                                  hidden: false,
-                                  completed: false,
-                                  onTap: openContainer,
-                                );
-                              },
-                              openBuilder: (closeContainer) {
-                                return ElementDetailPanel(
-                                  element: element,
-                                  onClose: closeContainer,
-                                );
-                              },
-                            );
-                          },
+                  itemBuilder: (context, index) {
+                    final element = elements[index];
+                    return TransformContainer(
+                      key: ValueKey('series-element-${element.atomicNumber}'),
+                      routeName: '/elements/${element.atomicNumber}',
+                      openMaxWidth: 1120,
+                      openMaxHeight: (MediaQuery.sizeOf(context).height - 20)
+                          .clamp(260.0, 460.0),
+                      transitionDuration: AppMotion.detailDuration,
+                      closedBuilder: (openContainer) {
+                        return ElementTile(
+                          element: element,
+                          hidden: false,
+                          completed: false,
+                          onTap: openContainer,
                         );
                       },
-                    ),
-                  ),
-                ],
-              ),
+                      openBuilder: (closeContainer) {
+                        return ElementDetailPanel(
+                          element: element,
+                          onClose: closeContainer,
+                        );
+                      },
+                    );
+                  },
+                );
+              },
             ),
           ),
-        ),
+        ],
       ),
     );
   }

@@ -19,87 +19,73 @@ class ElementDetailPanel extends StatelessWidget {
     final categoryColor =
         AppColors.categoryColors[element.category] ??
         AppColors.categoryColors[ElementCategory.unknown]!;
-    final screen = MediaQuery.sizeOf(context);
 
-    return Material(
+    // 只负责卡片本身：尺寸、遮罩与展开动画由 TransformContainer 的模态浮层决定。
+    return DecoratedBox(
       key: ValueKey('element-detail-${element.atomicNumber}'),
-      color: AppColors.background,
-      child: SafeArea(
-        minimum: const EdgeInsets.all(8),
-        child: Center(
-          child: ConstrainedBox(
-            constraints: BoxConstraints(
-              maxWidth: 1120,
-              maxHeight: (screen.height - 20).clamp(260.0, 460.0),
-            ),
-            child: DecoratedBox(
-              decoration: BoxDecoration(
-                color: AppColors.panel,
-                borderRadius: BorderRadius.circular(8),
-                border: Border.all(color: AppColors.border),
-                boxShadow: const [
-                  BoxShadow(
-                    color: Color(0x66000000),
-                    blurRadius: 18,
-                    offset: Offset(0, 8),
-                  ),
-                ],
-              ),
-              child: Column(
-                children: [
-                  _CompactHeader(
-                    element: element,
-                    color: categoryColor,
-                    onClose: onClose,
-                  ),
-                  const Divider(),
-                  Expanded(
-                    child: LayoutBuilder(
-                      builder: (context, constraints) {
-                        final wide = constraints.maxWidth >= 840;
-                        final content = wide
-                            ? Row(
-                                crossAxisAlignment: CrossAxisAlignment.start,
-                                children: [
-                                  Expanded(
-                                    flex: 6,
-                                    child: _BasicSection(element: element),
-                                  ),
-                                  const SizedBox(width: 8),
-                                  Expanded(
-                                    flex: 5,
-                                    child: Column(
-                                      children: [
-                                        _ElectronSection(element: element),
-                                        const SizedBox(height: 8),
-                                        _DiscoverySection(element: element),
-                                      ],
-                                    ),
-                                  ),
-                                ],
-                              )
-                            : Column(
-                                children: [
-                                  _BasicSection(element: element),
-                                  const SizedBox(height: 8),
-                                  _ElectronSection(element: element),
-                                  const SizedBox(height: 8),
-                                  _DiscoverySection(element: element),
-                                ],
-                              );
+      decoration: BoxDecoration(
+        color: AppColors.panel,
+        borderRadius: BorderRadius.circular(8),
+        border: Border.all(color: AppColors.border),
+        boxShadow: const [
+          BoxShadow(
+            color: Color(0x66000000),
+            blurRadius: 18,
+            offset: Offset(0, 8),
+          ),
+        ],
+      ),
+      child: Column(
+        children: [
+          _CompactHeader(
+            element: element,
+            color: categoryColor,
+            onClose: onClose,
+          ),
+          const Divider(),
+          Expanded(
+            child: LayoutBuilder(
+              builder: (context, constraints) {
+                final wide = constraints.maxWidth >= 840;
+                final content = wide
+                    ? Row(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Expanded(
+                            flex: 6,
+                            child: _BasicSection(element: element),
+                          ),
+                          const SizedBox(width: 8),
+                          Expanded(
+                            flex: 5,
+                            child: Column(
+                              children: [
+                                _ElectronSection(element: element),
+                                const SizedBox(height: 8),
+                                _DiscoverySection(element: element),
+                              ],
+                            ),
+                          ),
+                        ],
+                      )
+                    : Column(
+                        children: [
+                          _BasicSection(element: element),
+                          const SizedBox(height: 8),
+                          _ElectronSection(element: element),
+                          const SizedBox(height: 8),
+                          _DiscoverySection(element: element),
+                        ],
+                      );
 
-                        return SingleChildScrollView(
-                          padding: const EdgeInsets.fromLTRB(10, 8, 10, 12),
-                          child: content,
-                        );
-                      },
-                    ),
-                  ),
-                ],
-              ),
+                return SingleChildScrollView(
+                  padding: const EdgeInsets.fromLTRB(10, 8, 10, 12),
+                  child: content,
+                );
+              },
             ),
           ),
-        ),
+        ],
       ),
     );
   }

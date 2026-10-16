@@ -44,7 +44,9 @@ Future<void> main(List<String> args) async {
 
   await for (final request in server) {
     final rawPath = request.uri.path;
-    final relative = rawPath == '/' || rawPath.isEmpty ? '/index.html' : rawPath;
+    final relative = rawPath == '/' || rawPath.isEmpty
+        ? '/index.html'
+        : rawPath;
     final file = File('${root.path}$relative');
 
     if (!file.existsSync()) {
@@ -56,8 +58,9 @@ Future<void> main(List<String> args) async {
     final extension = relative.contains('.')
         ? relative.substring(relative.lastIndexOf('.')).toLowerCase()
         : '';
-    request.response.headers.contentType =
-        ContentType.parse(_contentTypes[extension] ?? 'application/octet-stream');
+    request.response.headers.contentType = ContentType.parse(
+      _contentTypes[extension] ?? 'application/octet-stream',
+    );
     // 资源带哈希后缀，避免反复下载；入口文件不缓存，便于更新后立即生效。
     request.response.headers.set(
       'Cache-Control',

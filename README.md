@@ -81,7 +81,7 @@ assets/data/elements.json
 
 ## 动画实现
 
-元素详情与镧系/锕系面板使用 Flutter 官方 `animations` 包中的 `OpenContainer` 实现 Container Transform；查表/背诵模式使用单一 500 ms 控制器完成渐出和渐入；正误反馈使用独立 Overlay 浮层，不阻塞元素放置。
+元素详情与镧系/锕系面板是模态卡片：保留被压暗的周期表，卡片从元素格子形变展开，点遮罩或关闭按钮反向收回（因为 `OpenContainer` 的路由是 `opaque`，动画结束后周期表不会继续绘制，这里改用 `showGeneralDialog` 的 `PopupRoute` 实现同一套容器变换）；查表/背诵模式使用单一 500 ms 控制器完成渐出和渐入；正误反馈使用独立 Overlay 浮层，不阻塞元素放置。
 
 依赖版本：`animations ^3.0.0`，要求 Flutter `>=3.44.0`，当前项目使用 Flutter 3.47.7。
 

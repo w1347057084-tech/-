@@ -428,6 +428,7 @@ class _PeriodicTableGrid extends StatelessWidget {
     return LayoutBuilder(
       builder: (context, constraints) {
         final gap = (constraints.maxWidth * 0.0035).clamp(2.0, 5.5).toDouble();
+        final screen = MediaQuery.sizeOf(context);
         final metrics = _GridMetrics(
           width: constraints.maxWidth,
           height: constraints.maxHeight,
@@ -485,7 +486,7 @@ class _PeriodicTableGrid extends StatelessWidget {
             for (final element in elements)
               Positioned.fromRect(
                 rect: metrics.rect(element.displayRow, element.displayColumn),
-                child: RepaintBoundary(child: _buildElement(element)),
+                child: RepaintBoundary(child: _buildElement(context, element)),
               ),
             if (highlightedElement != null)
               Positioned.fromRect(
@@ -506,11 +507,8 @@ class _PeriodicTableGrid extends StatelessWidget {
                 child: TransformContainer(
                   key: const ValueKey('series-container-lanthanide'),
                   routeName: '/series/lanthanide',
-                  closedColor: AppColors
-                      .categoryColors[ElementCategory.lanthanide]!
-                      .withAlpha(230),
-                  middleColor: AppColors.panel,
-                  openColor: AppColors.background,
+                  openMaxWidth: 1220,
+                  openMaxHeight: (screen.height - 20).clamp(250.0, 360.0),
                   transitionDuration: AppMotion.seriesDuration,
                   closedBuilder: (openContainer) {
                     return SeriesMarkerTile(
@@ -535,11 +533,8 @@ class _PeriodicTableGrid extends StatelessWidget {
                 child: TransformContainer(
                   key: const ValueKey('series-container-actinide'),
                   routeName: '/series/actinide',
-                  closedColor: AppColors
-                      .categoryColors[ElementCategory.actinide]!
-                      .withAlpha(230),
-                  middleColor: AppColors.panel,
-                  openColor: AppColors.background,
+                  openMaxWidth: 1220,
+                  openMaxHeight: (screen.height - 20).clamp(250.0, 360.0),
                   transitionDuration: AppMotion.seriesDuration,
                   closedBuilder: (openContainer) {
                     return SeriesMarkerTile(
@@ -566,7 +561,7 @@ class _PeriodicTableGrid extends StatelessWidget {
     );
   }
 
-  Widget _buildElement(ElementData element) {
+  Widget _buildElement(BuildContext context, ElementData element) {
     Widget tileBuilder(VoidCallback onTap) {
       return ElementTile(
         element: element,
@@ -581,15 +576,12 @@ class _PeriodicTableGrid extends StatelessWidget {
       return tileBuilder(() => onElementTap(element));
     }
 
-    final categoryColor =
-        AppColors.categoryColors[element.category] ??
-        AppColors.categoryColors[ElementCategory.unknown]!;
+    final screen = MediaQuery.sizeOf(context);
     return TransformContainer(
       key: ValueKey('element-container-${element.atomicNumber}'),
       routeName: '/elements/${element.atomicNumber}',
-      closedColor: categoryColor.withAlpha(230),
-      middleColor: AppColors.panel,
-      openColor: AppColors.background,
+      openMaxWidth: 1120,
+      openMaxHeight: (screen.height - 20).clamp(260.0, 460.0),
       closedBuilder: (openContainer) => tileBuilder(openContainer),
       openBuilder: (closeContainer) {
         return ElementDetailPanel(element: element, onClose: closeContainer);

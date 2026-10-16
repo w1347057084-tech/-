@@ -84,6 +84,37 @@ void main() {
     expect(find.text('基础属性'), findsNothing);
   });
 
+  testWidgets('detail opens as a modal above the still-drawn table', (
+    tester,
+  ) async {
+    await _pumpScreen(tester, repository);
+
+    await tester.tap(find.byType(ElementTile).first);
+    await tester.pump();
+    await tester.pump(const Duration(milliseconds: 600));
+
+    // 非不透明路由：周期表仍在树里继续绘制，只是被半透明遮罩压暗。
+    expect(find.byKey(const ValueKey('element-detail-1')), findsOneWidget);
+    expect(find.byType(ElementTile), findsNWidgets(118));
+    final route = ModalRoute.of(
+      tester.element(find.byKey(const ValueKey('element-detail-1'))),
+    );
+    expect(route?.opaque, isFalse, reason: '浮层必须是非不透明路由，周期表才会继续绘制');
+    expect(
+      tester
+          .widgetList<ColoredBox>(find.byType(ColoredBox))
+          .any((box) => box.color.a > 0.5),
+      isTrue,
+      reason: '遮罩必须实际绘制，否则无法压暗背景的周期表',
+    );
+
+    // 点卡片外的遮罩即关闭。
+    await tester.tapAt(const Offset(12, 12));
+    await tester.pump();
+    await tester.pump(const Duration(milliseconds: 700));
+    expect(find.byKey(const ValueKey('element-detail-1')), findsNothing);
+  });
+
   testWidgets('lanthanide marker opens all fifteen series elements', (
     tester,
   ) async {
