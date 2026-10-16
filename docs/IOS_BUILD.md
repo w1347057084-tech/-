@@ -114,6 +114,41 @@ https://nightly.link/w1347057084-tech/-/workflows/ios-unsigned-ipa/main/periodic
 
 下载后请比对 GitHub Artifact 页面给出的 SHA-256，确认取到的是同一次构建产物。
 
+## 七、故障排查：签名工具报 GSA 503 / Apple ID 账号错误
+
+现象：Sideloadly 报 `Install failed: ... GSA returned a non-plist response
+(HTTP 503 Service Temporarily Unavailable)`，爱思助手报「签名失败：Apple ID 账号或…」，
+即使账号密码确认无误。
+
+排查结论（本机实测）：`gsa.apple.com` 的证书由 `Apple Server Authentication CA` 签发，
+而这台 Windows 的用户证书库里没有任何 Apple 根证书，Schannel 无法完成链路校验，
+于是 `curl https://gsa.apple.com/` 报 `schannel: SEC_E_UNTRUSTED_ROOT`。
+其他 Apple 域名（`www.apple.com`、`idmsa.apple.com`、`developerservices2.apple.com`、
+`appstoreconnect.apple.com`）都正常，说明问题只出在 GSA 这一条链上——签名工具会把这类
+TLS/链路失败笼统报成账号错误或 503。
+
+处理：导入 Apple 官方发布的根证书与中间证书（当前用户证书库即可，无需管理员）：
+
+```powershell
+curl.exe -L -o "$env:TEMP\AppleRootCA.cer" "https://www.apple.com/appleca/AppleIncRootCertificate.cer"
+curl.exe -L -o "$env:TEMP\appleserverauthca1.der" "http://certs.apple.com/appleserverauthca1.der"
+Import-Certificate -FilePath "$env:TEMP\AppleRootCA.cer" -CertStoreLocation Cert:\CurrentUser\Root
+Import-Certificate -FilePath "$env:TEMP\appleserverauthca1.der" -CertStoreLocation Cert:\CurrentUser\CA
+```
+
+导入后复测：
+
+```powershell
+curl.exe -sS -o NUL -w "%{http_code}`n" https://gsa.apple.com/
+```
+
+应返回 `404`/`401` 之类的正常 HTTP 响应，而不是证书错误。校验指纹（与 Apple 官方一致）：
+根证书 `611E5B662C593A08FF58D14AE22452D198DF6C60`，
+中间证书 `F2A45E244CFC1A5FF9DACBD7D42F9BCEF6A4625E`。
+
+若导入后仍失败，再依次尝试：把 Clash 切到 TUN/全局让 `gsa.apple.com` 走代理节点、
+改用 Apple ID 的「App 专用密码」、或换一个网络出口。
+
 ## 六、iOS 侧仍需在 macOS / 真机确认的事项
 
 - `flutter build ios` 全流程编译是否通过（本机无法执行，已做的是工程结构与配置校验）。
