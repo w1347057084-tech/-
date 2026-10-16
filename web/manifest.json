@@ -1,0 +1,36 @@
+{
+    "name": "元素周期表查询与背诵",
+    "short_name": "元素周期表",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#06142C",
+    "theme_color": "#06142C",
+    "description": "118 种元素的周期表查询与背诵训练。",
+    "orientation": "landscape",
+    "lang": "zh-CN",
+    "prefer_related_applications": false,
+    "icons": [
+        {
+            "src": "icons/Icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/Icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/Icon-maskable-192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "maskable"
+        },
+        {
+            "src": "icons/Icon-maskable-512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "maskable"
+        }
+    ]
+}

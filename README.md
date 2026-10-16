@@ -22,6 +22,26 @@ flutter build apk --debug
 
 APK 输出：`build/app/outputs/flutter-apk/app-debug.apk`。
 
+## Web 版
+
+同一套代码可直接构建为 Web 应用，不需要签名，浏览器打开即用（iPad / 手机 / 电脑均可）：
+
+```bash
+flutter build web --release
+dart run tool/serve_web.dart 8080   # 本地预览：http://localhost:8080/
+```
+
+推送到 `main` 后由 `.github/workflows/web-pages.yml` 自动构建并发布到 GitHub Pages：
+
+```text
+https://w1347057084-tech.github.io/-/
+```
+
+细节与 iPad 添加到主屏幕的步骤见 `docs/WEB_DEPLOY.md`。
+
+> iOS 侧（`ios/` 与 `ios-unsigned-ipa` 工作流）目前暂停：IPA 已能通过 CI 构建，
+> 但真机安装受 Apple ID 双重认证与在线验证流程限制，工作流改为仅手动触发。
+
 当前已验证的 Debug APK SHA-256：
 `C21E0FCEFB97EF6EB81F059365CE2AF2A1B71D25C0581E196908442904182534`。
 
